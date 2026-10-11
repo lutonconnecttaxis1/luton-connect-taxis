@@ -1,0 +1,1302 @@
+{
+  "account": {
+    "page": {
+      "metaTitle": "Il mio account",
+      "metaDescription": "Acceda per vedere le sue prenotazioni con Luton Connect Taxis e salvare i suoi dati per la prossima volta.",
+      "eyebrow": "Luton Connect Taxis · Account",
+      "title": "Le sue prenotazioni, in un unico posto.",
+      "lead": "Acceda per vedere le sue prenotazioni e ritrovare i suoi dati già compilati la prossima volta. Può comunque prenotare anche come ospite, senza account.",
+      "sectionLabel": "Account"
+    },
+    "loading": {
+      "checking": "Verifica del suo account in corso…"
+    },
+    "tabs": {
+      "label": "Opzioni account",
+      "signin": "Accedi",
+      "register": "Crea account"
+    },
+    "guestNote": "Non serve un account per prenotare – {link}. L’account serve solo a riunire le sue prenotazioni e a compilare i suoi dati la prossima volta.",
+    "guestNoteLink": "prenoti come ospite dalla home page",
+    "optional": "facoltativo",
+    "trap": "Lasci vuoto questo campo",
+    "links": {
+      "terms": "Termini e Condizioni",
+      "privacy": "Informativa sulla Privacy"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "name": "Il suo nome",
+      "phone": "Telefono / WhatsApp"
+    },
+    "signin": {
+      "title": "Bentornato/a",
+      "submit": "Accedi",
+      "busy": "Accesso in corso…",
+      "forgot": "Ha dimenticato la password?"
+    },
+    "register": {
+      "title": "Crei il suo account",
+      "passwordHint": "Almeno 8 caratteri.",
+      "agree": "Accetto i {terms} e l’{privacy}.",
+      "submit": "Crea account",
+      "busy": "Creazione in corso…",
+      "fine": "Usiamo i suoi dati solo per gestire le sue prenotazioni e il suo account. Non li vendiamo mai."
+    },
+    "reset": {
+      "title": "Reimposti la password",
+      "intro": "Inserisca la sua email e le invieremo un link per scegliere una nuova password.",
+      "submit": "Invia link di ripristino",
+      "busy": "Invio in corso…",
+      "back": "Torna all’accesso",
+      "sentTitle": "Controlli la sua email",
+      "sentBody": "Se esiste un account per {email}, le abbiamo inviato un link per scegliere una nuova password. Potrebbero volerci alcuni minuti – controlli anche la cartella dello spam."
+    },
+    "dashboard": {
+      "eyebrow": "Il suo account",
+      "hello": "Buongiorno, {name}.",
+      "helloFallback": "gentile cliente",
+      "signOut": "Esci",
+      "signingOut": "Uscita in corso…",
+      "bookings": "Le sue prenotazioni",
+      "book": "Prenoti un taxi",
+      "loading": "Caricamento delle prenotazioni…",
+      "retry": "Riprova",
+      "fine": "Le prenotazioni sono richieste finché non le confermiamo via WhatsApp, telefono o email. Le stime non sono prezzi fissi – si paga l’autista in auto."
+    },
+    "empty": {
+      "title": "Nessuna prenotazione nel suo account, per ora.",
+      "body": "Le prenotazioni effettuate dopo l’accesso compariranno qui. {link}.",
+      "link": "Richieda una stima e prenoti"
+    },
+    "list": {
+      "upcoming": "In arrivo",
+      "earlier": "Precedenti"
+    },
+    "status": {
+      "requested": "Richiesta – in attesa di conferma",
+      "confirmed": "Confermata",
+      "completed": "Completata",
+      "cancelled": "Annullata"
+    },
+    "item": {
+      "to": "a",
+      "personOne": "{count} persona",
+      "personOther": "{count} persone",
+      "childSeatOne": "{count} seggiolino",
+      "childSeatOther": "{count} seggiolini",
+      "flight": "Volo {number}",
+      "return": "ritorno {when}",
+      "requested": "Richiesta il {date}",
+      "notes": "Note: {notes}",
+      "estimate": "Stima {total}",
+      "airportFee": "+ supplemento aeroporto da confermare",
+      "breakdown": "Dettaglio",
+      "onQuote": "Confermato nel preventivo",
+      "notFixed": "Non è un prezzo fisso – le confermeremo il preventivo via WhatsApp, email o telefono.",
+      "noEstimate": "Non era disponibile alcuna stima – le invieremo un preventivo al momento della conferma.",
+      "askChange": "Richiesta di modifica",
+      "askCancel": "Richiesta di annullamento",
+      "leg": {
+        "journey": "Viaggio",
+        "outbound": "Andata",
+        "return": "Ritorno"
+      }
+    },
+    "whatsapp": {
+      "change": "Buongiorno, vorrei modificare la prenotazione {reference} ({pickup} a {dropoff}, {when}).",
+      "cancel": "Buongiorno, vorrei annullare la prenotazione {reference} ({pickup} a {dropoff}, {when})."
+    },
+    "profile": {
+      "title": "I suoi dati",
+      "intro": "Li compiliamo noi nella scheda di prenotazione quando ha effettuato l’accesso. Può comunque modificarli per ogni prenotazione.",
+      "name": "Nome",
+      "email": "Email (usata per l’accesso)",
+      "save": "Salva i dati",
+      "saving": "Salvataggio…",
+      "saved": "Salvato."
+    },
+    "delete": {
+      "summary": "Elimina il mio account",
+      "body": "Questa operazione elimina le sue credenziali di accesso e i dati salvati e non può essere annullata. Le prenotazioni passate restano nei nostri archivi (ad esempio per la contabilità e per eventuali controversie), ma non sono più collegate a un account. Consulti la nostra {privacy} o ci chiami al {phone} per qualsiasi domanda.",
+      "label": "Digiti la password per confermare",
+      "submit": "Elimina il mio account",
+      "busy": "Eliminazione in corso…",
+      "wrongPassword": "La password non è corretta."
+    },
+    "errors": {
+      "network": "Non siamo riusciti a raggiungere il server. Controlli la connessione e riprovi.",
+      "emailExists": "Esiste già un account con questa email. Provi ad accedere oppure reimposti la password.",
+      "invalidCredentials": "Email e password non corrispondono. Le controlli e riprovi, oppure reimposti la password.",
+      "rateLimited": "Troppi tentativi. Attenda qualche minuto e riprovi.",
+      "tooFast": "È stato molto veloce – riprovi, per favore.",
+      "captchaFailed": "Non siamo riusciti a verificare che Lei sia una persona. Riprovi oppure chiami il {phone}.",
+      "disabled": "Questo account è stato disattivato. Chiami il {phone}.",
+      "signedOut": "La sessione è terminata. Acceda di nuovo.",
+      "storageUnavailable": "Non siamo riusciti a caricare i dati in questo momento. Riprovi tra poco.",
+      "accountsUnavailable": "Gli account non sono disponibili al momento. Può comunque prenotare come ospite dalla home page oppure chiamare il {phone}.",
+      "generic": "Qualcosa è andato storto. Riprovi oppure chiami il {phone}."
+    }
+  },
+  "booking": {
+    "kicker": "Richiesta di prenotazione ricevuta",
+    "thanks": "Grazie, {name}. <strong>Questa è una richiesta, non ancora una prenotazione confermata.</strong> La confermeremo via WhatsApp, telefono o email. Tenga a portata di mano il suo codice di riferimento – può inviarcelo subito per velocizzare la conferma.",
+    "whatsappMessage": "Buongiorno, il mio codice di prenotazione è {reference}",
+    "whatsappCta": "Ci invii il codice su WhatsApp",
+    "call": "Chiami il {phone}",
+    "summary": {
+      "from": "Da",
+      "to": "A",
+      "when": "Quando",
+      "return": "Ritorno",
+      "people": "Persone",
+      "contact": "La contatteremo al"
+    },
+    "noEstimate": "Calcoleremo il prezzo e glielo invieremo al momento della conferma. Non è mai un prezzo fisso finché non lo confermiamo con Lei.",
+    "noEstimateWithNote": "{note}. Calcoleremo il prezzo e glielo invieremo al momento della conferma. Non è mai un prezzo fisso finché non lo confermiamo con Lei.",
+    "pay": "Paga l’autista direttamente in auto.",
+    "savedToAccount": "Salvata nel suo account – {link}.",
+    "savedToAccountLink": "veda tutte le sue prenotazioni",
+    "another": "Effettua un’altra prenotazione"
+  },
+  "common": {
+    "callPhone": "Chiami il {phone}",
+    "whatsappUs": "Ci scriva su WhatsApp",
+    "skipToContent": "Vai al contenuto",
+    "dateAt": "{date} alle {time}"
+  },
+  "contactFab": {
+    "email": "Email",
+    "call": "Chiama",
+    "contactUs": "Contatti",
+    "close": "Chiudi",
+    "closeOptions": "Chiudi le opzioni di contatto"
+  },
+  "contactForm": {
+    "name": "Il suo nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "optional": "(facoltativo)",
+    "topic": "Di cosa si tratta?",
+    "topicPlaceholder": "Scelga un’opzione",
+    "topics": {
+      "quote": "Richiedere un preventivo",
+      "booking": "Effettuare una prenotazione",
+      "corporate": "Account aziendale",
+      "lost": "Oggetti smarriti",
+      "other": "Altro"
+    },
+    "message": "Il suo messaggio",
+    "messagePlaceholder": "Partenza, destinazione, data e ora, numero di passeggeri – tutto ciò che ci aiuta ad aiutarla.",
+    "trap": "Lasci vuoto questo campo",
+    "sending": "Invio in corso…",
+    "send": "Invia messaggio",
+    "fine": "Usiamo i suoi dati solo per risponderle. Consulti la nostra {privacy}. Questo modulo non conferma una prenotazione.",
+    "privacyLink": "Informativa sulla Privacy",
+    "doneTitle": "Grazie – messaggio ricevuto.",
+    "doneBody": "Le risponderemo via email o telefono il prima possibile. Il suo messaggio non conferma una prenotazione – confermeremo con Lei direttamente ogni preventivo e prenotazione. Ha fretta? Chiami il {phone} oppure {whatsapp}.",
+    "whatsappLink": "Ci scriva su WhatsApp",
+    "devNote": "Modalità di prova: non è ancora impostata alcuna chiave email, quindi il messaggio è stato stampato nel terminale anziché inviato per email.",
+    "again": "Invia un altro messaggio",
+    "errorRateLimited": "Ha inviato diversi messaggi in poco tempo. Attenda qualche minuto oppure ci chiami o ci scriva su WhatsApp.",
+    "errorTooFast": "È stato molto veloce – controlli i suoi dati e prema di nuovo Invia.",
+    "errorSendFailed": "Non siamo riusciti a inviare il suo messaggio in questo momento. Riprovi oppure chiami il {phone} o scriva a {email}.",
+    "errorNetwork": "Non siamo riusciti a raggiungere il server. Controlli la connessione e riprovi, oppure chiami il {phone}."
+  },
+  "cookie": {
+    "title": "Le sue scelte sui cookie",
+    "text": "Utilizziamo cookie essenziali per il funzionamento di questo sito. Con il suo consenso utilizzeremo anche cookie analitici per capire come viene usato il sito e migliorarlo.",
+    "policy": "Cookie Policy",
+    "acceptAll": "Accetta tutti",
+    "rejectAll": "Rifiuta tutti",
+    "manage": "Gestisci scelte",
+    "manageTitle": "Gestisci le scelte sui cookie",
+    "essential": "Essenziali",
+    "essentialText": "Necessari al funzionamento del sito e per ricordare questa scelta. Sempre attivi.",
+    "essentialAria": "Cookie essenziali (sempre attivi)",
+    "analytics": "Analitici",
+    "analyticsText": "Ci aiutano a capire come viene usato il sito per poterlo migliorare. Disattivati, a meno che non li attivi Lei.",
+    "analyticsAria": "Cookie analitici",
+    "save": "Salva scelte",
+    "back": "Indietro",
+    "settings": "Impostazioni cookie"
+  },
+  "estimate": {
+    "label": "La sua stima",
+    "hint": "Scelga partenza, destinazione, data e ora per vedere una stima.",
+    "loading": "Calcolo della stima in corso…",
+    "pendingFee": "+ supplemento aeroporto da confermare",
+    "meta": "Circa {miles} miglia · {minutes} min",
+    "metaReturn": "Circa {miles} miglia · {minutes} min per tratta",
+    "outbound": "Andata",
+    "return": "Ritorno",
+    "both": "Entrambi i viaggi <strong>{total}</strong>",
+    "confirmedOnQuote": "Confermato nel preventivo",
+    "disclaimer": "<strong>Non è un prezzo fisso.</strong> Ci contatti su WhatsApp, via email o per telefono per confermare il suo preventivo.",
+    "bands": {
+      "passengers": "{passengers} passeggeri – tariffa notturna applicata a qualsiasi ora",
+      "day": "Tariffa diurna ({start}–{end})",
+      "night": "Tariffa notturna ({start}–{end})"
+    },
+    "lines": {
+      "base": "Tariffa base",
+      "mileage": "Chilometraggio",
+      "airport-dropoff": "Supplemento aeroporto (destinazione) – {airport}",
+      "airport-pickup": "Supplemento aeroporto (partenza) – {airport}",
+      "congestion": "Congestion Charge di Londra (pedaggio urbano)"
+    },
+    "details": {
+      "mileage": "{miles} miglia × {rate}",
+      "congestion": "Addebitato una volta per viaggio"
+    },
+    "congestion": {
+      "outside-zone": "Il viaggio si svolge fuori dalla zona della Congestion Charge.",
+      "in-charging-hours": "Il viaggio attraversa la zona negli orari di applicazione.",
+      "outside-hours": "Il viaggio attraversa la zona, ma fuori dagli orari di applicazione di {day}."
+    },
+    "dayKinds": {
+      "weekdays": "giorni feriali",
+      "weekends": "fine settimana",
+      "bankHolidays": "festivi"
+    },
+    "charges": {
+      "short": "Dart Charge escluso",
+      "long": [
+        "Dartford Crossing: verrà aggiunta la Dart Charge (pedaggio) applicabile.",
+        "Pedaggi e ponti: eventuali altri pedaggi lungo il percorso verranno aggiunti alla tariffa finale."
+      ],
+      "known": "Pedaggi noti (verifichi le tariffe aggiornate prima del viaggio):",
+      "crossingFormat": "<strong>{name}</strong> – {charge}. {when}.",
+      "crossings": [
+        {
+          "name": "Dartford Crossing (M25, fiume Tamigi)",
+          "charge": "£3.50 per attraversamento (auto standard, pagamento a consumo)",
+          "when": "Ogni giorno 06:00–22:00 (gratuito 22:00–06:00), addebitato per ogni attraversamento in ciascuna direzione"
+        },
+        {
+          "name": "Blackwall & Silvertown Tunnels (Londra Est)",
+          "charge": "Fino a £4.20 (ora di punta / tariffa standard)",
+          "when": "06:00–22:00, 7 giorni su 7 (gratuito di notte)"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "visit": "Dove siamo",
+    "follow": "Social",
+    "legal": "Note legali",
+    "terms": "Termini e Condizioni",
+    "privacy": "Informativa sulla Privacy",
+    "cookies": "Cookie e uso dei dati",
+    "copyright": "© {year} {name}. I prezzi indicati sono stime, non prezzi fissi.",
+    "backToTop": "Torna su ↑"
+  },
+  "header": {
+    "homeAria": "{name} – home",
+    "navMain": "Principale",
+    "navMobile": "Mobile",
+    "nav": {
+      "services": "Servizi",
+      "fleet": "Flotta",
+      "hotels": "Hotel",
+      "connections": "Collegamenti",
+      "blog": "Blog",
+      "contact": "Contatti"
+    },
+    "signIn": "Accedi",
+    "myAccount": "Il mio account",
+    "signInOrCreate": "Accedi / crea account",
+    "bookNow": "Prenoti ora",
+    "openMenu": "Apri il menu",
+    "closeMenu": "Chiudi il menu",
+    "chooseLanguage": "Lingua"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Taxi Hackney Carriage · Luton",
+      "line1": "Servizi taxi a Luton.",
+      "line2": "Puntuali,",
+      "line3": "sempre.",
+      "lead": "Taxi da e per Luton, Heathrow, Gatwick, Stansted e London City Airport e per tutti gli altri aeroporti del Regno Unito. Copriamo ogni tragitto locale, viaggi nazionali a lunga percorrenza e account aziendali.",
+      "note": "Solo una stima – non è un prezzo fisso. Paga l’autista in auto. Confermi il preventivo via WhatsApp, email o telefono."
+    },
+    "marquee": {
+      "label": "Perché sceglierci",
+      "items": [
+        "Monitoraggio del volo",
+        "Accoglienza in aeroporto",
+        "Accessibile in sedia a rotelle",
+        "Pagamento con carta",
+        "LEVC TX e",
+        "Mercedes Vito 114",
+        "Luton · Heathrow · Gatwick · Stansted · London City"
+      ]
+    },
+    "intro": {
+      "eyebrow": "Chi siamo",
+      "statement": "Luton Connect Taxis è un operatore taxi locale che si occupa di tutto: dagli spostamenti quotidiani e dall’accompagnamento a scuola agli account aziendali, ai viaggi nazionali e ai trasferimenti aeroportuali. Che Lei viaggi attraverso il Paese o voli all’estero, noi <mark>seguiamo il suo volo</mark>, la aspettiamo dove atterra e la accompagniamo <mark>da porta a porta</mark> – con una stima chiara in anticipo e una persona in carne e ossa dall’altra parte del telefono.",
+      "stepsTitle": "Come funziona la prenotazione",
+      "getEstimate": "Richieda una stima"
+    },
+    "steps": {
+      "journey": {
+        "title": "Ci indichi il suo viaggio",
+        "text": "Inserisca partenza, destinazione, data e ora per una stima immediata."
+      },
+      "confirm": {
+        "title": "Confermi il preventivo",
+        "text": "Ci chiami, ci scriva su WhatsApp o via email e confermeremo il prezzo e la prenotazione."
+      },
+      "ride": {
+        "title": "Viaggi e paghi",
+        "text": "L’autista arriva puntuale. Paga l’autista direttamente in auto."
+      }
+    },
+    "services": {
+      "eyebrow": "I viaggi che copriamo",
+      "eyebrowMore": "Altri servizi",
+      "title": "Dove desidera andare?",
+      "titleMore": "E non solo.",
+      "sub": "Trasferimenti aeroportuali, matrimoni, pacchi, tragitti locali, viaggi nazionali e account aziendali – preventivo via WhatsApp, telefono o email."
+    },
+    "fleet": {
+      "eyebrow": "La nostra flotta",
+      "titleLine1": "I nostri iconici taxi londinesi costruiti su misura.",
+      "titleLine2": "Un unico standard di eccellenza.",
+      "bookThis": "Prenoti questo veicolo",
+      "seeFull": "Veda tutta la flotta",
+      "items": {
+        "levc": {
+          "kicker": "Il taxi di Londra",
+          "text": "Il taxi londinese elettrico progettato appositamente. Rampa di accesso senza gradini, ampio spazio per i bagagli e un viaggio silenzioso e confortevole.",
+          "specs": [
+            {
+              "term": "Ideale per",
+              "desc": "Tragitti in città, trasferimenti aeroportuali, utenti in sedia a rotelle"
+            },
+            {
+              "term": "Accesso",
+              "desc": "Accessibile in sedia a rotelle"
+            },
+            {
+              "term": "Pagamento",
+              "desc": "Carta accettata in auto"
+            }
+          ]
+        },
+        "vito": {
+          "kicker": "Per i gruppi",
+          "text": "Più spazio per gruppi numerosi e bagagli ingombranti, con il comfort e la raffinatezza di una Mercedes.",
+          "specs": [
+            {
+              "term": "Ideale per",
+              "desc": "Gruppi di 5–6 persone, famiglie, bagagli extra"
+            },
+            {
+              "term": "Bagagli",
+              "desc": "Indichi i bagagli extra al momento della prenotazione"
+            },
+            {
+              "term": "Pagamento",
+              "desc": "Carta accettata in auto"
+            }
+          ]
+        }
+      }
+    },
+    "experience": {
+      "eyebrow": "La differenza Luton Connect",
+      "titleLine1": "Piccoli dettagli.",
+      "titleLine2": "Grande differenza."
+    },
+    "features": {
+      "tracking": {
+        "title": "Monitoraggio del volo",
+        "text": "Seguiamo il suo volo e adattiamo il ritiro se atterra in anticipo o in ritardo."
+      },
+      "greet": {
+        "title": "Accoglienza",
+        "text": "L’autista la attende al suo arrivo. Nessuna ricerca di un posteggio taxi."
+      },
+      "access": {
+        "title": "Accessibile in sedia a rotelle",
+        "text": "Taxi accessibili con rampa di accesso senza gradini."
+      },
+      "card": {
+        "title": "Pagamento con carta",
+        "text": "Paghi l’autista con la carta direttamente in auto. Semplice, senza sorprese."
+      },
+      "corporate": {
+        "title": "Account aziendali",
+        "text": "Ci parli di un account per la sua azienda: viaggi regolari per dipendenti e ospiti, organizzati attraverso un unico referente."
+      },
+      "executive": {
+        "title": "Executive",
+        "text": "Viaggi curati e puntuali per dirigenti, clienti e riunioni importanti."
+      },
+      "business": {
+        "title": "Business class",
+        "text": "Viaggi affidabili e confortevoli per trasferte di lavoro e coincidenze aeroportuali, con spazio per i suoi bagagli."
+      }
+    },
+    "hotels": {
+      "eyebrow": "Hotel e soggiorni",
+      "titleLine1": "Ritiro in hotel,",
+      "titleLine2": "tutto risolto.",
+      "previous": "Hotel precedenti",
+      "next": "Hotel successivi",
+      "scrollerLabel": "Zone di ritiro negli hotel",
+      "items": {
+        "holidayInn": {
+          "desc": "Ritiro e consegna porta a porta, di giorno e di notte."
+        },
+        "travelodge": {
+          "desc": "Un viaggio rapido e comodo tra l’ingresso dell’hotel e la sua destinazione."
+        },
+        "chiltern": {
+          "desc": "Una scelta apprezzata da visitatori e viaggiatori d’affari: la portiamo a destinazione in orario."
+        },
+        "stockwood": {
+          "desc": "Servizio porta a porta, con spazio per tutti i suoi bagagli."
+        },
+        "linton": {
+          "desc": "Ritiro e consegna semplici per soggiorni brevi e partenze mattutine."
+        },
+        "lutonHoo": {
+          "desc": "Una splendida tenuta di campagna: un viaggio rilassante e confortevole da Luton."
+        },
+        "cityHotel": {
+          "desc": "Ritiri affidabili per soggiorni brevi, riunioni e arrivi in tarda serata."
+        },
+        "thistleExpress": {
+          "desc": "Il suo autista la aspetta all’ingresso dell’hotel, di giorno e di notte."
+        }
+      },
+      "fareRoute": "Da Luton a {hotel}",
+      "fareFrom": "Da {price}",
+      "faresNote": "Prezzi indicativi – non sono prezzi fissi. Confermi il preventivo per telefono, WhatsApp o email.",
+      "flipHint": "Vedi prezzo e dettagli"
+    },
+    "connections": {
+      "eyebrow": "Colleghi il suo viaggio",
+      "title": "Ogni corsa, collegata.",
+      "taxi": "Taxi",
+      "items": {
+        "train": {
+          "title": "Treno",
+          "text": "Luton Airport Parkway · stazione di Luton · Luton DART"
+        },
+        "plane": {
+          "title": "Aereo",
+          "text": "Luton, Heathrow, Gatwick, Stansted e London City, con monitoraggio del volo"
+        },
+        "bus": {
+          "title": "Autobus",
+          "text": "Stazione degli autobus di Luton e coincidenze con i pullman, andata o andata e ritorno"
+        },
+        "shopping": {
+          "title": "Shopping",
+          "text": "Centro città, The Mall e centri commerciali, con spazio per i bagagli per tutti gli acquisti"
+        }
+      }
+    },
+    "reviews": {
+      "quote": "Qui compariranno le recensioni autentiche dei suoi passeggeri.",
+      "tag": "Segnaposto",
+      "note": "Aggiunga recensioni autentiche dal suo Profilo dell’attività su Google oppure ce le invii – non inventiamo mai testimonianze."
+    },
+    "ctaBand": {
+      "watermark": "Connect",
+      "titleLine1": "Le serve un taxi?",
+      "titleLine2": "Ci chiami o ci scriva ora."
+    }
+  },
+  "images": {
+    "hero": "Un aereo sul piazzale dell’aeroporto al tramonto",
+    "taxi": "Un taxi nero Hackney Carriage in una strada di Londra",
+    "vito": "Una Mercedes bianca parcheggiata all’aperto",
+    "nightCab": "Un taxi a Londra di notte",
+    "heathrow": "Un aereo in aeroporto",
+    "gatwick": "Un aereo attraccato a un finger d’imbarco",
+    "stansted": "Un viaggiatore con i bagagli in aeroporto",
+    "londonCity": "Il Tower Bridge di Londra di notte",
+    "london": "Lunga esposizione delle auto sul Tower Bridge, Londra",
+    "luton": "Un uomo che cammina in un moderno terminal aeroportuale",
+    "wedding": "Due sposi accanto a un’auto",
+    "courier": "Un uomo su un furgone che consegna un pacco",
+    "motorway": "Un veicolo che percorre un’autostrada nella campagna al tramonto",
+    "business": "Un uomo d’affari che guarda dei documenti all’interno di un’auto",
+    "luggage": "Un uomo in giacca e cravatta che carica una valigia nel bagagliaio di un’auto",
+    "hotelAirport": "L’esterno di un hotel di notte",
+    "hotelTown": "L’esterno di un imponente edificio alberghiero",
+    "hotelBusiness": "La hall di un hotel",
+    "hotelBoutique": "L’ampia hall di un hotel di lusso",
+    "hotelLate": "Un moderno complesso alberghiero di notte"
+  },
+  "legal": {
+    "cookies": {
+      "title": "Cookie e uso dei dati",
+      "lead": "Questa pagina illustra i cookie e le tecnologie analoghe utilizzati su lutonconnecttaxis.com e le modalità con cui è possibile controllarli.",
+      "notice": "Testo in bozza. Sarà definitivo quando verranno attivati prenotazioni, account e analisi statistiche.",
+      "blocks": [
+        {
+          "h": "Che cosa sono i cookie?",
+          "p": [
+            "I cookie sono piccoli file di testo memorizzati sul dispositivo dell’utente quando visita un sito web. Tecnologie analoghe, come la memoria locale (local storage), funzionano allo stesso modo. Utilizziamo il termine «cookie» per indicarle tutte."
+          ]
+        },
+        {
+          "h": "Come li utilizziamo",
+          "p": [
+            "Limitiamo l’uso dei cookie al minimo indispensabile. Si dividono in due gruppi:"
+          ],
+          "ul": [
+            "Essenziali – necessari al funzionamento del sito e per ricordare la scelta sui cookie. Sono sempre attivi. Riguardano anche la sicurezza, ad esempio la protezione dallo spam, e – solo se accede al suo account – il mantenimento dell’accesso (tre piccoli cookie denominati lct_id, lct_rt e lct_in, rimossi all’uscita dall’account o dopo 30 giorni). Un piccolo cookie di preferenza denominato lct_lang memorizza la lingua scelta (conservato per 12 mesi e impostato solo quando si seleziona una lingua dal menu delle lingue).",
+            "Analitici – ci aiutano a capire come viene usato il sito per poterlo migliorare. Restano disattivati a meno che non vengano accettati."
+          ]
+        },
+        {
+          "h": "Le sue scelte",
+          "p": [
+            "Alla prima visita può accettare tutti i cookie, rifiutare tutti i cookie non essenziali oppure scegliere quali consentire. Può cambiare idea in qualsiasi momento tramite «Impostazioni cookie» in fondo a ogni pagina.",
+            "Può inoltre bloccare o eliminare i cookie dalle impostazioni del suo browser. In tal caso, alcune parti del sito potrebbero smettere di funzionare."
+          ]
+        },
+        {
+          "h": "Servizi che possono impostare cookie",
+          "p": [
+            "Quando queste funzioni sono attive, le società che le forniscono possono impostare propri cookie. Per tali dati si applicano le rispettive informative:"
+          ],
+          "ul": [
+            "Google Maps – suggerimenti di indirizzo e calcolo della distanza nel modulo di prenotazione",
+            "Google reCAPTCHA – protegge i nostri moduli dallo spam",
+            "Google Analytics – solo se accetta i cookie analitici",
+            "Firebase – accesso dei clienti e storico delle prenotazioni"
+          ]
+        },
+        {
+          "h": "Per quanto tempo conserviamo la sua scelta",
+          "p": [
+            "Ricordiamo la sua scelta sui cookie per 12 mesi, poi la richiederemo di nuovo."
+          ]
+        },
+        {
+          "h": "Contatti",
+          "p": [
+            "Domande sui cookie o sui suoi dati? Ci contatti:"
+          ]
+        }
+      ]
+    },
+    "eyebrow": "Note legali",
+    "labels": {
+      "telephone": "Telefono:",
+      "email": "Email:"
+    },
+    "privacy": {
+      "title": "Informativa sulla Privacy",
+      "lead": "In Luton Connect Taxis ci impegniamo a tutelare la sua privacy e a garantire che i suoi dati personali siano trattati in modo sicuro e responsabile. La presente Informativa sulla Privacy illustra come raccogliamo, utilizziamo, conserviamo e proteggiamo i suoi dati personali quando utilizza il nostro sito web o prenota i nostri servizi.",
+      "notice": "Testo in bozza. È in preparazione una versione aggiornata dell’Informativa sulla Privacy, relativa agli strumenti del nostro sito web e alle modalità di pagamento in auto, che sostituirà il presente testo.",
+      "blocks": [
+        {
+          "h": "Chi siamo"
+        },
+        {
+          "h": "Dati che raccogliamo",
+          "p": [
+            "Quando ci contatta o effettua una prenotazione, possiamo raccogliere:"
+          ],
+          "ul": [
+            "Nome e cognome",
+            "Indirizzo email",
+            "Numero di telefono",
+            "Indirizzi di ritiro e di destinazione",
+            "Informazioni sul volo (ove applicabile)",
+            "Dettagli della prenotazione",
+            "Dati di pagamento (trattati in modo sicuro tramite il nostro fornitore di servizi di pagamento, ove applicabile)",
+            "Indirizzo IP",
+            "Informazioni sul browser"
+          ]
+        },
+        {
+          "h": "Come utilizziamo i suoi dati",
+          "p": [
+            "Utilizziamo i suoi dati per:"
+          ],
+          "ul": [
+            "Elaborare e gestire le prenotazioni",
+            "Contattarla in merito alla sua prenotazione",
+            "Rispondere alle richieste di informazioni",
+            "Migliorare i nostri servizi",
+            "Prevenire le frodi",
+            "Adempiere agli obblighi di legge"
+          ],
+          "after": [
+            "Non venderemo mai i suoi dati personali a terzi."
+          ]
+        },
+        {
+          "h": "Cookie",
+          "p": [
+            "Il nostro sito web utilizza i cookie per migliorare la sua esperienza di navigazione. I cookie ci aiutano a:"
+          ],
+          "ul": [
+            "Analizzare il traffico del sito web",
+            "Migliorare le prestazioni del sito web",
+            "Ricordare le sue preferenze"
+          ],
+          "after": [
+            "Può gestire o disattivare i cookie tramite le impostazioni del suo browser o tramite il nostro banner per il consenso ai cookie. Per maggiori dettagli consulti la nostra pagina Cookie e uso dei dati."
+          ]
+        },
+        {
+          "h": "Sicurezza dei dati",
+          "p": [
+            "Adottiamo misure tecniche e organizzative adeguate per proteggere i suoi dati personali da accessi non autorizzati, perdita o uso improprio. Il nostro sito web è protetto mediante crittografia SSL (HTTPS)."
+          ]
+        },
+        {
+          "h": "Per quanto tempo conserviamo i suoi dati",
+          "p": [
+            "Conserviamo i dati personali solo per il tempo necessario a:"
+          ],
+          "ul": [
+            "Completare la sua prenotazione",
+            "Adempiere agli obblighi di legge",
+            "Risolvere eventuali controversie",
+            "Migliorare i nostri servizi"
+          ]
+        },
+        {
+          "h": "Condivisione dei suoi dati",
+          "p": [
+            "Possiamo condividere i suoi dati, solo ove necessario, con:"
+          ],
+          "ul": [
+            "Fornitori di servizi di pagamento",
+            "Fornitori di servizi informatici",
+            "Autorità giudiziarie e amministrative, ove richiesto dalla legge"
+          ],
+          "after": [
+            "Non vendiamo mai i suoi dati personali."
+          ]
+        },
+        {
+          "h": "I suoi diritti",
+          "p": [
+            "Ai sensi del UK GDPR, Lei ha il diritto di:"
+          ],
+          "ul": [
+            "Accedere ai suoi dati personali",
+            "Rettificare i dati inesatti",
+            "Chiedere la cancellazione dei suoi dati",
+            "Limitare il trattamento",
+            "Opporsi al trattamento",
+            "Chiedere la portabilità dei dati"
+          ],
+          "after": [
+            "Per esercitare uno qualsiasi di questi diritti, ci contatti."
+          ]
+        },
+        {
+          "h": "Contatti"
+        }
+      ]
+    },
+    "terms": {
+      "title": "Termini e Condizioni",
+      "lead": "Benvenuto in Luton Connect Taxis. Utilizzando il nostro sito web o prenotando i nostri servizi, Lei accetta i seguenti Termini e Condizioni.",
+      "notice": "Testo in bozza. Gli importi relativi ai tempi di attesa e alle cancellazioni devono ancora essere confermati da Luton Connect Taxis.",
+      "blocks": [
+        {
+          "h": "Prenotazioni",
+          "p": [
+            "Tutte le prenotazioni sono soggette a disponibilità.",
+            "I clienti sono responsabili della correttezza delle informazioni fornite per la prenotazione, tra cui:"
+          ],
+          "ul": [
+            "Indirizzo di ritiro",
+            "Destinazione",
+            "Data e ora",
+            "Recapiti",
+            "Informazioni sul volo, ove applicabile"
+          ],
+          "after": [
+            "Informazioni errate possono comportare ritardi o costi aggiuntivi."
+          ]
+        },
+        {
+          "h": "Prezzi",
+          "p": [
+            "Tutti i prezzi indicati sono soggetti a conferma.",
+            "Possono essere applicati costi aggiuntivi per:"
+          ],
+          "ul": [
+            "Tempo di attesa",
+            "Punti di ritiro aggiuntivi",
+            "Modifiche alla prenotazione",
+            "Danni al veicolo causati dai passeggeri"
+          ]
+        },
+        {
+          "h": "Trasferimenti aeroportuali",
+          "p": [
+            "Per i ritiri in aeroporto:"
+          ],
+          "ul": [
+            "Monitoriamo i voli in arrivo qualora siano stati forniti i dettagli del volo.",
+            "Gli autisti si adopereranno ragionevolmente per modificare l’orario di ritiro in caso di voli in ritardo."
+          ]
+        },
+        {
+          "h": "Tempo di attesa",
+          "p": [
+            "I ritiri in aeroporto possono includere un periodo di attesa gratuito.",
+            "Una volta terminato il periodo gratuito, il tempo di attesa aggiuntivo può essere addebitato."
+          ]
+        },
+        {
+          "h": "Cancellazioni",
+          "p": [
+            "Le prenotazioni cancellate prima dell’orario di ritiro concordato possono dare diritto a un rimborso, a seconda delle circostanze.",
+            "Le cancellazioni tardive o la mancata presentazione al luogo di ritiro possono comportare l’addebito di costi di cancellazione."
+          ]
+        },
+        {
+          "h": "Responsabilità dei passeggeri",
+          "p": [
+            "I passeggeri sono tenuti a:"
+          ],
+          "ul": [
+            "Allacciare le cinture di sicurezza ove richiesto dalla legge.",
+            "Trattare i veicoli con rispetto.",
+            "Evitare comportamenti che possano mettere in pericolo l’autista o altri passeggeri.",
+            "Rispondere di eventuali danni causati durante il viaggio."
+          ]
+        },
+        {
+          "h": "Bagagli",
+          "p": [
+            "I passeggeri sono responsabili di verificare che il veicolo selezionato sia idoneo alle proprie esigenze di bagaglio.",
+            "I bagagli extra devono essere dichiarati al momento della prenotazione."
+          ]
+        },
+        {
+          "h": "Oggetti smarriti",
+          "p": [
+            "Gli oggetti dimenticati nei nostri veicoli verranno conservati, ove possibile.",
+            "Le modalità di ritiro o di restituzione possono comportare un costo."
+          ]
+        },
+        {
+          "h": "Utilizzo del sito web",
+          "p": [
+            "Pur facendo il possibile per garantire che il nostro sito web sia accurato e disponibile, non garantiamo che sia sempre privo di interruzioni o errori."
+          ]
+        },
+        {
+          "h": "Limitazione di responsabilità",
+          "p": [
+            "Luton Connect Taxis non sarà responsabile per ritardi o inadempimenti causati da circostanze al di fuori del nostro ragionevole controllo, tra cui, a titolo esemplificativo e non esaustivo:"
+          ],
+          "ul": [
+            "Traffico intenso",
+            "Chiusure stradali",
+            "Condizioni meteorologiche",
+            "Incidenti",
+            "Eventi pubblici"
+          ],
+          "after": [
+            "La nostra responsabilità sarà limitata all’importo pagato per la prenotazione, ove consentito dalla legge."
+          ]
+        },
+        {
+          "h": "Privacy",
+          "p": [
+            "L’utilizzo di questo sito web è disciplinato anche dalla nostra Informativa sulla Privacy."
+          ]
+        },
+        {
+          "h": "Modifiche",
+          "p": [
+            "Ci riserviamo il diritto di aggiornare i presenti Termini e Condizioni in qualsiasi momento."
+          ]
+        },
+        {
+          "h": "Legge applicabile",
+          "p": [
+            "I presenti Termini e Condizioni sono disciplinati dalle leggi di Inghilterra e Galles."
+          ]
+        },
+        {
+          "h": "Contatti"
+        }
+      ]
+    },
+    "translationNotice": "Questa traduzione è fornita solo per comodità. In caso di discrepanze, fa fede la versione inglese, che è l’unico testo giuridicamente vincolante."
+  },
+  "meta": {
+    "tagline": "Taxi per aeroporti, tragitti locali e viaggi a lunga percorrenza",
+    "description": "Luton Connect Taxis – taxi da e per Luton, Heathrow, Gatwick, Stansted, London City e tutti gli aeroporti del Regno Unito. Tragitti locali, viaggi a lunga percorrenza e account aziendali. Chiami il 01582 353158."
+  },
+  "mobileBar": {
+    "label": "Contatti",
+    "call": "Chiama",
+    "whatsapp": "WhatsApp"
+  },
+  "notFound": {
+    "eyebrow": "Errore 404",
+    "title": "Strada sbagliata.",
+    "titleAccent": "La riportiamo noi sulla via giusta.",
+    "lead": "Questa pagina non esiste, ma possiamo comunque portarla dove deve andare.",
+    "home": "Torna alla home page",
+    "contact": "Contatti"
+  },
+  "pages": {
+    "fleet": {
+      "metaTitle": "La nostra flotta",
+      "metaDescription": "I nostri iconici taxi londinesi costruiti su misura: l’elettrico LEVC TX e e lo spazioso Mercedes Vito 114. Un unico standard di eccellenza.",
+      "eyebrow": "Luton Connect Taxis · Flotta",
+      "title": "La nostra flotta.",
+      "lead": "I nostri iconici taxi londinesi costruiti su misura, in due dimensioni. Un unico standard di eccellenza.",
+      "whichEyebrow": "Quale scegliere?",
+      "whichTitleLine": "Scelga il veicolo",
+      "whichTitleAccent": "giusto.",
+      "compare": [
+        {
+          "label": "Ideale per",
+          "levc": "Tragitti in città, trasferimenti aeroportuali, utenti in sedia a rotelle",
+          "vito": "Gruppi di 5–6 persone, famiglie, bagagli extra"
+        },
+        {
+          "label": "Accesso",
+          "levc": "Accessibile in sedia a rotelle con rampa senza gradini",
+          "vito": "Ce lo chieda al momento della prenotazione"
+        },
+        {
+          "label": "Bagagli",
+          "levc": "Ampio spazio per i bagagli",
+          "vito": "Spazio extra – indichi i bagagli extra al momento della prenotazione"
+        },
+        {
+          "label": "Pagamento",
+          "levc": "Carta accettata in auto",
+          "vito": "Carta accettata in auto"
+        }
+      ],
+      "whichNote": "Ha dubbi? Ci dica quante persone viaggiano e quanti bagagli ha con sé, e le consiglieremo il veicolo più adatto.",
+      "everyEyebrow": "Con ogni viaggio",
+      "every": [
+        {
+          "title": "Monitoraggio del volo",
+          "text": "Teniamo d’occhio il suo volo e adattiamo il ritiro se atterra in anticipo o in ritardo."
+        },
+        {
+          "title": "Accoglienza",
+          "text": "L’autista la attende al suo arrivo – nessuna ricerca di un posteggio taxi."
+        },
+        {
+          "title": "Paghi in auto",
+          "text": "Nessun pagamento online. Paga l’autista, anche con carta se preferisce."
+        },
+        {
+          "title": "Una persona vera al telefono",
+          "text": "Ci chiami, ci scriva su WhatsApp o via email e confermeremo prezzo e prenotazione."
+        }
+      ]
+    },
+    "blog": {
+      "metaTitle": "Blog",
+      "metaDescription": "Novità, consigli di viaggio e guide locali di Luton Connect Taxis – prossimamente.",
+      "eyebrow": "Luton Connect Taxis · Blog",
+      "title": "Blog – prossimamente.",
+      "lead": "Consigli di viaggio, guide agli aeroporti e novità di Luton Connect Taxis stanno arrivando."
+    },
+    "contact": {
+      "metaTitle": "Contatti",
+      "metaDescription": "Chiami, scriva su WhatsApp o via email a Luton Connect Taxis per confermare un preventivo o prenotare un viaggio. {phone} · {email}.",
+      "eyebrow": "Luton Connect Taxis · Contatti",
+      "title": "Parli con una persona vera.",
+      "lead": "Ci chiami, ci scriva su WhatsApp, via email o con un messaggio per ottenere un preventivo, confermare una prenotazione o chiederci qualsiasi cosa.",
+      "getInTouch": "Ci contatti",
+      "callUs": "Ci chiami",
+      "emailLabel": "Email",
+      "note": "Le stime online non sono prezzi fissi. Ci contatti su WhatsApp, via email o per telefono per confermare il preventivo e la prenotazione.",
+      "visit": "Dove siamo",
+      "openMaps": "Apri in Google Maps",
+      "follow": "Social",
+      "messageEyebrow": "Invii un messaggio",
+      "messageTitle": "Preferisce scrivere? <mark>Le risponderemo.</mark>",
+      "messageLead": "Richieda un preventivo, ci racconti un viaggio o chieda informazioni su un account aziendale. Il suo messaggio arriva direttamente al nostro team all’indirizzo {email} e le risponderemo via email o telefono."
+    }
+  },
+  "quote": {
+    "ariaLabel": "Richieda una stima per il taxi",
+    "pickup": "Partenza",
+    "pickupPlaceholder": "Indirizzo, hotel, stazione…",
+    "dropoff": "Destinazione",
+    "dropoffPlaceholder": "Aeroporto, indirizzo…",
+    "date": "Data",
+    "time": "Ora",
+    "people": "Persone",
+    "getEstimate": "Calcola stima",
+    "wantReturn": "Mi serve anche il viaggio di ritorno",
+    "returnDate": "Data di ritorno",
+    "returnTime": "Ora di ritorno",
+    "cta": {
+      "title": "La stima le va bene?",
+      "text": "Ci invii una richiesta di prenotazione. La confermeremo via WhatsApp, telefono o email e Lei pagherà l’autista in auto.",
+      "request": "Richieda questo taxi",
+      "whatsapp": "Chieda su WhatsApp",
+      "call": "Chiami il {phone}"
+    },
+    "details": {
+      "title": "I suoi dati",
+      "signedIn": "Prenotazione a nome di <strong>{email}</strong> – sarà salvata in {link}.",
+      "signedInLink": "il suo account",
+      "guest": "Ha un account? Per conservare le prenotazioni e non dover riscrivere i dati: {link}. Anche gli ospiti sono benvenuti.",
+      "guestLink": "Accedi",
+      "name": "Nome e cognome",
+      "email": "Email",
+      "phone": "Telefono / WhatsApp",
+      "honeypot": "Lasci vuoto questo campo"
+    },
+    "more": {
+      "summary": "Altri dettagli (facoltativo) – veicolo, bagagli, seggiolini, volo, note",
+      "vehicle": "Veicolo",
+      "luggage": "Bagagli",
+      "childSeats": "Seggiolini",
+      "flightNumber": "Numero di volo",
+      "flightPlaceholder": "es. BA123",
+      "notes": "Note",
+      "notesPlaceholder": "Accesso per sedia a rotelle, un secondo ritiro, un punto d’incontro…"
+    },
+    "vehicles": {
+      "noPreference": "Nessuna preferenza"
+    },
+    "luggageOptions": {
+      "none": "Nessun bagaglio",
+      "bags12": "1–2 bagagli",
+      "bags34": "3–4 bagagli",
+      "bags5": "5 o più (ce lo indichi nelle note)"
+    },
+    "terms": "Accetto i {terms} e l’{privacy}.",
+    "termsLink": "Termini e Condizioni",
+    "privacyLink": "Informativa sulla Privacy",
+    "sending": "Invio in corso…",
+    "send": "Invia richiesta di prenotazione",
+    "back": "Indietro",
+    "fine": "Questa è una <strong>richiesta</strong> di prenotazione. La confermeremo via WhatsApp, telefono o email e Lei pagherà l’autista in auto. Le stime non sono prezzi fissi.",
+    "noscript": "La stima richiede JavaScript. Chiami il {phone} o ci scriva su WhatsApp per un preventivo.",
+    "whatsapp": {
+      "default": "Buongiorno, vorrei prenotare un taxi.",
+      "journeyOne": "Buongiorno, vorrei un taxi da {pickup} a {dropoff} il {date} alle {time} per {count} persona.",
+      "journeyOther": "Buongiorno, vorrei un taxi da {pickup} a {dropoff} il {date} alle {time} per {count} persone.",
+      "estimate": "La stima sul sito web era di £{total}."
+    },
+    "place": {
+      "noKey": "I suggerimenti di indirizzo sono disattivati. Ci chiami o ci scriva su WhatsApp per prenotare.",
+      "failed": "Non siamo riusciti a caricare i suggerimenti in questo momento. Riprovi oppure ci chiami per prenotare.",
+      "noMatches": "Nessun risultato. Provi con un codice postale o con il nome di un hotel, di una stazione o di un aeroporto.",
+      "poweredBy": "Powered by Google",
+      "suggestionsAvailable": "{count} suggerimenti disponibili"
+    }
+  },
+  "services": {
+    "items": {
+      "airport-transfers": {
+        "name": "Trasferimenti aeroportuali",
+        "meta": "Luton, Heathrow, Gatwick, Stansted, London City e tutti gli aeroporti del Regno Unito",
+        "title": "Trasferimenti aeroportuali.",
+        "lead": "Taxi da e per Luton, Heathrow, Gatwick, Stansted e London City Airport – e per tutti gli altri aeroporti del Regno Unito.",
+        "statement": "Che parta o arrivi da qualsiasi aeroporto, noi seguiamo il suo volo, la aspettiamo dove atterra e la accompagniamo da porta a porta.",
+        "includes": [
+          "Ritiri e arrivi in ogni aeroporto del Regno Unito",
+          "Monitoraggio del volo, per adattarci se atterra in anticipo o in ritardo",
+          "Accoglienza all’arrivo",
+          "Spazio per i bagagli e taxi accessibili in sedia a rotelle con rampa senza gradini",
+          "Gruppi di cinque o sei persone sul nostro Mercedes Vito 114"
+        ],
+        "faqs": [
+          {
+            "q": "Seguite il mio volo?",
+            "a": "Sì. Ci indichi il numero di volo al momento della prenotazione e lo terremo d’occhio, così l’autista sarà lì quando atterra."
+          },
+          {
+            "q": "Quanto costerà?",
+            "a": "La nostra stima online si basa sulla distanza, sull’ora del giorno e sugli eventuali supplementi aeroportuali. È una stima, non un prezzo fisso – ci contatti per telefono, WhatsApp o email per confermare il preventivo."
+          },
+          {
+            "q": "Posso pagare in auto?",
+            "a": "Sì. Paga l’autista direttamente in auto e accettiamo anche pagamenti con carta."
+          }
+        ]
+      },
+      "wedding-transfers": {
+        "name": "Trasferimenti per matrimoni",
+        "meta": "Per gli sposi, la famiglia e gli invitati",
+        "title": "Trasferimenti per matrimoni.",
+        "lead": "Arrivi puntuale e comodo nel giorno più importante. Ci occupiamo noi del viaggio per Lei, la sua famiglia e i suoi invitati.",
+        "statement": "Il giorno del matrimonio segue un programma preciso. Noi ci assicuriamo che lo segua anche il viaggio.",
+        "includes": [
+          "Trasporto per gli sposi, la famiglia e gli invitati al matrimonio",
+          "Ritiri da casa, hotel o location fino alla cerimonia e al ricevimento",
+          "Taxi accessibili in sedia a rotelle per gli invitati che necessitano di accesso senza gradini",
+          "Gruppi di cinque o sei persone sul nostro Mercedes Vito 114",
+          "Orari pianificati insieme a Lei in anticipo"
+        ],
+        "faqs": [
+          {
+            "q": "Con quanto anticipo devo prenotare?",
+            "a": "Il prima possibile. Ci chiami, ci scriva su WhatsApp o via email con la data, la location e gli orari e le confermeremo ciò che possiamo offrire."
+          },
+          {
+            "q": "Potete trasportare un gruppo di nozze più numeroso?",
+            "a": "Il nostro Mercedes Vito 114 accoglie gruppi di cinque o sei persone. Per gruppi più numerosi ci contatti e valuteremo insieme le opzioni."
+          },
+          {
+            "q": "Come ottengo un prezzo?",
+            "a": "La nostra stima online si basa sulla distanza, sull’ora del giorno e sugli eventuali supplementi aeroportuali. È una stima, non un prezzo fisso – ci contatti per telefono, WhatsApp o email per confermare il preventivo."
+          }
+        ]
+      },
+      "courier-services": {
+        "name": "Servizi di corriere",
+        "meta": "Documenti e pacchi, da porta a porta",
+        "title": "Servizi di corriere.",
+        "lead": "Documenti, pacchi e articoli urgenti ritirati e consegnati in taxi, da porta a porta.",
+        "statement": "Quando qualcosa deve arrivare di persona, lo affidi a noi.",
+        "includes": [
+          "Documenti e pacchi ritirati e consegnati da porta a porta",
+          "Tragitti diretti dal ritiro alla consegna",
+          "Richieste urgenti e in giornata, salvo disponibilità",
+          "Consegne locali e a lunga distanza",
+          "Spazio nei nostri veicoli per gli articoli più grandi"
+        ],
+        "faqs": [
+          {
+            "q": "Che cosa posso spedire?",
+            "a": "Documenti, pacchi e altri articoli che entrano comodamente nel veicolo. Ci dica di che cosa si tratta, più o meno quanto è grande e dove deve andare, e le confermeremo se possiamo occuparcene."
+          },
+          {
+            "q": "Può partire in giornata?",
+            "a": "Spesso sì, a seconda della disponibilità. Ci chiami o ci scriva su WhatsApp per verificare."
+          },
+          {
+            "q": "Come ottengo un prezzo?",
+            "a": "La nostra stima online si basa sulla distanza, sull’ora del giorno e sugli eventuali supplementi aeroportuali. È una stima, non un prezzo fisso – ci contatti per telefono, WhatsApp o email per confermare il preventivo."
+          }
+        ]
+      },
+      "local-trips": {
+        "name": "Tragitti locali",
+        "meta": "Luton e città vicine, accompagnamento a scuola",
+        "title": "Tragitti locali.",
+        "lead": "Spostamenti di ogni giorno a Luton e dintorni, dall’accompagnamento a scuola alla spesa al supermercato.",
+        "statement": "Un taxi che conosce la città, pronto quando Lei lo è.",
+        "includes": [
+          "Shopping, appuntamenti, serate fuori e gite in giornata",
+          "Accompagnamento a scuola",
+          "Ritiri da casa, dal lavoro, dall’hotel o dalla stazione",
+          "Collegamenti con Luton Airport Parkway, la stazione di Luton e Luton DART",
+          "Taxi accessibili in sedia a rotelle con rampa senza gradini"
+        ],
+        "faqs": [
+          {
+            "q": "Posso prenotare corse regolari?",
+            "a": "Sì. Ci indichi giorni, orari e indirizzi e organizzeremo tutto noi."
+          },
+          {
+            "q": "Esiste una tariffa notturna?",
+            "a": "Sì. Tra le 23:00 e le 06:00 si applica una tariffa notturna più alta, di cui la nostra stima tiene conto."
+          },
+          {
+            "q": "Come ottengo un prezzo?",
+            "a": "La nostra stima online si basa sulla distanza, sull’ora del giorno e sugli eventuali supplementi aeroportuali. È una stima, non un prezzo fisso – ci contatti per telefono, WhatsApp o email per confermare il preventivo."
+          }
+        ]
+      },
+      "long-distance-national-journeys": {
+        "name": "Viaggi a lunga percorrenza",
+        "meta": "In tutto il Paese, da porta a porta",
+        "title": "Viaggi nazionali a lunga percorrenza.",
+        "lead": "Viaggi confortevoli da porta a porta verso qualsiasi destinazione nel Regno Unito.",
+        "statement": "In tutta la contea o in tutto il Paese, il viaggio dovrebbe essere la parte più facile.",
+        "includes": [
+          "Qualsiasi destinazione nel Regno Unito, da porta a porta",
+          "Sedili confortevoli e spazio per i bagagli",
+          "Ritiri da casa, hotel o luogo di lavoro",
+          "Viaggi di sola andata e di andata e ritorno",
+          "Una stima chiara in anticipo, confermata da una persona vera"
+        ],
+        "faqs": [
+          {
+            "q": "Potete effettuare viaggi di andata e ritorno?",
+            "a": "Sì. Ce lo indichi al momento della prenotazione e lo includeremo nel preventivo."
+          },
+          {
+            "q": "Quante persone possono viaggiare?",
+            "a": "Fino a sei. Il nostro Mercedes Vito 114 è la scelta migliore per gruppi di cinque o sei persone con bagagli."
+          },
+          {
+            "q": "Come ottengo un prezzo?",
+            "a": "La nostra stima online si basa sulla distanza, sull’ora del giorno e sugli eventuali supplementi aeroportuali. È una stima, non un prezzo fisso – ci contatti per telefono, WhatsApp o email per confermare il preventivo."
+          }
+        ]
+      },
+      "corporate-accounts": {
+        "name": "Account aziendali",
+        "meta": "Dipendenti, clienti e ospiti",
+        "title": "Account aziendali.",
+        "lead": "Un partner taxi affidabile per la sua azienda: viaggi del personale, trasferimenti dei clienti e corse in aeroporto, organizzati attraverso un unico referente.",
+        "statement": "I viaggi di lavoro funzionano meglio quando sono semplici. Noi li manteniamo tali.",
+        "includes": [
+          "Viaggi regolari per dipendenti e clienti",
+          "Trasferimenti aeroportuali per ospiti e delegati",
+          "Viaggi executive e business class",
+          "Prenotazioni anticipate e corse ricorrenti",
+          "Un unico referente – telefono, WhatsApp o email"
+        ],
+        "faqs": [
+          {
+            "q": "Come si apre un account?",
+            "a": "Ci chiami, ci scriva su WhatsApp o via email indicando il nome della sua azienda e il tipo di viaggi di cui ha bisogno, e al resto penseremo noi."
+          },
+          {
+            "q": "Potete occuparvi delle corse in aeroporto per gli ospiti?",
+            "a": "Sì. Copriamo Luton, Heathrow, Gatwick, Stansted, London City e tutti gli altri aeroporti del Regno Unito."
+          },
+          {
+            "q": "Come viene organizzato il pagamento?",
+            "a": "Ci dica come la sua azienda preferisce pagare e definiremo insieme i dettagli."
+          }
+        ]
+      },
+      "other-journeys": {
+        "name": "Altri viaggi",
+        "meta": "Ci dica dove deve andare",
+        "title": "Altri viaggi.",
+        "lead": "Gite in giornata, eventi, serate fuori, appuntamenti e tutto ciò che sta nel mezzo.",
+        "statement": "Se il suo viaggio non è nell’elenco, probabilmente può comunque rientrare tra i nostri.",
+        "includes": [
+          "Eventi, serate fuori e gite in giornata",
+          "Appuntamenti e corse verso la stazione",
+          "Viaggi di gruppo fino a sei persone",
+          "Taxi accessibili in sedia a rotelle con rampa senza gradini",
+          "Qualsiasi altra esigenza non elencata – basta chiedere"
+        ],
+        "faqs": [
+          {
+            "q": "Il mio viaggio non è nell’elenco. Potete aiutarmi?",
+            "a": "Molto probabilmente sì. Ci chiami, ci scriva su WhatsApp o via email indicando i dettagli e le faremo sapere."
+          },
+          {
+            "q": "Come ottengo un prezzo?",
+            "a": "La nostra stima online si basa sulla distanza, sull’ora del giorno e sugli eventuali supplementi aeroportuali. È una stima, non un prezzo fisso – ci contatti per telefono, WhatsApp o email per confermare il preventivo."
+          }
+        ]
+      }
+    },
+    "page": {
+      "eyebrow": "Luton Connect Taxis · Servizi",
+      "nutshell": "In breve",
+      "getEstimate": "Richieda una stima",
+      "included": "Cosa è incluso",
+      "faqEyebrow": "Da sapere",
+      "faqTitle": "Domande e risposte.",
+      "howEyebrow": "Come funziona la prenotazione",
+      "steps": [
+        {
+          "title": "Ci indichi il suo viaggio",
+          "text": "Inserisca partenza, destinazione, data e ora per una stima immediata."
+        },
+        {
+          "title": "Confermi il preventivo",
+          "text": "Ci chiami, ci scriva su WhatsApp o via email e confermeremo il prezzo e la prenotazione."
+        },
+        {
+          "title": "Viaggi e paghi",
+          "text": "L’autista arriva puntuale. Paga l’autista direttamente in auto."
+        }
+      ],
+      "metaDescription": "{lead} Luton Connect Taxis – chiami il {phone}."
+    }
+  },
+  "validation": {
+    "contact": {
+      "name": "Ci indichi il suo nome.",
+      "nameTooLong": "Il nome è troppo lungo.",
+      "email": "Inserisca il suo indirizzo email.",
+      "emailInvalid": "Questo indirizzo email non sembra corretto.",
+      "phone": "Questo numero di telefono non sembra corretto.",
+      "topic": "Scelga l’argomento del suo messaggio.",
+      "message": "Scriva il suo messaggio.",
+      "messageShort": "Aggiunga qualche dettaglio in più.",
+      "messageLong": "Mantenga il messaggio entro {max} caratteri."
+    },
+    "booking": {
+      "nameMissing": "Ci indichi il suo nome.",
+      "nameTooLong": "Il nome è troppo lungo.",
+      "emailMissing": "Inserisca il suo indirizzo email.",
+      "emailInvalid": "Questo indirizzo email non sembra corretto.",
+      "phoneMissing": "Inserisca un numero di telefono al quale possiamo contattarla.",
+      "childSeats": "Scelga da 0 a {max} seggiolini.",
+      "flightNumber": "I numeri di volo hanno un formato come BA123 o U2 4567.",
+      "notesTooLong": "Mantenga le note entro {max} caratteri.",
+      "termsNotAccepted": "Selezioni la casella per accettare i Termini e Condizioni e l’Informativa sulla Privacy."
+    },
+    "journey": {
+      "pickupMissing": "Scelga il luogo di partenza dai suggerimenti.",
+      "dropoffMissing": "Scelga la destinazione dai suggerimenti.",
+      "samePlace": "Partenza e destinazione non possono coincidere.",
+      "dateMissing": "Scelga la data di partenza.",
+      "timeMissing": "Scelga l’ora di partenza.",
+      "timePassed": "Quell’ora è già passata.",
+      "timeTooSoon": "Per ritiri entro l’ora successiva, ci chiami.",
+      "dateTooFar": "Quella data è troppo lontana – ci chiami.",
+      "passengersMissing": "Scelga quante persone viaggiano.",
+      "passengersTooMany": "Per più di {max} persone, ci chiami per un preventivo.",
+      "returnDateMissing": "Scelga la data di ritorno.",
+      "returnTimeMissing": "Scelga l’ora di ritorno.",
+      "returnBeforeOutbound": "Il ritorno deve essere successivo alla partenza dell’andata."
+    },
+    "fields": {
+      "phoneInvalid": "Questo numero di telefono non sembra corretto."
+    },
+    "quote": {
+      "tooFar": "È un viaggio lungo – ci chiami o ci scriva su WhatsApp per un preventivo.",
+      "tooManyPassengers": "Per più di {max} passeggeri, ci chiami per un preventivo.",
+      "invalidInput": "Alcuni dettagli del viaggio mancano o non sono validi."
+    },
+    "api": {
+      "noRoute": "Non siamo riusciti a trovare un percorso stradale tra questi due luoghi. Li controlli oppure ci chiami.",
+      "mapsUnavailable": "Al momento non possiamo calcolare una stima. Chiami il {phone} o ci scriva su WhatsApp per un preventivo.",
+      "quoteRateLimited": "Ha richiesto molti preventivi in poco tempo. Attenda qualche minuto oppure ci chiami.",
+      "callForQuote": "Ci chiami per un preventivo.",
+      "quoteFailed": "Non siamo riusciti a calcolare una stima. Riprovi oppure ci chiami per un preventivo.",
+      "bookingRateLimited": "Ha inviato diverse richieste in poco tempo. Attenda qualche minuto oppure ci chiami o ci scriva su WhatsApp.",
+      "tooFast": "È stato molto veloce – controlli i suoi dati e prema di nuovo Invia.",
+      "captchaFailed": "Non siamo riusciti a verificare che Lei sia una persona. Riprovi oppure chiami il {phone}.",
+      "storageUnavailable": "Non siamo riusciti a salvare la sua richiesta in questo momento. Chiami il {phone} o ci scriva su WhatsApp per prenotare.",
+      "bookingFailed": "Non siamo riusciti a inviare la sua richiesta in questo momento. Riprovi oppure chiami il {phone}.",
+      "network": "Non siamo riusciti a raggiungere il server. Controlli la connessione oppure chiami il {phone}.",
+      "estimateUnavailable": "Il calcolo della distanza non era disponibile al momento della prenotazione"
+    },
+    "account": {
+      "emailRequired": "Inserisca il suo indirizzo email.",
+      "emailInvalid": "Questo indirizzo email non sembra corretto.",
+      "nameRequired": "Ci indichi il suo nome.",
+      "nameTooLong": "Il nome è troppo lungo.",
+      "passwordRequired": "Scelga una password.",
+      "passwordTooShort": "Usi almeno {min} caratteri.",
+      "passwordTooLong": "La password è troppo lunga.",
+      "termsRequired": "Selezioni la casella per accettare i Termini e Condizioni e l’Informativa sulla Privacy.",
+      "passwordEnter": "Inserisca la sua password.",
+      "passwordConfirm": "Inserisca la sua password per confermare."
+    },
+    "auth": {
+      "weakPassword": "Scelga una password più sicura – almeno 8 caratteri."
+    }
+  }
+}

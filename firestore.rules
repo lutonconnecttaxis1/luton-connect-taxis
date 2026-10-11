@@ -1,0 +1,25 @@
+rules_version = '2';
+
+// Security model:
+//  - Browsers NEVER write bookings. Only the server (Firebase Admin SDK, which
+//    bypasses these rules) creates them after reCAPTCHA + validation.
+//  - A signed-in customer can read only their own bookings.
+//  - Customer profiles (collection "customers") are read and written by the server
+//    only, so they fall under the final "deny everything else" rule. Nothing in the
+//    browser talks to Firestore or Firebase directly; sign-in goes through our own
+//    /api/account routes. (Comment-only change in milestone 4 - no need to re-publish.)
+//  - Everything else is denied.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /bookings/{bookingId} {
+      allow read: if request.auth != null
+                  && resource.data.userId == request.auth.uid;
+      allow write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

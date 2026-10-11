@@ -1,0 +1,1302 @@
+{
+  "account": {
+    "page": {
+      "metaTitle": "我的账户",
+      "metaDescription": "登录即可查看您在 Luton Connect Taxis 的预订，并保存个人信息以便下次使用。",
+      "eyebrow": "Luton Connect Taxis · 账户",
+      "title": "您的预订，一处尽览。",
+      "lead": "登录后即可查看您的预订，下次预订时还会自动为您填写个人信息。未注册账户的访客同样可以预订。",
+      "sectionLabel": "账户"
+    },
+    "loading": {
+      "checking": "正在检查您的账户…"
+    },
+    "tabs": {
+      "label": "账户选项",
+      "signin": "登录",
+      "register": "创建账户"
+    },
+    "guestNote": "预订无需账户——您可以{link}。拥有账户可以把您的预订集中保存，并在下次自动填写您的信息。",
+    "guestNoteLink": "在首页以访客身份预订",
+    "optional": "选填",
+    "trap": "请将此栏留空",
+    "links": {
+      "terms": "条款与条件",
+      "privacy": "隐私政策"
+    },
+    "fields": {
+      "email": "电子邮箱",
+      "password": "密码",
+      "name": "您的姓名",
+      "phone": "电话 / WhatsApp"
+    },
+    "signin": {
+      "title": "欢迎回来",
+      "submit": "登录",
+      "busy": "正在登录…",
+      "forgot": "忘记密码？"
+    },
+    "register": {
+      "title": "创建您的账户",
+      "passwordHint": "至少 8 个字符。",
+      "agree": "我同意{terms}和{privacy}。",
+      "submit": "创建账户",
+      "busy": "正在创建…",
+      "fine": "我们仅会使用您的资料来处理您的预订和账户，绝不会出售您的资料。"
+    },
+    "reset": {
+      "title": "重置密码",
+      "intro": "请输入您的电子邮箱，我们会向您发送设置新密码的链接。",
+      "submit": "发送重置链接",
+      "busy": "正在发送…",
+      "back": "返回登录",
+      "sentTitle": "请查收邮件",
+      "sentBody": "如果 {email} 对应有账户，我们已发送设置新密码的链接。邮件可能需要几分钟才能送达，请同时检查您的垃圾邮件文件夹。"
+    },
+    "dashboard": {
+      "eyebrow": "您的账户",
+      "hello": "您好，{name}。",
+      "helloFallback": "您",
+      "signOut": "退出登录",
+      "signingOut": "正在退出…",
+      "bookings": "您的预订",
+      "book": "预订出租车",
+      "loading": "正在加载您的预订…",
+      "retry": "重试",
+      "fine": "在我们通过 WhatsApp、电话或电子邮件确认之前，预订仅为请求。预估价格并非固定价格——您只需在车上向司机付款。"
+    },
+    "empty": {
+      "title": "您的账户中暂无预订。",
+      "body": "您在登录状态下所做的预订将显示在这里。{link}。",
+      "link": "获取预估价并预订"
+    },
+    "list": {
+      "upcoming": "即将出行",
+      "earlier": "过往行程"
+    },
+    "status": {
+      "requested": "已提交——等待我们确认",
+      "confirmed": "已确认",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "item": {
+      "to": "至",
+      "personOne": "{count} 人",
+      "personOther": "{count} 人",
+      "childSeatOne": "{count} 个儿童座椅",
+      "childSeatOther": "{count} 个儿童座椅",
+      "flight": "航班 {number}",
+      "return": "返程 {when}",
+      "requested": "提交于 {date}",
+      "notes": "备注：{notes}",
+      "estimate": "预估价 {total}",
+      "airportFee": "+ 机场费用待确认",
+      "breakdown": "费用明细",
+      "onQuote": "以报价确认为准",
+      "notFixed": "并非固定价格——我们将通过 WhatsApp、电子邮件或电话与您确认报价。",
+      "noEstimate": "暂无预估价格——我们会在确认时向您报价。",
+      "askChange": "申请修改",
+      "askCancel": "申请取消",
+      "leg": {
+        "journey": "行程",
+        "outbound": "去程",
+        "return": "返程"
+      }
+    },
+    "whatsapp": {
+      "change": "您好，我想修改预订 {reference}（{pickup} 至 {dropoff}，{when}）。",
+      "cancel": "您好，我想取消预订 {reference}（{pickup} 至 {dropoff}，{when}）。"
+    },
+    "profile": {
+      "title": "您的资料",
+      "intro": "登录后，我们会在预订卡片上自动填入这些信息。每次预订时您仍可修改。",
+      "name": "姓名",
+      "email": "电子邮箱（用于登录）",
+      "save": "保存资料",
+      "saving": "正在保存…",
+      "saved": "已保存。"
+    },
+    "delete": {
+      "summary": "删除我的账户",
+      "body": "此操作将删除您的登录信息和已保存的资料，且无法撤销。您过往的预订记录将保留在我们的档案中（例如用于会计核算和处理争议），但不再与任何登录账户关联。请参阅我们的{privacy}，如有疑问请致电 {phone}。",
+      "label": "请输入密码以确认",
+      "submit": "删除我的账户",
+      "busy": "正在删除…",
+      "wrongPassword": "密码不正确。"
+    },
+    "errors": {
+      "network": "无法连接到服务器。请检查您的网络连接后重试。",
+      "emailExists": "该电子邮箱已注册账户。请尝试登录，或重置密码。",
+      "invalidCredentials": "电子邮箱与密码不匹配。请检查后重试，或重置密码。",
+      "rateLimited": "尝试次数过多。请等待几分钟后再试。",
+      "tooFast": "操作太快了——请重试。",
+      "captchaFailed": "我们无法验证您是真人。请重试，或致电 {phone}。",
+      "disabled": "此账户已被停用。请致电 {phone}。",
+      "signedOut": "您已退出登录。请重新登录。",
+      "storageUnavailable": "我们暂时无法加载该内容。请稍后再试。",
+      "accountsUnavailable": "账户功能暂时不可用。您仍可在首页以访客身份预订，或致电 {phone}。",
+      "generic": "出了点问题。请重试，或致电 {phone}。"
+    }
+  },
+  "booking": {
+    "kicker": "已收到您的预订请求",
+    "thanks": "{name}，感谢您。<strong>这只是一份预订请求，尚未确认预订。</strong>我们将通过 WhatsApp、电话或电子邮件向您确认。请保存好您的预订编号，您现在就可以将其发送给我们，以便加快处理。",
+    "whatsappMessage": "您好，我的预订编号是 {reference}",
+    "whatsappCta": "通过 WhatsApp 发送预订编号",
+    "call": "致电 {phone}",
+    "summary": {
+      "from": "出发地",
+      "to": "目的地",
+      "when": "时间",
+      "return": "返程",
+      "people": "人数",
+      "contact": "我们将通过以下方式联系您"
+    },
+    "noEstimate": "我们会在确认预订时核算价格并告知您。在我们与您确认之前，该价格不是固定价格。",
+    "noEstimateWithNote": "{note}。我们会在确认预订时核算价格并告知您。在我们与您确认之前，该价格不是固定价格。",
+    "pay": "请在车上向司机付款。",
+    "savedToAccount": "已保存至您的账户 – {link}。",
+    "savedToAccountLink": "查看您的所有预订",
+    "another": "再预订一次"
+  },
+  "common": {
+    "callPhone": "致电 {phone}",
+    "whatsappUs": "WhatsApp 联系我们",
+    "skipToContent": "跳转到主要内容",
+    "dateAt": "{date} {time}"
+  },
+  "contactFab": {
+    "email": "邮件",
+    "call": "致电",
+    "contactUs": "联系我们",
+    "close": "关闭",
+    "closeOptions": "关闭联系方式选项"
+  },
+  "contactForm": {
+    "name": "您的姓名",
+    "email": "电子邮箱",
+    "phone": "电话",
+    "optional": "（选填）",
+    "topic": "咨询事项",
+    "topicPlaceholder": "请选择",
+    "topics": {
+      "quote": "获取报价",
+      "booking": "预订出行",
+      "corporate": "企业账户",
+      "lost": "失物招领",
+      "other": "其他事项"
+    },
+    "message": "留言内容",
+    "messagePlaceholder": "出发地、目的地、日期和时间、乘客人数——任何有助于我们为您服务的信息均可填写。",
+    "trap": "请将此栏留空",
+    "sending": "正在发送…",
+    "send": "发送留言",
+    "fine": "我们仅会使用您的资料回复您。请参阅我们的{privacy}。此表单并不确认任何预订。",
+    "privacyLink": "隐私政策",
+    "doneTitle": "谢谢您，我们已收到您的留言。",
+    "doneBody": "我们会尽快通过电子邮件或电话回复您。您的留言不代表预订已确认——任何报价和预订，我们都会直接与您确认。如果您比较着急，请致电 {phone} 或通过 {whatsapp} 联系我们。",
+    "whatsappLink": "WhatsApp 联系我们",
+    "devNote": "测试模式：尚未设置邮件密钥，因此留言已打印在您的终端中，而未通过电子邮件发送。",
+    "again": "再发一条留言",
+    "errorRateLimited": "您在短时间内发送了多条留言。请等待几分钟后再试，或致电或通过 WhatsApp 联系我们。",
+    "errorTooFast": "操作太快了——请检查您的资料后再次点击发送。",
+    "errorSendFailed": "我们暂时无法发送您的留言。请重试，或致电 {phone}，或发送电子邮件至 {email}。",
+    "errorNetwork": "无法连接到服务器。请检查您的网络连接后重试，或致电 {phone}。"
+  },
+  "cookie": {
+    "title": "您的 Cookie 选择",
+    "text": "我们使用必要 Cookie 来保证本网站正常运行。经您许可，我们还会使用分析类 Cookie 来了解网站的使用情况并加以改进。",
+    "policy": "Cookie 政策",
+    "acceptAll": "全部接受",
+    "rejectAll": "全部拒绝",
+    "manage": "管理选择",
+    "manageTitle": "管理 Cookie 选择",
+    "essential": "必要",
+    "essentialText": "网站运行及记住此选择所必需，始终开启。",
+    "essentialAria": "必要 Cookie（始终开启）",
+    "analytics": "分析",
+    "analyticsText": "帮助我们了解网站的使用情况，以便改进。除非您主动开启，否则保持关闭。",
+    "analyticsAria": "分析类 Cookie",
+    "save": "保存选择",
+    "back": "返回",
+    "settings": "Cookie 设置"
+  },
+  "estimate": {
+    "label": "您的预估价格",
+    "hint": "请选择上车地点、下车地点、日期和时间，即可查看预估价格。",
+    "loading": "正在计算您的预估价格…",
+    "pendingFee": "+ 机场费用待确认",
+    "meta": "约 {miles} 英里 · {minutes} 分钟",
+    "metaReturn": "单程约 {miles} 英里 · {minutes} 分钟",
+    "outbound": "去程",
+    "return": "返程",
+    "both": "往返合计 <strong>{total}</strong>",
+    "confirmedOnQuote": "以报价确认为准",
+    "disclaimer": "<strong>并非固定价格。</strong>请通过 WhatsApp、电子邮件或电话联系我们，确认您的报价。",
+    "bands": {
+      "passengers": "{passengers} 位乘客——任何时段均适用夜间价格",
+      "day": "日间价格（{start}–{end}）",
+      "night": "夜间价格（{start}–{end}）"
+    },
+    "lines": {
+      "base": "起步价",
+      "mileage": "里程费",
+      "airport-dropoff": "机场下客费 – {airport}",
+      "airport-pickup": "机场接客费 – {airport}",
+      "congestion": "伦敦拥堵费（Congestion Charge）"
+    },
+    "details": {
+      "mileage": "{miles} 英里 × {rate}",
+      "congestion": "每趟行程收取一次"
+    },
+    "congestion": {
+      "outside-zone": "行程不在拥堵费收费区内。",
+      "in-charging-hours": "行程在收费时段内途经收费区。",
+      "outside-hours": "行程途经收费区，但在{day}的收费时段之外。"
+    },
+    "dayKinds": {
+      "weekdays": "工作日",
+      "weekends": "周末",
+      "bankHolidays": "公共假日"
+    },
+    "charges": {
+      "short": "不含 Dart Charge 过路费",
+      "long": [
+        "达特福德过江通道（Dartford Crossing）：将加收适用的 Dart Charge。",
+        "收费路段与桥梁：途中产生的其他路桥通行费将计入最终车费。"
+      ],
+      "known": "已知收费项目（出行前请核实最新费率）：",
+      "crossingFormat": "<strong>{name}</strong> – {charge}。{when}。",
+      "crossings": [
+        {
+          "name": "达特福德过江通道（Dartford Crossing，M25，泰晤士河）",
+          "charge": "每次通行 £3.50（标准小型车，现付）",
+          "when": "每天 06:00–22:00 收费（22:00–06:00 免费），每个方向每次通行分别收费"
+        },
+        {
+          "name": "布莱克沃尔与西尔弗敦隧道（Blackwall & Silvertown Tunnels，伦敦东部）",
+          "charge": "最高 £4.20（高峰 / 标准）",
+          "when": "每周 7 天 06:00–22:00（夜间免费）"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "visit": "到访",
+    "follow": "关注我们",
+    "legal": "法律信息",
+    "terms": "条款与条件",
+    "privacy": "隐私政策",
+    "cookies": "Cookie 与数据使用",
+    "copyright": "© {year} {name}。所示价格为预估价格，并非固定价格。",
+    "backToTop": "返回顶部 ↑"
+  },
+  "header": {
+    "homeAria": "{name} – 首页",
+    "navMain": "主导航",
+    "navMobile": "移动端导航",
+    "nav": {
+      "services": "服务",
+      "fleet": "车队",
+      "hotels": "酒店",
+      "connections": "交通连接",
+      "blog": "博客",
+      "contact": "联系我们"
+    },
+    "signIn": "登录",
+    "myAccount": "我的账户",
+    "signInOrCreate": "登录 / 创建账户",
+    "bookNow": "立即预订",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "chooseLanguage": "选择语言"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "哈克尼马车式出租车 · 卢顿",
+      "line1": "卢顿出租车服务。",
+      "line2": "准时守约，",
+      "line3": "次次如此。",
+      "lead": "提供往返卢顿、希思罗、盖特威克、斯坦斯特德和伦敦城市机场及英国其他所有机场的出租车服务。我们承接各类本地出行、全国长途行程和企业账户。",
+      "note": "仅为预估价格，并非固定价格。请在车上向司机付款。请通过 WhatsApp、电子邮件或电话确认您的报价。"
+    },
+    "marquee": {
+      "label": "为什么选择我们",
+      "items": [
+        "航班监控",
+        "机场接机服务",
+        "轮椅无障碍",
+        "支持刷卡",
+        "LEVC TX e",
+        "Mercedes Vito 114",
+        "Luton · Heathrow · Gatwick · Stansted · London City"
+      ]
+    },
+    "intro": {
+      "eyebrow": "关于我们",
+      "statement": "Luton Connect Taxis 是一家本地出租车运营商，服务涵盖日常本地出行、接送学童、企业账户、全国出行以及机场接送。无论您是前往国内各地，还是飞往海外，我们都会<mark>关注您的航班</mark>，在您降落的地方等候，并<mark>门到门</mark>送您抵达——事先给出清晰的预估价格，电话那头始终有真人为您服务。",
+      "stepsTitle": "预订流程",
+      "getEstimate": "获取预估价"
+    },
+    "steps": {
+      "journey": {
+        "title": "告诉我们您的行程",
+        "text": "输入上车地点、下车地点、日期和时间，即可立即获得预估价格。"
+      },
+      "confirm": {
+        "title": "确认您的报价",
+        "text": "致电、通过 WhatsApp 或发送电子邮件，我们会确认价格和您的预订。"
+      },
+      "ride": {
+        "title": "乘车并付款",
+        "text": "司机将准时到达。请在车上向司机付款。"
+      }
+    },
+    "services": {
+      "eyebrow": "我们覆盖的行程",
+      "eyebrowMore": "更多服务",
+      "title": "去哪儿？",
+      "titleMore": "还有更多。",
+      "sub": "机场接送、婚礼用车、包裹递送、本地出行、全国行程和企业账户——均可通过 WhatsApp、电话或电子邮件报价。"
+    },
+    "fleet": {
+      "eyebrow": "我们的车队",
+      "titleLine1": "我们的经典伦敦专用出租车。",
+      "titleLine2": "始终如一的卓越标准。",
+      "bookThis": "预订此车型",
+      "seeFull": "查看完整车队",
+      "items": {
+        "levc": {
+          "kicker": "伦敦出租车",
+          "text": "专为伦敦打造的纯电动出租车。无台阶坡道上下车，行李空间宽裕，乘坐安静舒适。",
+          "specs": [
+            {
+              "term": "最适合",
+              "desc": "市内出行、机场接送、轮椅乘客"
+            },
+            {
+              "term": "无障碍",
+              "desc": "轮椅可通行"
+            },
+            {
+              "term": "付款",
+              "desc": "车上可刷卡"
+            }
+          ]
+        },
+        "vito": {
+          "kicker": "团体出行之选",
+          "text": "为较大团体和较多行李提供更宽敞的空间，同时兼具梅赛德斯的舒适与精致。",
+          "specs": [
+            {
+              "term": "最适合",
+              "desc": "5–6 人团体、家庭出行、行李较多"
+            },
+            {
+              "term": "行李",
+              "desc": "预订时请告知额外行李"
+            },
+            {
+              "term": "付款",
+              "desc": "车上可刷卡"
+            }
+          ]
+        }
+      }
+    },
+    "experience": {
+      "eyebrow": "Luton Connect 的与众不同",
+      "titleLine1": "细节用心。",
+      "titleLine2": "体验不同。"
+    },
+    "features": {
+      "tracking": {
+        "title": "航班追踪",
+        "text": "我们会监控您的航班动态，如航班提前或延误抵达，将相应调整接送时间。"
+      },
+      "greet": {
+        "title": "接机服务",
+        "text": "您抵达时司机已在等候，无需四处寻找出租车候车点。"
+      },
+      "access": {
+        "title": "轮椅无障碍",
+        "text": "无台阶坡道的无障碍出租车。"
+      },
+      "card": {
+        "title": "支持刷卡",
+        "text": "在车上刷卡向司机付款。简单明了，没有意外。"
+      },
+      "corporate": {
+        "title": "企业账户",
+        "text": "欢迎洽谈贵公司的企业账户：为员工和来访客人安排定期出行，由唯一联系人统一对接。"
+      },
+      "executive": {
+        "title": "行政出行",
+        "text": "为董事、客户和重要会议提供体面而准时的出行服务。"
+      },
+      "business": {
+        "title": "商务出行",
+        "text": "为商务行程和机场接驳提供可靠舒适的出行服务，并留有充足的行李空间。"
+      }
+    },
+    "hotels": {
+      "eyebrow": "酒店与住宿",
+      "titleLine1": "酒店接送，",
+      "titleLine2": "轻松搞定。",
+      "previous": "上一组酒店",
+      "next": "下一组酒店",
+      "scrollerLabel": "酒店接送区域",
+      "items": {
+        "holidayInn": {
+          "desc": "门到门接送，白天夜晚均可。"
+        },
+        "travelodge": {
+          "desc": "从酒店门口到您的目的地，快捷舒适。"
+        },
+        "chiltern": {
+          "desc": "深受游客和商务旅客青睐，我们准时送您抵达。"
+        },
+        "stockwood": {
+          "desc": "门到门服务，行李空间充足。"
+        },
+        "linton": {
+          "desc": "短住或早班出行，接送轻松省心。"
+        },
+        "lutonHoo": {
+          "desc": "气派的乡间庄园，从卢顿出发，行程从容舒适。"
+        },
+        "cityHotel": {
+          "desc": "短住、会议或深夜抵达，接送可靠。"
+        },
+        "thistleExpress": {
+          "desc": "司机在酒店门口等您，白天夜晚均可。"
+        }
+      },
+      "fareRoute": "卢顿至 {hotel}",
+      "fareFrom": "{price} 起",
+      "faresNote": "仅供参考价格，并非固定价格。请通过电话、WhatsApp 或电子邮件确认您的报价。",
+      "flipHint": "查看价格与详情"
+    },
+    "connections": {
+      "eyebrow": "无缝衔接您的行程",
+      "title": "每一程，环环相扣。",
+      "taxi": "出租车",
+      "items": {
+        "train": {
+          "title": "火车",
+          "text": "Luton Airport Parkway · Luton station · Luton DART"
+        },
+        "plane": {
+          "title": "飞机",
+          "text": "往返 Luton、Heathrow、Gatwick、Stansted 和 London City 机场，并提供航班追踪"
+        },
+        "bus": {
+          "title": "巴士",
+          "text": "卢顿巴士站和长途汽车接驳，单程或往返均可"
+        },
+        "shopping": {
+          "title": "购物",
+          "text": "市中心、The Mall 及零售园区，行李空间宽裕，满载而归也不愁"
+        }
+      }
+    },
+    "reviews": {
+      "quote": "乘客的真实评价将展示在这里。",
+      "tag": "占位内容",
+      "note": "请添加来自您的 Google 商家资料的真实评价，或发送给我们——我们绝不会编造客户评价。"
+    },
+    "ctaBand": {
+      "watermark": "Connect",
+      "titleLine1": "需要出租车？",
+      "titleLine2": "立即致电或留言。"
+    }
+  },
+  "images": {
+    "hero": "日落时分停机坪上的一架飞机",
+    "taxi": "伦敦街头的一辆黑色哈克尼马车式出租车",
+    "vito": "停在室外的一辆白色梅赛德斯",
+    "nightCab": "夜晚伦敦的一辆出租车",
+    "heathrow": "机场里的一架飞机",
+    "gatwick": "停靠在登机桥旁的一架飞机",
+    "stansted": "机场里带着行李的旅客",
+    "londonCity": "夜晚的伦敦塔桥",
+    "london": "伦敦塔桥上车流的长曝光照片",
+    "luton": "一名男子走过现代化的机场航站楼",
+    "wedding": "一对新人站在汽车旁",
+    "courier": "一名男子在货车里递送包裹",
+    "motorway": "日落时分一辆汽车行驶在穿过乡村的公路上",
+    "business": "一位商务人士在车内查看文件",
+    "luggage": "一位身着西装的男士正把行李箱放进汽车后备箱",
+    "hotelAirport": "夜晚的酒店外观",
+    "hotelTown": "一座气派的酒店建筑外观",
+    "hotelBusiness": "酒店大堂",
+    "hotelBoutique": "宽敞豪华的酒店大堂",
+    "hotelLate": "夜晚的现代化酒店综合楼"
+  },
+  "legal": {
+    "cookies": {
+      "title": "Cookie 与数据使用",
+      "lead": "本页面说明 lutonconnecttaxis.com 网站所使用的 Cookie 及类似技术，以及您如何对其进行控制。",
+      "notice": "草拟文本。待预订、账户及分析功能启用后将予以定稿。",
+      "blocks": [
+        {
+          "h": "什么是 Cookie？",
+          "p": [
+            "Cookie 是您访问网站时存储在您设备上的小型文本文件。本地存储等类似技术的运作方式相同。我们以“Cookie”一词统称上述所有技术。"
+          ]
+        },
+        {
+          "h": "我们如何使用 Cookie",
+          "p": [
+            "我们尽量减少 Cookie 的使用。Cookie 分为以下两类："
+          ],
+          "ul": [
+            "必要 Cookie——网站运行及记住您的 Cookie 选择所必需，始终开启。这类 Cookie 还用于安全保障（例如垃圾信息防护），以及（仅当您登录账户时）保持您的登录状态（三个名为 lct_id、lct_rt 和 lct_in 的小型 Cookie，将在您退出登录时或 30 天后删除）。一个名为 lct_lang 的小型偏好 Cookie 用于记住您选择的语言（保存 12 个月，且仅在您通过语言菜单选择语言时设置）。",
+            "分析 Cookie——帮助我们了解网站的使用情况，以便改进网站。除非您接受，否则这类 Cookie 保持关闭。"
+          ]
+        },
+        {
+          "h": "您的选择",
+          "p": [
+            "您首次访问时，可以接受全部 Cookie、拒绝所有非必要 Cookie，或选择允许哪些 Cookie。您可随时通过每个页面底部的“Cookie 设置”更改您的选择。",
+            "您也可以在浏览器设置中阻止或删除 Cookie。如此操作，网站的某些部分可能无法正常使用。"
+          ]
+        },
+        {
+          "h": "可能设置 Cookie 的服务",
+          "p": [
+            "当以下功能启用时，其背后的公司可能会设置其自有的 Cookie。这些数据适用其各自的政策："
+          ],
+          "ul": [
+            "Google Maps——预订表单中的地址建议和距离计算",
+            "Google reCAPTCHA——保护我们的表单免受垃圾信息侵扰",
+            "Google Analytics——仅在您接受分析类 Cookie 时使用",
+            "Firebase——客户登录和预订历史记录"
+          ]
+        },
+        {
+          "h": "您的选择保存多久",
+          "p": [
+            "我们会记住您的 Cookie 选择 12 个月，之后将再次询问您。"
+          ]
+        },
+        {
+          "h": "联系方式",
+          "p": [
+            "对 Cookie 或您的数据有疑问？请与我们联系："
+          ]
+        }
+      ]
+    },
+    "eyebrow": "法律信息",
+    "labels": {
+      "telephone": "电话：",
+      "email": "电子邮箱："
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "lead": "Luton Connect Taxis 致力于保护您的隐私，并确保您的个人信息得到安全、负责任的处理。本隐私政策说明当您使用我们的网站或预订我们的服务时，我们如何收集、使用、存储和保护您的个人信息。",
+      "notice": "草拟文本。涵盖我们网站工具及车内付款安排的修订版隐私政策正在拟订中，并将取代本文本。",
+      "blocks": [
+        {
+          "h": "我们是谁"
+        },
+        {
+          "h": "我们收集的信息",
+          "p": [
+            "当您联系我们或进行预订时，我们可能会收集："
+          ],
+          "ul": [
+            "全名",
+            "电子邮箱地址",
+            "电话号码",
+            "上车地址和目的地地址",
+            "航班信息（如适用）",
+            "预订详情",
+            "付款信息（如适用，通过我们的支付服务提供商安全处理）",
+            "IP 地址",
+            "浏览器信息"
+          ]
+        },
+        {
+          "h": "我们如何使用您的信息",
+          "p": [
+            "我们使用您的信息用于："
+          ],
+          "ul": [
+            "处理和管理预订",
+            "就您的预订与您联系",
+            "回复咨询",
+            "改进我们的服务",
+            "防范欺诈",
+            "履行法律义务"
+          ],
+          "after": [
+            "我们绝不会向第三方出售您的个人信息。"
+          ]
+        },
+        {
+          "h": "Cookie",
+          "p": [
+            "我们的网站使用 Cookie 来改善您的浏览体验。Cookie 可帮助我们："
+          ],
+          "ul": [
+            "分析网站流量",
+            "提升网站性能",
+            "记住您的偏好设置"
+          ],
+          "after": [
+            "您可以通过浏览器设置或我们的 Cookie 同意横幅来管理或禁用 Cookie。详情请参阅我们的“Cookie 与数据使用”页面。"
+          ]
+        },
+        {
+          "h": "数据安全",
+          "p": [
+            "我们采取适当的技术和组织措施，保护您的个人信息免遭未经授权的访问、丢失或滥用。我们的网站采用 SSL 加密（HTTPS）保护。"
+          ]
+        },
+        {
+          "h": "我们保留您信息的期限",
+          "p": [
+            "我们仅在以下必要期限内保留个人信息："
+          ],
+          "ul": [
+            "完成您的预订",
+            "履行法律义务",
+            "解决争议",
+            "改进我们的服务"
+          ]
+        },
+        {
+          "h": "信息共享",
+          "p": [
+            "我们仅在必要时，才可能与以下各方共享您的信息："
+          ],
+          "ul": [
+            "支付服务提供商",
+            "信息技术服务提供商",
+            "法律要求时的法律主管机关"
+          ],
+          "after": [
+            "我们绝不会出售您的个人信息。"
+          ]
+        },
+        {
+          "h": "您的权利",
+          "p": [
+            "根据 UK GDPR，您有权："
+          ],
+          "ul": [
+            "访问您的个人信息",
+            "更正不准确的信息",
+            "要求删除您的信息",
+            "限制处理",
+            "反对处理",
+            "要求数据可携带"
+          ],
+          "after": [
+            "如需行使上述任何权利，请与我们联系。"
+          ]
+        },
+        {
+          "h": "联系我们"
+        }
+      ]
+    },
+    "terms": {
+      "title": "条款与条件",
+      "lead": "欢迎使用 Luton Connect Taxis。使用我们的网站或预订我们的服务，即表示您同意以下条款与条件。",
+      "notice": "草拟文本。等候时间和取消费用的具体数额仍有待 Luton Connect Taxis 确认。",
+      "blocks": [
+        {
+          "h": "预订",
+          "p": [
+            "所有预订均视车辆供应情况而定。",
+            "客户有责任提供准确的预订信息，包括："
+          ],
+          "ul": [
+            "上车地址",
+            "目的地",
+            "日期和时间",
+            "联系方式",
+            "航班信息（如适用）"
+          ],
+          "after": [
+            "信息有误可能导致延误或产生额外费用。"
+          ]
+        },
+        {
+          "h": "价格",
+          "p": [
+            "所有报价均有待确认。",
+            "下列情形可能产生额外费用："
+          ],
+          "ul": [
+            "等候时间",
+            "增加上车点",
+            "更改预订",
+            "乘客造成的车辆损坏"
+          ]
+        },
+        {
+          "h": "机场接送",
+          "p": [
+            "机场接机方面："
+          ],
+          "ul": [
+            "如已提供航班信息，我们将监控到港航班。",
+            "如航班延误，司机将尽合理努力调整接机时间。"
+          ]
+        },
+        {
+          "h": "等候时间",
+          "p": [
+            "机场接机可能包含一段免费等候时间。",
+            "免费等候时间届满后，可能对额外的等候时间收费。"
+          ]
+        },
+        {
+          "h": "取消",
+          "p": [
+            "在约定上车时间之前取消的预订，视具体情况可能有资格获得退款。",
+            "迟延取消或未到达上车地点，可能产生取消费用。"
+          ]
+        },
+        {
+          "h": "乘客责任",
+          "p": [
+            "乘客必须："
+          ],
+          "ul": [
+            "在法律要求时系好安全带。",
+            "爱护车辆。",
+            "避免做出可能危及司机或其他乘客的行为。",
+            "对行程中造成的任何损坏承担责任。"
+          ]
+        },
+        {
+          "h": "行李",
+          "p": [
+            "乘客有责任确保所选车辆适合其行李需求。",
+            "额外行李应在预订时申报。"
+          ]
+        },
+        {
+          "h": "失物",
+          "p": [
+            "遗留在我们车辆内的物品将尽可能予以保管。",
+            "领取或寄还安排可能产生费用。"
+          ]
+        },
+        {
+          "h": "网站使用",
+          "p": [
+            "尽管我们竭力确保网站准确且可用，但我们不保证网站始终不会出现中断或错误。"
+          ]
+        },
+        {
+          "h": "责任限制",
+          "p": [
+            "对于因我们合理控制范围之外的情形造成的延误或未能履约，Luton Connect Taxis 不承担责任，包括但不限于："
+          ],
+          "ul": [
+            "严重交通拥堵",
+            "道路封闭",
+            "天气状况",
+            "交通事故",
+            "公共活动"
+          ],
+          "after": [
+            "在法律允许的范围内，我们的责任以该预订已支付的金额为限。"
+          ]
+        },
+        {
+          "h": "隐私",
+          "p": [
+            "您对本网站的使用同时受我们的隐私政策约束。"
+          ]
+        },
+        {
+          "h": "变更",
+          "p": [
+            "我们保留随时更新本条款与条件的权利。"
+          ]
+        },
+        {
+          "h": "适用法律",
+          "p": [
+            "本条款与条件受英格兰和威尔士法律管辖。"
+          ]
+        },
+        {
+          "h": "联系方式"
+        }
+      ]
+    },
+    "translationNotice": "本译文仅供参考。如与英文版本存在任何差异，以英文版本为准，具有法律约束力。"
+  },
+  "meta": {
+    "tagline": "机场接送、本地出行及长途出行出租车服务",
+    "description": "Luton Connect Taxis – 提供往返卢顿、希思罗、盖特威克、斯坦斯特德、伦敦城市机场及英国各大机场的出租车服务。本地出行、长途行程及企业账户。请致电 01582 353158。"
+  },
+  "mobileBar": {
+    "label": "联系我们",
+    "call": "致电",
+    "whatsapp": "WhatsApp"
+  },
+  "notFound": {
+    "eyebrow": "错误 404",
+    "title": "走错路了。",
+    "titleAccent": "让我们带您回到正轨。",
+    "lead": "该页面不存在，但我们依然可以送您前往目的地。",
+    "home": "返回首页",
+    "contact": "联系我们"
+  },
+  "pages": {
+    "fleet": {
+      "metaTitle": "我们的车队",
+      "metaDescription": "我们的经典伦敦专用出租车：纯电动 LEVC TX e 与宽敞的 Mercedes Vito 114。始终如一的卓越标准。",
+      "eyebrow": "Luton Connect Taxis · 车队",
+      "title": "我们的车队。",
+      "lead": "我们的经典伦敦专用出租车，提供两种车型。始终如一的卓越标准。",
+      "whichEyebrow": "选哪一款？",
+      "whichTitleLine": "挑选最合适的",
+      "whichTitleAccent": "车型。",
+      "compare": [
+        {
+          "label": "最适合",
+          "levc": "市内出行、机场接送、轮椅乘客",
+          "vito": "5–6 人团体、家庭出行、行李较多"
+        },
+        {
+          "label": "无障碍",
+          "levc": "配备无台阶坡道，轮椅可通行",
+          "vito": "预订时请向我们咨询"
+        },
+        {
+          "label": "行李",
+          "levc": "行李空间宽裕",
+          "vito": "空间更大——预订时请告知额外行李"
+        },
+        {
+          "label": "付款",
+          "levc": "车上可刷卡",
+          "vito": "车上可刷卡"
+        }
+      ],
+      "whichNote": "拿不定主意？请告诉我们乘客人数和行李数量，我们将为您推荐合适的车型。",
+      "everyEyebrow": "每一趟行程",
+      "every": [
+        {
+          "title": "航班监控",
+          "text": "我们会关注您的航班动态，如航班提前或延误抵达，将相应调整接送时间。"
+        },
+        {
+          "title": "接机服务",
+          "text": "您抵达时司机已在等候——无需四处寻找出租车候车点。"
+        },
+        {
+          "title": "车上付款",
+          "text": "无需在线支付。直接向司机付款，也可刷卡。"
+        },
+        {
+          "title": "电话那头是真人",
+          "text": "致电、通过 WhatsApp 或发送电子邮件，我们都会为您确认价格和预订。"
+        }
+      ]
+    },
+    "blog": {
+      "metaTitle": "博客",
+      "metaDescription": "来自 Luton Connect Taxis 的资讯、出行贴士和本地指南——敬请期待。",
+      "eyebrow": "Luton Connect Taxis · 博客",
+      "title": "博客——即将上线。",
+      "lead": "来自 Luton Connect Taxis 的出行贴士、机场指南和最新资讯即将与您见面。"
+    },
+    "contact": {
+      "metaTitle": "联系我们",
+      "metaDescription": "致电、通过 WhatsApp 或发送电子邮件联系 Luton Connect Taxis，确认报价或预订行程。{phone} · {email}。",
+      "eyebrow": "Luton Connect Taxis · 联系我们",
+      "title": "与真人沟通。",
+      "lead": "致电、通过 WhatsApp、发送电子邮件或给我们留言，即可获取报价、确认预订或咨询任何问题。",
+      "getInTouch": "联系方式",
+      "callUs": "致电我们",
+      "emailLabel": "电子邮箱",
+      "note": "在线预估价格并非固定价格。请通过 WhatsApp、电子邮件或电话联系我们，确认您的报价和预订。",
+      "visit": "到访",
+      "openMaps": "在 Google 地图中打开",
+      "follow": "关注我们",
+      "messageEyebrow": "给我们留言",
+      "messageTitle": "更喜欢书面沟通？<mark>我们会回复您。</mark>",
+      "messageLead": "您可以咨询报价、介绍您的行程，或了解企业账户。您的留言将直接发送至我们团队的邮箱 {email}，我们会通过电子邮件或电话回复您。"
+    }
+  },
+  "quote": {
+    "ariaLabel": "获取出租车预估价格",
+    "pickup": "上车地点",
+    "pickupPlaceholder": "地址、酒店、车站…",
+    "dropoff": "下车地点",
+    "dropoffPlaceholder": "机场、地址…",
+    "date": "日期",
+    "time": "时间",
+    "people": "人数",
+    "getEstimate": "获取预估价",
+    "wantReturn": "我还需要返程",
+    "returnDate": "返程日期",
+    "returnTime": "返程时间",
+    "cta": {
+      "title": "对预估价格满意吗？",
+      "text": "请向我们发送预订请求。我们将通过 WhatsApp、电话或电子邮件向您确认，您只需在车上向司机付款。",
+      "request": "预订此车",
+      "whatsapp": "WhatsApp 咨询",
+      "call": "致电 {phone}"
+    },
+    "details": {
+      "title": "您的信息",
+      "signedIn": "以 <strong>{email}</strong> 预订——预订将保存至{link}。",
+      "signedInLink": "您的账户",
+      "guest": "已有账户？{link}即可保存您的预订并省去重复填写。我们同样欢迎访客预订。",
+      "guestLink": "登录",
+      "name": "姓名",
+      "email": "电子邮箱",
+      "phone": "电话 / WhatsApp",
+      "honeypot": "请将此栏留空"
+    },
+    "more": {
+      "summary": "更多详情（选填）——车型、行李、儿童座椅、航班、备注",
+      "vehicle": "车型",
+      "luggage": "行李",
+      "childSeats": "儿童座椅",
+      "flightNumber": "航班号",
+      "flightPlaceholder": "例如 BA123",
+      "notes": "备注",
+      "notesPlaceholder": "轮椅通行、第二个上车点、会合地点…"
+    },
+    "vehicles": {
+      "noPreference": "不限"
+    },
+    "luggageOptions": {
+      "none": "无行李",
+      "bags12": "1–2 件",
+      "bags34": "3–4 件",
+      "bags5": "5 件或以上（请在备注中告知）"
+    },
+    "terms": "我同意{terms}和{privacy}。",
+    "termsLink": "条款与条件",
+    "privacyLink": "隐私政策",
+    "sending": "正在发送…",
+    "send": "发送预订请求",
+    "back": "返回",
+    "fine": "这是一份预订<strong>请求</strong>。我们将通过 WhatsApp、电话或电子邮件向您确认，您只需在车上向司机付款。预估价格并非固定价格。",
+    "noscript": "获取预估价格需要启用 JavaScript。请致电 {phone} 或通过 WhatsApp 联系我们获取报价。",
+    "whatsapp": {
+      "default": "您好，我想预订一辆出租车。",
+      "journeyOne": "您好，我想预订一辆出租车，从 {pickup} 到 {dropoff}，时间为 {date} {time}，共 {count} 人。",
+      "journeyOther": "您好，我想预订一辆出租车，从 {pickup} 到 {dropoff}，时间为 {date} {time}，共 {count} 人。",
+      "estimate": "网站预估价格为 £{total}。"
+    },
+    "place": {
+      "noKey": "地址建议功能已关闭。请致电或通过 WhatsApp 联系我们预订。",
+      "failed": "暂时无法加载地址建议。请重试，或致电我们预订。",
+      "noMatches": "没有匹配结果。请尝试输入邮政编码、酒店、车站或机场名称。",
+      "poweredBy": "由 Google 提供支持",
+      "suggestionsAvailable": "有 {count} 条建议可选"
+    }
+  },
+  "services": {
+    "items": {
+      "airport-transfers": {
+        "name": "机场接送",
+        "meta": "Luton、Heathrow、Gatwick、Stansted、London City 及英国所有机场",
+        "title": "机场接送。",
+        "lead": "往返 Luton、Heathrow、Gatwick、Stansted 和 London City 机场的出租车服务，同时覆盖英国所有其他机场。",
+        "statement": "无论您从哪里起飞或抵达，我们都会关注您的航班，在您降落的地方等候，并门到门送您抵达。",
+        "includes": [
+          "英国各机场均可接送",
+          "航班监控，航班提前或延误抵达时我们会相应调整",
+          "您抵达时提供接机服务",
+          "行李空间充足，另有配备无台阶坡道的轮椅无障碍出租车",
+          "5–6 人团体可选 Mercedes Vito 114"
+        ],
+        "faqs": [
+          {
+            "q": "你们会追踪我的航班吗？",
+            "a": "会的。预订时请提供您的航班号，我们会持续关注航班动态，确保您降落时司机已在等候。"
+          },
+          {
+            "q": "费用是多少？",
+            "a": "我们的在线预估价格根据距离、时段和任何机场费用计算。这只是预估价格，并非固定价格——请通过电话、WhatsApp 或电子邮件联系我们，确认您的报价。"
+          },
+          {
+            "q": "可以在车上付款吗？",
+            "a": "可以。您只需在车上向司机付款，我们也接受刷卡支付。"
+          }
+        ]
+      },
+      "wedding-transfers": {
+        "name": "婚礼用车",
+        "meta": "新人、亲友及宾客",
+        "title": "婚礼用车。",
+        "lead": "让您在大喜之日从容、准时地抵达。我们为您、您的家人和宾客安排好每一程出行。",
+        "statement": "婚礼当天一切按时间表进行，我们确保出行也同样准时。",
+        "includes": [
+          "为新人、家人和婚礼宾客提供交通",
+          "从家中、酒店或场地接送至仪式和宴会现场",
+          "为需要无台阶通行的宾客提供轮椅无障碍出租车",
+          "5–6 人团体可选 Mercedes Vito 114",
+          "提前与您共同规划时间安排"
+        ],
+        "faqs": [
+          {
+            "q": "应该提前多久预订？",
+            "a": "越早越好。请致电、通过 WhatsApp 或发送电子邮件告知您的日期、场地和时间安排，我们会确认可以提供的服务。"
+          },
+          {
+            "q": "你们能接送人数较多的婚礼团队吗？",
+            "a": "我们的 Mercedes Vito 114 可载 5–6 人。如果人数更多，请与我们联系，我们会与您一起商讨可行的方案。"
+          },
+          {
+            "q": "如何获得报价？",
+            "a": "我们的在线预估价格根据距离、时段和任何机场费用计算。这只是预估价格，并非固定价格——请通过电话、WhatsApp 或电子邮件联系我们，确认您的报价。"
+          }
+        ]
+      },
+      "courier-services": {
+        "name": "快递跑腿",
+        "meta": "文件与包裹，门到门",
+        "title": "快递跑腿服务。",
+        "lead": "文件、包裹和加急物品由出租车上门取件、送货上门。",
+        "statement": "当物品必须亲自送达时，请交给我们。",
+        "includes": [
+          "文件和包裹上门取件、送货上门",
+          "从取件地到送达地直达",
+          "加急和当日送达需求，视车辆情况而定",
+          "本地跑腿和长途送货",
+          "车内空间可容纳较大物品"
+        ],
+        "faqs": [
+          {
+            "q": "我可以寄送什么？",
+            "a": "文件、包裹以及其他能够舒适放入车内的物品。请告诉我们物品是什么、大约多大以及要送往何处，我们会确认能否承运。"
+          },
+          {
+            "q": "可以当天送达吗？",
+            "a": "通常可以，视车辆情况而定。请致电或通过 WhatsApp 留言向我们确认。"
+          },
+          {
+            "q": "如何获得报价？",
+            "a": "我们的在线预估价格根据距离、时段和任何机场费用计算。这只是预估价格，并非固定价格——请通过电话、WhatsApp 或电子邮件联系我们，确认您的报价。"
+          }
+        ]
+      },
+      "local-trips": {
+        "name": "本地出行",
+        "meta": "卢顿及周边城镇、接送学童",
+        "title": "本地出行。",
+        "lead": "往返卢顿及周边地区的日常出行，从接送孩子上学到去超市购物。",
+        "statement": "熟悉这座城镇的出租车，随时为您待命。",
+        "includes": [
+          "购物、就诊、夜晚外出和日间游玩",
+          "接送学童",
+          "从家中、工作地点、酒店或车站接送",
+          "接驳 Luton Airport Parkway、Luton station 和 Luton DART",
+          "配备无台阶坡道的轮椅无障碍出租车"
+        ],
+        "faqs": [
+          {
+            "q": "可以预订定期出行吗？",
+            "a": "可以。请告知我们日期、时间和地址，我们会为您安排。"
+          },
+          {
+            "q": "有夜间价格吗？",
+            "a": "有。晚上 11 点至早上 6 点之间适用较高的夜间价格，我们的预估价格已将其计算在内。"
+          },
+          {
+            "q": "如何获得报价？",
+            "a": "我们的在线预估价格根据距离、时段和任何机场费用计算。这只是预估价格，并非固定价格——请通过电话、WhatsApp 或电子邮件联系我们，确认您的报价。"
+          }
+        ]
+      },
+      "long-distance-national-journeys": {
+        "name": "长途出行",
+        "meta": "全国各地，门到门",
+        "title": "全国长途出行。",
+        "lead": "舒适的门到门出行服务，可前往英国任何地方。",
+        "statement": "无论是跨郡还是横跨全国，旅途都应该轻松惬意。",
+        "includes": [
+          "英国境内任何地方，门到门",
+          "座椅舒适，行李空间充足",
+          "从家中、酒店或工作地点接送",
+          "单程和往返均可",
+          "事先给出清晰的预估价格，并由真人确认"
+        ],
+        "faqs": [
+          {
+            "q": "可以安排往返行程吗？",
+            "a": "可以。预订时告诉我们，我们会将其计入您的报价。"
+          },
+          {
+            "q": "最多可以乘坐几人？",
+            "a": "最多六人。5–6 位乘客并带有行李时，Mercedes Vito 114 是最合适的选择。"
+          },
+          {
+            "q": "如何获得报价？",
+            "a": "我们的在线预估价格根据距离、时段和任何机场费用计算。这只是预估价格，并非固定价格——请通过电话、WhatsApp 或电子邮件联系我们，确认您的报价。"
+          }
+        ]
+      },
+      "corporate-accounts": {
+        "name": "企业账户",
+        "meta": "员工、客户及来访人员",
+        "title": "企业账户。",
+        "lead": "贵公司可靠的出租车合作伙伴：员工出行、客户接送和机场往返，统一由唯一联系人安排。",
+        "statement": "商务出行越简单越好，我们始终如此。",
+        "includes": [
+          "员工和客户的定期出行",
+          "来访人员和与会代表的机场接送",
+          "行政及商务级出行",
+          "提前预订和重复性行程",
+          "唯一联系人——致电、WhatsApp 或发送电子邮件均可"
+        ],
+        "faqs": [
+          {
+            "q": "如何开通账户？",
+            "a": "请致电、通过 WhatsApp 或发送电子邮件，告知公司名称和所需的出行类型，其余的交给我们。"
+          },
+          {
+            "q": "你们能负责来访人员的机场接送吗？",
+            "a": "可以。我们覆盖 Luton、Heathrow、Gatwick、Stansted、London City 及英国所有其他机场。"
+          },
+          {
+            "q": "如何安排付款？",
+            "a": "请告诉我们贵公司希望的付款方式，我们会与您商定具体细节。"
+          }
+        ]
+      },
+      "other-journeys": {
+        "name": "其他出行",
+        "meta": "告诉我们您要去哪里",
+        "title": "其他出行。",
+        "lead": "日间游玩、活动、夜晚外出、就诊预约以及其他各类出行。",
+        "statement": "即使您的行程不在列表中，我们多半也能为您服务。",
+        "includes": [
+          "活动、夜晚外出和日间游玩",
+          "就诊预约和车站接送",
+          "最多六人的团体出行",
+          "配备无台阶坡道的轮椅无障碍出租车",
+          "此处未列出的任何行程——欢迎随时询问"
+        ],
+        "faqs": [
+          {
+            "q": "我的行程不在列表中，你们能帮忙吗？",
+            "a": "很可能可以。请致电、通过 WhatsApp 或发送电子邮件告知详情，我们会及时回复您。"
+          },
+          {
+            "q": "如何获得报价？",
+            "a": "我们的在线预估价格根据距离、时段和任何机场费用计算。这只是预估价格，并非固定价格——请通过电话、WhatsApp 或电子邮件联系我们，确认您的报价。"
+          }
+        ]
+      }
+    },
+    "page": {
+      "eyebrow": "Luton Connect Taxis · 服务",
+      "nutshell": "一目了然",
+      "getEstimate": "获取预估价",
+      "included": "包含内容",
+      "faqEyebrow": "温馨提示",
+      "faqTitle": "常见问题解答。",
+      "howEyebrow": "预订流程",
+      "steps": [
+        {
+          "title": "告诉我们您的行程",
+          "text": "输入上车地点、下车地点、日期和时间，即可立即获得预估价格。"
+        },
+        {
+          "title": "确认您的报价",
+          "text": "致电、通过 WhatsApp 或发送电子邮件，我们会确认价格和您的预订。"
+        },
+        {
+          "title": "乘车并付款",
+          "text": "司机将准时到达。请在车上向司机付款。"
+        }
+      ],
+      "metaDescription": "{lead} Luton Connect Taxis – 请致电 {phone}。"
+    }
+  },
+  "validation": {
+    "contact": {
+      "name": "请告诉我们您的姓名。",
+      "nameTooLong": "姓名过长。",
+      "email": "请输入您的电子邮箱地址。",
+      "emailInvalid": "该电子邮箱地址似乎不正确。",
+      "phone": "该电话号码似乎不正确。",
+      "topic": "请选择您的留言事项。",
+      "message": "请填写您的留言。",
+      "messageShort": "请再补充一些详细信息。",
+      "messageLong": "请将留言控制在 {max} 个字符以内。"
+    },
+    "booking": {
+      "nameMissing": "请告诉我们您的姓名。",
+      "nameTooLong": "姓名过长。",
+      "emailMissing": "请输入您的电子邮箱地址。",
+      "emailInvalid": "该电子邮箱地址似乎不正确。",
+      "phoneMissing": "请输入我们可以联系到您的电话号码。",
+      "childSeats": "儿童座椅数量请选择 0 至 {max} 个。",
+      "flightNumber": "航班号格式类似 BA123 或 U2 4567。",
+      "notesTooLong": "请将备注控制在 {max} 个字符以内。",
+      "termsNotAccepted": "请勾选复选框，表示同意条款与隐私政策。"
+    },
+    "journey": {
+      "pickupMissing": "请从建议列表中选择上车地点。",
+      "dropoffMissing": "请从建议列表中选择下车地点。",
+      "samePlace": "上车地点和下车地点不能相同。",
+      "dateMissing": "请选择上车日期。",
+      "timeMissing": "请选择上车时间。",
+      "timePassed": "该时间已经过去。",
+      "timeTooSoon": "一小时内的接送，请致电我们。",
+      "dateTooFar": "该日期过于遥远——请致电我们。",
+      "passengersMissing": "请选择出行人数。",
+      "passengersTooMany": "超过 {max} 人的出行，请致电我们获取报价。",
+      "returnDateMissing": "请选择返程日期。",
+      "returnTimeMissing": "请选择返程时间。",
+      "returnBeforeOutbound": "返程时间必须晚于去程的上车时间。"
+    },
+    "fields": {
+      "phoneInvalid": "该电话号码似乎不正确。"
+    },
+    "quote": {
+      "tooFar": "这是一趟长途行程——请致电或通过 WhatsApp 联系我们获取报价。",
+      "tooManyPassengers": "超过 {max} 位乘客的出行，请致电我们获取报价。",
+      "invalidInput": "部分行程信息缺失或无效。"
+    },
+    "api": {
+      "noRoute": "我们找不到这两个地点之间的行车路线。请检查地点是否正确，或致电我们。",
+      "mapsUnavailable": "我们暂时无法计算预估价格。请致电 {phone} 或通过 WhatsApp 联系我们获取报价。",
+      "quoteRateLimited": "您在短时间内查询了过多报价。请等待几分钟后再试，或致电我们。",
+      "callForQuote": "请致电我们获取报价。",
+      "quoteFailed": "我们无法计算预估价格。请重试，或致电我们获取报价。",
+      "bookingRateLimited": "您在短时间内发送了多个请求。请等待几分钟后再试，或致电或通过 WhatsApp 联系我们。",
+      "tooFast": "操作太快了——请检查您的资料后再次点击发送。",
+      "captchaFailed": "我们无法验证您是真人。请重试，或致电 {phone}。",
+      "storageUnavailable": "我们暂时无法保存您的请求。请致电 {phone} 或通过 WhatsApp 联系我们预订。",
+      "bookingFailed": "我们暂时无法发送您的请求。请重试，或致电 {phone}。",
+      "network": "无法连接到服务器。请检查您的网络连接，或致电 {phone}。",
+      "estimateUnavailable": "预订时距离查询服务不可用"
+    },
+    "account": {
+      "emailRequired": "请输入您的电子邮箱地址。",
+      "emailInvalid": "该电子邮箱地址似乎不正确。",
+      "nameRequired": "请告诉我们您的姓名。",
+      "nameTooLong": "姓名过长。",
+      "passwordRequired": "请设置密码。",
+      "passwordTooShort": "请至少使用 {min} 个字符。",
+      "passwordTooLong": "密码过长。",
+      "termsRequired": "请勾选复选框，表示同意条款与隐私政策。",
+      "passwordEnter": "请输入您的密码。",
+      "passwordConfirm": "请输入您的密码以确认。"
+    },
+    "auth": {
+      "weakPassword": "请设置更强的密码——至少 8 个字符。"
+    }
+  }
+}

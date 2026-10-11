@@ -1,0 +1,1302 @@
+{
+  "account": {
+    "page": {
+      "metaTitle": "Contul meu",
+      "metaDescription": "Autentificați-vă pentru a vedea rezervările dumneavoastră Luton Connect Taxis și pentru a ne păstra datele pentru data viitoare.",
+      "eyebrow": "Luton Connect Taxis · Cont",
+      "title": "Rezervările dumneavoastră, într-un singur loc.",
+      "lead": "Autentificați-vă pentru a vă vedea rezervările și pentru ca datele dumneavoastră să fie completate automat data viitoare. Puteți rezerva și ca invitat, fără cont.",
+      "sectionLabel": "Cont"
+    },
+    "loading": {
+      "checking": "Se verifică contul dumneavoastră…"
+    },
+    "tabs": {
+      "label": "Opțiuni cont",
+      "signin": "Autentificare",
+      "register": "Creare cont"
+    },
+    "guestNote": "Nu aveți nevoie de cont pentru a rezerva – {link}. Un cont doar vă păstrează rezervările într-un singur loc și vă completează datele data viitoare.",
+    "guestNoteLink": "rezervați ca invitat din pagina principală",
+    "optional": "opțional",
+    "trap": "Lăsați acest câmp gol",
+    "links": {
+      "terms": "Termeni și condiții",
+      "privacy": "Politica de confidențialitate"
+    },
+    "fields": {
+      "email": "E-mail",
+      "password": "Parolă",
+      "name": "Numele dumneavoastră",
+      "phone": "Telefon / WhatsApp"
+    },
+    "signin": {
+      "title": "Bine ați revenit",
+      "submit": "Autentificare",
+      "busy": "Se autentifică…",
+      "forgot": "Ați uitat parola?"
+    },
+    "register": {
+      "title": "Creați-vă contul",
+      "passwordHint": "Cel puțin 8 caractere.",
+      "agree": "Accept {terms} și {privacy}.",
+      "submit": "Creare cont",
+      "busy": "Se creează…",
+      "fine": "Folosim datele dumneavoastră doar pentru gestionarea rezervărilor și a contului. Nu le vindem niciodată."
+    },
+    "reset": {
+      "title": "Resetați-vă parola",
+      "intro": "Introduceți adresa de e-mail și vă vom trimite un link pentru a alege o parolă nouă.",
+      "submit": "Trimite linkul de resetare",
+      "busy": "Se trimite…",
+      "back": "Înapoi la autentificare",
+      "sentTitle": "Verificați-vă e-mailul",
+      "sentBody": "Dacă există un cont pentru {email}, am trimis un link pentru alegerea unei parole noi. Poate dura câteva minute – verificați și folderul de spam."
+    },
+    "dashboard": {
+      "eyebrow": "Contul dumneavoastră",
+      "hello": "Bună ziua, {name}.",
+      "helloFallback": "stimate client",
+      "signOut": "Deconectare",
+      "signingOut": "Se deconectează…",
+      "bookings": "Rezervările dumneavoastră",
+      "book": "Rezervă un taxi",
+      "loading": "Se încarcă rezervările dumneavoastră…",
+      "retry": "Încercați din nou",
+      "fine": "Rezervările sunt simple solicitări până când le confirmăm pe WhatsApp, telefonic sau prin e-mail. Estimările nu sunt prețuri fixe – plătiți șoferului, în mașină."
+    },
+    "empty": {
+      "title": "Nu există încă rezervări în contul dumneavoastră.",
+      "body": "Rezervările făcute cât timp sunteți autentificat vor apărea aici. {link}.",
+      "link": "Obțineți o estimare și rezervați"
+    },
+    "list": {
+      "upcoming": "Următoarele",
+      "earlier": "Anterioare"
+    },
+    "status": {
+      "requested": "Solicitată – așteaptă confirmarea noastră",
+      "confirmed": "Confirmată",
+      "completed": "Finalizată",
+      "cancelled": "Anulată"
+    },
+    "item": {
+      "to": "până la",
+      "personOne": "{count} persoană",
+      "personOther": "{count} persoane",
+      "childSeatOne": "{count} scaun pentru copii",
+      "childSeatOther": "{count} scaune pentru copii",
+      "flight": "Zbor {number}",
+      "return": "retur {when}",
+      "requested": "Solicitată {date}",
+      "notes": "Observații: {notes}",
+      "estimate": "Estimare {total}",
+      "airportFee": "+ taxă de aeroport de confirmat",
+      "breakdown": "Detalii preț",
+      "onQuote": "Se confirmă prin ofertă",
+      "notFixed": "Nu este un preț fix – vă confirmăm oferta pe WhatsApp, prin e-mail sau telefonic.",
+      "noEstimate": "Nu a fost disponibilă nicio estimare – vă vom comunica prețul la confirmare.",
+      "askChange": "Solicită modificarea",
+      "askCancel": "Solicită anularea",
+      "leg": {
+        "journey": "Cursă",
+        "outbound": "Dus",
+        "return": "Retur"
+      }
+    },
+    "whatsapp": {
+      "change": "Bună ziua, aș dori să modific rezervarea {reference} (de la {pickup} la {dropoff}, {when}).",
+      "cancel": "Bună ziua, aș dori să anulez rezervarea {reference} (de la {pickup} la {dropoff}, {when})."
+    },
+    "profile": {
+      "title": "Datele dumneavoastră",
+      "intro": "Le completăm pe formularul de rezervare cât timp sunteți autentificat. Le puteți modifica oricând, pentru fiecare rezervare.",
+      "name": "Nume",
+      "email": "E-mail (folosit la autentificare)",
+      "save": "Salvează datele",
+      "saving": "Se salvează…",
+      "saved": "Salvat."
+    },
+    "delete": {
+      "summary": "Șterge-mi contul",
+      "body": "Această acțiune șterge datele de autentificare și datele salvate și nu poate fi anulată. Rezervările anterioare sunt păstrate în evidențele noastre (de exemplu pentru contabilitate și litigii), dar nu mai sunt asociate unui cont de autentificare. Consultați {privacy} sau sunați-ne la {phone} pentru orice întrebări.",
+      "label": "Introduceți parola pentru confirmare",
+      "submit": "Șterge-mi contul",
+      "busy": "Se șterge…",
+      "wrongPassword": "Parola nu este corectă."
+    },
+    "errors": {
+      "network": "Nu am putut contacta serverul. Vă rugăm să verificați conexiunea și să încercați din nou.",
+      "emailExists": "Există deja un cont cu această adresă de e-mail. Încercați să vă autentificați sau resetați parola.",
+      "invalidCredentials": "Adresa de e-mail și parola nu corespund. Verificați-le și încercați din nou sau resetați parola.",
+      "rateLimited": "Prea multe încercări. Vă rugăm să așteptați câteva minute și să încercați din nou.",
+      "tooFast": "A fost foarte rapid – vă rugăm să încercați din nou.",
+      "captchaFailed": "Nu am putut verifica faptul că sunteți o persoană reală. Vă rugăm să încercați din nou sau să sunați la {phone}.",
+      "disabled": "Acest cont a fost dezactivat. Vă rugăm să sunați la {phone}.",
+      "signedOut": "Ați fost deconectat. Vă rugăm să vă autentificați din nou.",
+      "storageUnavailable": "Nu am putut încărca acest conținut acum. Vă rugăm să încercați din nou peste puțin timp.",
+      "accountsUnavailable": "Conturile nu sunt disponibile momentan. Puteți rezerva în continuare ca invitat din pagina principală sau puteți suna la {phone}.",
+      "generic": "Ceva nu a funcționat. Vă rugăm să încercați din nou sau să sunați la {phone}."
+    }
+  },
+  "booking": {
+    "kicker": "Solicitarea de rezervare a fost primită",
+    "thanks": "Vă mulțumim, {name}. <strong>Aceasta este o solicitare, nu încă o rezervare confirmată.</strong> Vă vom confirma pe WhatsApp, telefonic sau prin e-mail. Păstrați la îndemână codul de referință – ni-l puteți trimite acum printr-un mesaj, pentru a accelera lucrurile.",
+    "whatsappMessage": "Bună ziua, codul meu de referință pentru rezervare este {reference}",
+    "whatsappCta": "Trimiteți-ne codul pe WhatsApp",
+    "call": "Sunați la {phone}",
+    "summary": {
+      "from": "De la",
+      "to": "Până la",
+      "when": "Când",
+      "return": "Retur",
+      "people": "Persoane",
+      "contact": "Vă vom contacta la"
+    },
+    "noEstimate": "Vom calcula prețul și vi-l vom trimite la confirmare. Acesta nu este niciodată un preț fix până nu îl confirmăm împreună cu dumneavoastră.",
+    "noEstimateWithNote": "{note}. Vom calcula prețul și vi-l vom trimite la confirmare. Acesta nu este niciodată un preț fix până nu îl confirmăm împreună cu dumneavoastră.",
+    "pay": "Plătiți șoferului, în mașină.",
+    "savedToAccount": "Salvată în contul dumneavoastră – {link}.",
+    "savedToAccountLink": "vedeți toate rezervările",
+    "another": "Faceți o altă rezervare"
+  },
+  "common": {
+    "callPhone": "Sunați la {phone}",
+    "whatsappUs": "Scrieți-ne pe WhatsApp",
+    "skipToContent": "Treceți la conținut",
+    "dateAt": "{date}, ora {time}"
+  },
+  "contactFab": {
+    "email": "E-mail",
+    "call": "Sunați",
+    "contactUs": "Contactați-ne",
+    "close": "Închide",
+    "closeOptions": "Închideți opțiunile de contact"
+  },
+  "contactForm": {
+    "name": "Numele dumneavoastră",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "optional": "(opțional)",
+    "topic": "Despre ce este vorba?",
+    "topicPlaceholder": "Alegeți una",
+    "topics": {
+      "quote": "Solicitare ofertă",
+      "booking": "Rezervare",
+      "corporate": "Cont corporate",
+      "lost": "Obiecte uitate",
+      "other": "Altceva"
+    },
+    "message": "Mesajul dumneavoastră",
+    "messagePlaceholder": "De unde, până unde, data și ora, numărul de pasageri – orice ne ajută să vă ajutăm.",
+    "trap": "Lăsați acest câmp gol",
+    "sending": "Se trimite…",
+    "send": "Trimite mesajul",
+    "fine": "Folosim datele dumneavoastră doar pentru a vă răspunde. Consultați {privacy}. Acest formular nu confirmă o rezervare.",
+    "privacyLink": "Politica de confidențialitate",
+    "doneTitle": "Vă mulțumim – am primit mesajul.",
+    "doneBody": "Vă vom răspunde prin e-mail sau telefon cât mai curând posibil. Mesajul dumneavoastră nu confirmă o rezervare – vom confirma direct cu dumneavoastră orice ofertă și rezervare. Vă grăbiți? Sunați la {phone} sau {whatsapp}.",
+    "whatsappLink": "Scrieți-ne pe WhatsApp",
+    "devNote": "Mod de test: nu este încă setată nicio cheie de e-mail, așa că mesajul a fost afișat în terminalul dumneavoastră în loc să fie trimis prin e-mail.",
+    "again": "Trimiteți un alt mesaj",
+    "errorRateLimited": "Ați trimis mai multe mesaje într-un interval scurt. Vă rugăm să așteptați câteva minute sau să ne sunați ori să ne scrieți pe WhatsApp.",
+    "errorTooFast": "A fost foarte rapid – vă rugăm să verificați datele și să apăsați din nou pe trimitere.",
+    "errorSendFailed": "Nu am putut trimite mesajul acum. Vă rugăm să încercați din nou sau să sunați la {phone} ori să ne scrieți la {email}.",
+    "errorNetwork": "Nu am putut contacta serverul. Vă rugăm să verificați conexiunea și să încercați din nou sau să sunați la {phone}."
+  },
+  "cookie": {
+    "title": "Preferințele dumneavoastră privind cookie-urile",
+    "text": "Folosim cookie-uri esențiale pentru ca acest site să funcționeze. Cu permisiunea dumneavoastră, am folosi și cookie-uri de analiză pentru a vedea cum este utilizat site-ul și pentru a-l îmbunătăți.",
+    "policy": "Politica privind cookie-urile",
+    "acceptAll": "Acceptă toate",
+    "rejectAll": "Respinge toate",
+    "manage": "Gestionează opțiunile",
+    "manageTitle": "Gestionați opțiunile privind cookie-urile",
+    "essential": "Esențiale",
+    "essentialText": "Necesare pentru funcționarea site-ului și pentru a reține această alegere. Mereu active.",
+    "essentialAria": "Cookie-uri esențiale (mereu active)",
+    "analytics": "Analiză",
+    "analyticsText": "Ne ajută să vedem cum este folosit site-ul, pentru a-l putea îmbunătăți. Dezactivate, dacă nu le activați dumneavoastră.",
+    "analyticsAria": "Cookie-uri de analiză",
+    "save": "Salvează opțiunile",
+    "back": "Înapoi",
+    "settings": "Setări cookie-uri"
+  },
+  "estimate": {
+    "label": "Estimarea dumneavoastră",
+    "hint": "Alegeți locul de preluare, destinația, data și ora pentru a vedea o estimare.",
+    "loading": "Se calculează estimarea…",
+    "pendingFee": "+ taxă de aeroport de confirmat",
+    "meta": "Aprox. {miles} mile · {minutes} min",
+    "metaReturn": "Aprox. {miles} mile · {minutes} min pe sens",
+    "outbound": "Dus",
+    "return": "Retur",
+    "both": "Ambele curse <strong>{total}</strong>",
+    "confirmedOnQuote": "Se confirmă prin ofertă",
+    "disclaimer": "<strong>Nu este un preț fix.</strong> Contactați-ne pe WhatsApp, prin e-mail sau telefonic pentru a vă confirma oferta.",
+    "bands": {
+      "passengers": "{passengers} pasageri – se aplică tariful de noapte la orice oră",
+      "day": "Tarif de zi ({start}–{end})",
+      "night": "Tarif de noapte ({start}–{end})"
+    },
+    "lines": {
+      "base": "Tarif de bază",
+      "mileage": "Distanță parcursă",
+      "airport-dropoff": "Taxă de aeroport pentru lăsarea pasagerilor – {airport}",
+      "airport-pickup": "Taxă de aeroport pentru preluare – {airport}",
+      "congestion": "Taxa de congestie din Londra (Congestion Charge)"
+    },
+    "details": {
+      "mileage": "{miles} mile × {rate}",
+      "congestion": "Se percepe o singură dată pe cursă"
+    },
+    "congestion": {
+      "outside-zone": "Cursa se desfășoară în afara zonei Congestion Charge (taxa de congestie).",
+      "in-charging-hours": "Cursa trece prin zonă în intervalul orar în care se percepe taxa.",
+      "outside-hours": "Cursa trece prin zonă, dar în afara intervalului orar de taxare, {day}."
+    },
+    "dayKinds": {
+      "weekdays": "în zilele lucrătoare",
+      "weekends": "în weekend",
+      "bankHolidays": "în sărbătorile legale"
+    },
+    "charges": {
+      "short": "Fără taxele Dart Charge",
+      "long": [
+        "Dartford Crossing: Se va adăuga taxa Dart Charge aplicabilă (taxa pentru trecerea podului).",
+        "Taxe de drum și poduri: Orice alte taxe de drum de pe traseu vor fi adăugate la tariful final."
+      ],
+      "known": "Taxe cunoscute (verificați tarifele actuale înainte de călătorie):",
+      "crossingFormat": "<strong>{name}</strong> – {charge}. {when}.",
+      "crossings": [
+        {
+          "name": "Dartford Crossing (M25, râul Tamisa)",
+          "charge": "£3.50 per traversare (autoturism standard, plată la fiecare trecere)",
+          "when": "În fiecare zi, 06:00–22:00 (gratuit între 22:00 și 06:00), taxată la fiecare traversare, în ambele sensuri"
+        },
+        {
+          "name": "Blackwall & Silvertown Tunnels (estul Londrei)",
+          "charge": "Până la £4.20 (ore de vârf / tarif standard)",
+          "when": "06:00–22:00, 7 zile pe săptămână (gratuit pe timpul nopții)"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "visit": "Vizitați",
+    "follow": "Urmăriți",
+    "legal": "Informații legale",
+    "terms": "Termeni și condiții",
+    "privacy": "Politica de confidențialitate",
+    "cookies": "Cookie-uri și utilizarea datelor",
+    "copyright": "© {year} {name}. Prețurile afișate sunt estimări, nu prețuri fixe.",
+    "backToTop": "Înapoi sus ↑"
+  },
+  "header": {
+    "homeAria": "{name} – pagina principală",
+    "navMain": "Principal",
+    "navMobile": "Mobil",
+    "nav": {
+      "services": "Servicii",
+      "fleet": "Flotă",
+      "hotels": "Hoteluri",
+      "connections": "Legături",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "signIn": "Autentificare",
+    "myAccount": "Contul meu",
+    "signInOrCreate": "Autentificare / creare cont",
+    "bookNow": "Rezervă acum",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul",
+    "chooseLanguage": "Alegeți limba"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Taxiuri Hackney Carriage · Luton",
+      "line1": "Servicii de taxi în Luton.",
+      "line2": "La timp,",
+      "line3": "de fiecare dată.",
+      "lead": "Taxi spre și dinspre Luton, Heathrow, Gatwick, Stansted și London City Airport, precum și toate celelalte aeroporturi din Marea Britanie. Acoperim toate cursele locale, călătoriile naționale pe distanțe lungi și conturile corporate.",
+      "note": "Doar o estimare – nu este un preț fix. Plătiți șoferului, în mașină. Confirmați-vă oferta pe WhatsApp, prin e-mail sau telefonic."
+    },
+    "marquee": {
+      "label": "De ce să ne alegeți",
+      "items": [
+        "Monitorizarea zborului",
+        "Întâmpinare la aeroport",
+        "Accesibil pentru scaun cu rotile",
+        "Plăți cu cardul",
+        "LEVC TX e",
+        "Mercedes Vito 114",
+        "Luton · Heathrow · Gatwick · Stansted · London City"
+      ]
+    },
+    "intro": {
+      "eyebrow": "Cine suntem",
+      "statement": "Luton Connect Taxis este un operator local de taxi care acoperă tot ce aveți nevoie, de la curse locale de zi cu zi și drumuri la școală, până la conturi corporate, călătorii naționale și transferuri la aeroport. Fie că traversați țara, fie că zburați în străinătate, noi <mark>vă urmărim zborul</mark>, vă așteptăm acolo unde aterizați și vă ducem <mark>din ușă în ușă</mark> – cu o estimare clară de la început și o persoană reală la capătul firului.",
+      "stepsTitle": "Cum funcționează rezervarea",
+      "getEstimate": "Obțineți o estimare"
+    },
+    "steps": {
+      "journey": {
+        "title": "Spuneți-ne cursa dorită",
+        "text": "Introduceți locul de preluare, destinația, data și ora pentru o estimare instantanee."
+      },
+      "confirm": {
+        "title": "Confirmați oferta",
+        "text": "Sunați, scrieți pe WhatsApp sau trimiteți un e-mail, iar noi vă confirmăm prețul și rezervarea."
+      },
+      "ride": {
+        "title": "Călătoriți și plătiți",
+        "text": "Șoferul ajunge la timp. Plătiți șoferului, în mașină."
+      }
+    },
+    "services": {
+      "eyebrow": "Cursele pe care le acoperim",
+      "eyebrowMore": "Alte servicii",
+      "title": "Încotro?",
+      "titleMore": "Și de la noi.",
+      "sub": "Transferuri la aeroport, nunți, colete, curse locale, călătorii naționale și conturi pentru firme – ofertă pe WhatsApp, telefonic sau prin e-mail."
+    },
+    "fleet": {
+      "eyebrow": "Flota noastră",
+      "titleLine1": "Taxiurile noastre londoneze emblematice, construite special.",
+      "titleLine2": "Un singur standard de excelență.",
+      "bookThis": "Rezervă acest vehicul",
+      "seeFull": "Vedeți întreaga flotă",
+      "items": {
+        "levc": {
+          "kicker": "Taxiul londonez",
+          "text": "Taxiul electric londonez construit special. Acces cu rampă fără trepte, spațiu generos pentru bagaje și o călătorie liniștită și confortabilă.",
+          "specs": [
+            {
+              "term": "Ideal pentru",
+              "desc": "Curse prin oraș, transferuri la aeroport, persoane în scaun cu rotile"
+            },
+            {
+              "term": "Acces",
+              "desc": "Accesibil pentru scaun cu rotile"
+            },
+            {
+              "term": "Plată",
+              "desc": "Plata cu cardul este acceptată în mașină"
+            }
+          ]
+        },
+        "vito": {
+          "kicker": "Pentru grupuri",
+          "text": "Spațiu suplimentar pentru grupuri mai mari și bagaje voluminoase, cu confortul și rafinamentul unui Mercedes.",
+          "specs": [
+            {
+              "term": "Ideal pentru",
+              "desc": "Grupuri de 5–6 persoane, familii, bagaje suplimentare"
+            },
+            {
+              "term": "Bagaje",
+              "desc": "Menționați bagajele în plus la rezervare"
+            },
+            {
+              "term": "Plată",
+              "desc": "Plata cu cardul este acceptată în mașină"
+            }
+          ]
+        }
+      }
+    },
+    "experience": {
+      "eyebrow": "Diferența Luton Connect",
+      "titleLine1": "Detalii mici.",
+      "titleLine2": "Diferență mare."
+    },
+    "features": {
+      "tracking": {
+        "title": "Urmărirea zborului",
+        "text": "Vă monitorizăm zborul și ajustăm ora preluării dacă aterizează mai devreme sau mai târziu."
+      },
+      "greet": {
+        "title": "Întâmpinare personală",
+        "text": "Șoferul vă așteaptă la sosire. Fără să căutați o stație de taxi."
+      },
+      "access": {
+        "title": "Accesibil pentru scaun cu rotile",
+        "text": "Taxiuri accesibile, cu acces pe rampă fără trepte."
+      },
+      "card": {
+        "title": "Plăți cu cardul",
+        "text": "Plătiți șoferului cu cardul, în mașină. Simplu, fără surprize."
+      },
+      "corporate": {
+        "title": "Conturi corporate",
+        "text": "Discutați cu noi despre un cont pentru firma dumneavoastră: curse regulate pentru angajați și vizitatori, organizate printr-un singur punct de contact."
+      },
+      "executive": {
+        "title": "Executive",
+        "text": "Călătorii elegante și punctuale pentru directori, clienți și întâlniri importante."
+      },
+      "business": {
+        "title": "Business class",
+        "text": "Călătorii de încredere și confortabile pentru deplasări de afaceri și legături cu aeroportul, cu spațiu pentru bagajele dumneavoastră."
+      }
+    },
+    "hotels": {
+      "eyebrow": "Hoteluri și sejururi",
+      "titleLine1": "Preluări de la hotel,",
+      "titleLine2": "rezolvate.",
+      "previous": "Hotelurile anterioare",
+      "next": "Hotelurile următoare",
+      "scrollerLabel": "Zone de preluare de la hotel",
+      "items": {
+        "holidayInn": {
+          "desc": "Preluări și lăsări de la ușă la ușă, ziua sau noaptea."
+        },
+        "travelodge": {
+          "desc": "O cursă rapidă și confortabilă între ușa hotelului și destinația dumneavoastră."
+        },
+        "chiltern": {
+          "desc": "O alegere populară pentru vizitatori și călătorii de afaceri – vă ducem la timp."
+        },
+        "stockwood": {
+          "desc": "Serviciu de la ușă la ușă, cu loc pentru tot bagajul dumneavoastră."
+        },
+        "linton": {
+          "desc": "Preluări și lăsări ușoare pentru sejururi scurte și plecări matinale."
+        },
+        "lutonHoo": {
+          "desc": "O somptuoasă reședință de țară – o cursă relaxată și confortabilă din Luton."
+        },
+        "cityHotel": {
+          "desc": "Preluări de încredere pentru sejururi scurte, întâlniri și sosiri târzii."
+        },
+        "thistleExpress": {
+          "desc": "Întâlniți-vă șoferul chiar la ușa hotelului – ziua sau noaptea."
+        }
+      },
+      "fareRoute": "Luton – {hotel}",
+      "fareFrom": "De la {price}",
+      "faresNote": "Prețuri orientative – nu sunt prețuri fixe. Confirmați-vă oferta telefonic, pe WhatsApp sau prin e-mail.",
+      "flipHint": "Vezi prețul și detaliile"
+    },
+    "connections": {
+      "eyebrow": "Legați-vă călătoria",
+      "title": "Fiecare drum, bine legat.",
+      "taxi": "Taxi",
+      "items": {
+        "train": {
+          "title": "Tren",
+          "text": "Luton Airport Parkway · Luton station · Luton DART"
+        },
+        "plane": {
+          "title": "Avion",
+          "text": "Luton, Heathrow, Gatwick, Stansted și London City, cu urmărirea zborului"
+        },
+        "bus": {
+          "title": "Autobuz",
+          "text": "Autogara din Luton și legături cu autocarele, dus sau dus-întors"
+        },
+        "shopping": {
+          "title": "Cumpărături",
+          "text": "Centrul orașului, The Mall și parcurile comerciale, cu spațiu pentru bagaje pentru toate cumpărăturile"
+        }
+      }
+    },
+    "reviews": {
+      "quote": "Aici vor apărea recenziile reale ale pasagerilor dumneavoastră.",
+      "tag": "Substituent",
+      "note": "Adăugați recenzii autentice din Profilul dumneavoastră de Companie Google sau trimiteți-ni-le – nu inventăm niciodată mărturii."
+    },
+    "ctaBand": {
+      "watermark": "Connect",
+      "titleLine1": "Aveți nevoie de un taxi?",
+      "titleLine2": "Sunați-ne sau scrieți-ne acum."
+    }
+  },
+  "images": {
+    "hero": "Un avion pe platforma aeroportului, la apus",
+    "taxi": "Un taxi Hackney Carriage negru pe o stradă din Londra",
+    "vito": "Un Mercedes alb parcat afară",
+    "nightCab": "Un taxi în Londra, noaptea",
+    "heathrow": "Un avion la aeroport",
+    "gatwick": "Un avion cuplat la pasarela de îmbarcare",
+    "stansted": "Un călător cu bagaje la aeroport",
+    "londonCity": "Tower Bridge din Londra, noaptea",
+    "london": "Expunere lungă cu mașini pe Tower Bridge, Londra",
+    "luton": "Un bărbat care traversează un terminal modern de aeroport",
+    "wedding": "Un mire și o mireasă lângă o mașină",
+    "courier": "Un bărbat într-o dubă care livrează un colet",
+    "motorway": "Un vehicul pe o autostradă prin zona rurală, la apus",
+    "business": "Un om de afaceri care se uită peste documente într-o mașină",
+    "luggage": "Un bărbat în costum care pune o valiză în portbagajul unei mașini",
+    "hotelAirport": "Exteriorul unui hotel, noaptea",
+    "hotelTown": "Exteriorul unei clădiri impunătoare de hotel",
+    "hotelBusiness": "Holul unui hotel",
+    "hotelBoutique": "Holul spațios al unui hotel de lux",
+    "hotelLate": "Un complex hotelier modern, noaptea"
+  },
+  "legal": {
+    "cookies": {
+      "title": "Cookie-uri și utilizarea datelor",
+      "lead": "Această pagină explică cookie-urile și tehnologiile similare folosite pe lutonconnecttaxis.com, precum și modul în care le puteți controla.",
+      "notice": "Formulare provizorie. Va fi finalizată în momentul activării rezervărilor, a conturilor și a analizei.",
+      "blocks": [
+        {
+          "h": "Ce sunt cookie-urile?",
+          "p": [
+            "Cookie-urile sunt fișiere text de mici dimensiuni, stocate pe dispozitivul dumneavoastră atunci când vizitați un site web. Tehnologiile similare, precum stocarea locală, funcționează în același mod. Folosim termenul „cookie-uri” pentru toate acestea."
+          ]
+        },
+        {
+          "h": "Cum le folosim",
+          "p": [
+            "Reducem la minimum utilizarea cookie-urilor. Acestea se împart în două grupuri:"
+          ],
+          "ul": [
+            "Esențiale – necesare pentru funcționarea site-ului și pentru a reține alegerea dumneavoastră privind cookie-urile. Acestea sunt mereu active. Ele acoperă și securitatea, de exemplu protecția împotriva spamului, și – doar dacă vă autentificați în contul dumneavoastră – menținerea autentificării (trei cookie-uri mici numite lct_id, lct_rt și lct_in, șterse la deconectare sau după 30 de zile). Un mic cookie de preferințe numit lct_lang reține limba pe care o alegeți (păstrat 12 luni și setat doar atunci când alegeți o limbă din meniul de limbi).",
+            "De analiză – ne ajută să înțelegem cum este utilizat site-ul, pentru a-l putea îmbunătăți. Acestea rămân dezactivate, cu excepția cazului în care le acceptați."
+          ]
+        },
+        {
+          "h": "Opțiunile dumneavoastră",
+          "p": [
+            "La prima vizită, puteți accepta toate cookie-urile, le puteți respinge pe cele neesențiale sau puteți alege care să fie permise. Vă puteți răzgândi oricând folosind „Setări cookie-uri” din partea de jos a fiecărei pagini.",
+            "De asemenea, puteți bloca sau șterge cookie-urile din setările browserului. Este posibil ca anumite părți ale site-ului să nu mai funcționeze dacă faceți acest lucru."
+          ]
+        },
+        {
+          "h": "Servicii care pot seta cookie-uri",
+          "p": [
+            "Atunci când aceste funcții sunt activate, companiile din spatele lor pot seta propriile cookie-uri. Politicile lor se aplică acestor date:"
+          ],
+          "ul": [
+            "Google Maps – sugestii de adrese și calculul distanței în formularul de rezervare",
+            "Google reCAPTCHA – protejează formularele noastre împotriva spamului",
+            "Google Analytics – doar dacă acceptați cookie-urile de analiză",
+            "Firebase – autentificarea clienților și istoricul rezervărilor"
+          ]
+        },
+        {
+          "h": "Cât timp este păstrată alegerea dumneavoastră",
+          "p": [
+            "Reținem alegerea dumneavoastră privind cookie-urile timp de 12 luni, apoi vă vom întreba din nou."
+          ]
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Aveți întrebări despre cookie-uri sau despre datele dumneavoastră? Luați legătura cu noi:"
+          ]
+        }
+      ]
+    },
+    "eyebrow": "Informații legale",
+    "labels": {
+      "telephone": "Telefon:",
+      "email": "E-mail:"
+    },
+    "privacy": {
+      "title": "Politica de confidențialitate",
+      "lead": "La Luton Connect Taxis ne angajăm să vă protejăm confidențialitatea și să ne asigurăm că datele dumneavoastră cu caracter personal sunt tratate în siguranță și cu responsabilitate. Această Politică de confidențialitate explică modul în care colectăm, folosim, stocăm și protejăm datele dumneavoastră cu caracter personal atunci când utilizați site-ul nostru sau rezervați serviciile noastre.",
+      "notice": "Formulare provizorie. O Politică de confidențialitate revizuită, care va acoperi instrumentele site-ului nostru și modalitatea de plată în mașină, este în curs de elaborare și va înlocui acest text.",
+      "blocks": [
+        {
+          "h": "Cine suntem"
+        },
+        {
+          "h": "Informațiile pe care le colectăm",
+          "p": [
+            "Atunci când ne contactați sau efectuați o rezervare, putem colecta:"
+          ],
+          "ul": [
+            "Numele complet",
+            "Adresa de e-mail",
+            "Numărul de telefon",
+            "Adresele de preluare și de destinație",
+            "Informații despre zbor (după caz)",
+            "Detaliile rezervării",
+            "Informații de plată (prelucrate în siguranță prin furnizorul nostru de servicii de plată, după caz)",
+            "Adresa IP",
+            "Informații despre browser"
+          ]
+        },
+        {
+          "h": "Cum folosim informațiile dumneavoastră",
+          "p": [
+            "Folosim informațiile dumneavoastră pentru a:"
+          ],
+          "ul": [
+            "Procesa și gestiona rezervările",
+            "Vă contacta în legătură cu rezervarea dumneavoastră",
+            "Răspunde la solicitări",
+            "Îmbunătăți serviciile noastre",
+            "Preveni frauda",
+            "Îndeplini obligațiile legale"
+          ],
+          "after": [
+            "Nu vom vinde niciodată datele dumneavoastră cu caracter personal unor terți."
+          ]
+        },
+        {
+          "h": "Cookie-uri",
+          "p": [
+            "Site-ul nostru folosește cookie-uri pentru a vă îmbunătăți experiența de navigare. Cookie-urile ne ajută să:"
+          ],
+          "ul": [
+            "Analizăm traficul site-ului",
+            "Îmbunătățim performanța site-ului",
+            "Reținem preferințele dumneavoastră"
+          ],
+          "after": [
+            "Puteți gestiona sau dezactiva cookie-urile din setările browserului sau prin bannerul nostru de consimțământ pentru cookie-uri. Consultați pagina noastră Cookie-uri și utilizarea datelor pentru detalii."
+          ]
+        },
+        {
+          "h": "Securitatea datelor",
+          "p": [
+            "Luăm măsuri tehnice și organizatorice adecvate pentru a vă proteja datele cu caracter personal împotriva accesului neautorizat, pierderii sau utilizării abuzive. Site-ul nostru este protejat prin criptare SSL (HTTPS)."
+          ]
+        },
+        {
+          "h": "Cât timp păstrăm informațiile dumneavoastră",
+          "p": [
+            "Păstrăm datele cu caracter personal doar pe durata necesară pentru a:"
+          ],
+          "ul": [
+            "Finaliza rezervarea dumneavoastră",
+            "Îndeplini obligațiile legale",
+            "Soluționa litigiile",
+            "Îmbunătăți serviciile noastre"
+          ]
+        },
+        {
+          "h": "Divulgarea informațiilor dumneavoastră",
+          "p": [
+            "Putem divulga informațiile dumneavoastră doar atunci când este necesar, către:"
+          ],
+          "ul": [
+            "Furnizori de servicii de plată",
+            "Furnizori de servicii IT",
+            "Autorități legale, atunci când legea o impune"
+          ],
+          "after": [
+            "Nu vindem niciodată datele dumneavoastră cu caracter personal."
+          ]
+        },
+        {
+          "h": "Drepturile dumneavoastră",
+          "p": [
+            "În temeiul UK GDPR, aveți dreptul de a:"
+          ],
+          "ul": [
+            "Accesa datele dumneavoastră cu caracter personal",
+            "Corecta informațiile inexacte",
+            "Solicita ștergerea informațiilor dumneavoastră",
+            "Restricționa prelucrarea",
+            "Vă opune prelucrării",
+            "Solicita portabilitatea datelor"
+          ],
+          "after": [
+            "Pentru a vă exercita oricare dintre aceste drepturi, vă rugăm să ne contactați."
+          ]
+        },
+        {
+          "h": "Contactați-ne"
+        }
+      ]
+    },
+    "terms": {
+      "title": "Termeni și condiții",
+      "lead": "Bun venit la Luton Connect Taxis. Prin utilizarea site-ului nostru sau prin rezervarea serviciilor noastre, sunteți de acord cu următorii Termeni și condiții.",
+      "notice": "Formulare provizorie. Valorile privind timpul de așteptare și anularea urmează să fie confirmate de Luton Connect Taxis.",
+      "blocks": [
+        {
+          "h": "Rezervări",
+          "p": [
+            "Toate rezervările sunt supuse disponibilității.",
+            "Clienții răspund pentru furnizarea de informații corecte privind rezervarea, inclusiv:"
+          ],
+          "ul": [
+            "Adresa de preluare",
+            "Destinația",
+            "Data și ora",
+            "Datele de contact",
+            "Informații despre zbor, după caz"
+          ],
+          "after": [
+            "Informațiile incorecte pot duce la întârzieri sau la costuri suplimentare."
+          ]
+        },
+        {
+          "h": "Prețuri",
+          "p": [
+            "Toate prețurile comunicate sunt supuse confirmării.",
+            "Pot fi aplicate costuri suplimentare pentru:"
+          ],
+          "ul": [
+            "Timpul de așteptare",
+            "Puncte suplimentare de preluare",
+            "Modificări ale rezervării",
+            "Deteriorarea vehiculului de către pasageri"
+          ]
+        },
+        {
+          "h": "Transferuri la aeroport",
+          "p": [
+            "Pentru preluările de la aeroport:"
+          ],
+          "ul": [
+            "Monitorizăm zborurile la sosire atunci când au fost furnizate detaliile zborului.",
+            "Șoferii vor depune eforturi rezonabile pentru a ajusta orele de preluare în cazul zborurilor întârziate."
+          ]
+        },
+        {
+          "h": "Timp de așteptare",
+          "p": [
+            "Preluările de la aeroport pot include o perioadă de așteptare gratuită.",
+            "După expirarea perioadei gratuite, se poate percepe o taxă pentru timpul de așteptare suplimentar."
+          ]
+        },
+        {
+          "h": "Anulări",
+          "p": [
+            "Rezervările anulate înainte de ora de preluare convenită pot da dreptul la rambursare, în funcție de circumstanțe.",
+            "Anulările tardive sau neprezentarea la locul de preluare pot atrage taxe de anulare."
+          ]
+        },
+        {
+          "h": "Responsabilitățile pasagerilor",
+          "p": [
+            "Pasagerii trebuie să:"
+          ],
+          "ul": [
+            "Poarte centura de siguranță atunci când legea o impune.",
+            "Trateze vehiculele cu respect.",
+            "Evite comportamentele care ar putea pune în pericol șoferul sau ceilalți pasageri.",
+            "Răspundă pentru orice daune provocate în timpul călătoriei."
+          ]
+        },
+        {
+          "h": "Bagaje",
+          "p": [
+            "Pasagerii au responsabilitatea de a se asigura că vehiculul ales este potrivit pentru bagajele lor.",
+            "Bagajele suplimentare trebuie menționate la efectuarea rezervării."
+          ]
+        },
+        {
+          "h": "Obiecte uitate",
+          "p": [
+            "Obiectele uitate în vehiculele noastre vor fi păstrate, pe cât posibil.",
+            "Pentru ridicarea sau returnarea lor se poate percepe o taxă."
+          ]
+        },
+        {
+          "h": "Utilizarea site-ului",
+          "p": [
+            "Deși depunem toate eforturile pentru ca site-ul nostru să rămână corect și disponibil, nu garantăm că va fi întotdeauna lipsit de întreruperi sau erori."
+          ]
+        },
+        {
+          "h": "Limitarea răspunderii",
+          "p": [
+            "Luton Connect Taxis nu va răspunde pentru întârzieri sau neexecutări cauzate de circumstanțe aflate în afara controlului nostru rezonabil, inclusiv, fără a se limita la:"
+          ],
+          "ul": [
+            "Trafic intens",
+            "Închideri de drumuri",
+            "Condiții meteorologice",
+            "Accidente",
+            "Evenimente publice"
+          ],
+          "after": [
+            "Răspunderea noastră va fi limitată la suma plătită pentru rezervare, în măsura permisă de lege."
+          ]
+        },
+        {
+          "h": "Confidențialitate",
+          "p": [
+            "Utilizarea de către dumneavoastră a acestui site este reglementată și de Politica noastră de confidențialitate."
+          ]
+        },
+        {
+          "h": "Modificări",
+          "p": [
+            "Ne rezervăm dreptul de a actualiza acești Termeni și condiții în orice moment."
+          ]
+        },
+        {
+          "h": "Legea aplicabilă",
+          "p": [
+            "Acești Termeni și condiții sunt guvernați de legile Angliei și Țării Galilor (England and Wales)."
+          ]
+        },
+        {
+          "h": "Contact"
+        }
+      ]
+    },
+    "translationNotice": "Această traducere este oferită doar pentru comoditate. În caz de diferențe, versiunea în limba engleză este textul care face fe din punct de vedere juridic."
+  },
+  "meta": {
+    "tagline": "Taxi pentru aeroporturi, curse locale și călătorii pe distanțe lungi",
+    "description": "Luton Connect Taxis – taxi spre și dinspre Luton, Heathrow, Gatwick, Stansted, London City și toate aeroporturile din Marea Britanie. Curse locale, călătorii pe distanțe lungi și conturi corporate. Sunați la 01582 353158."
+  },
+  "mobileBar": {
+    "label": "Contactați-ne",
+    "call": "Sunați",
+    "whatsapp": "WhatsApp"
+  },
+  "notFound": {
+    "eyebrow": "Eroare 404",
+    "title": "Ați luat-o pe un drum greșit.",
+    "titleAccent": "Vă ducem înapoi.",
+    "lead": "Pagina nu există, dar vă putem duce în continuare unde doriți.",
+    "home": "Înapoi la pagina principală",
+    "contact": "Contactați-ne"
+  },
+  "pages": {
+    "fleet": {
+      "metaTitle": "Flota noastră",
+      "metaDescription": "Taxiurile noastre londoneze emblematice, construite special: electricul LEVC TX e și spațiosul Mercedes Vito 114. Un singur standard de excelență.",
+      "eyebrow": "Luton Connect Taxis · Flotă",
+      "title": "Flota noastră.",
+      "lead": "Taxiurile noastre londoneze emblematice, construite special, în două dimensiuni. Un singur standard de excelență.",
+      "whichEyebrow": "Care dintre ele?",
+      "whichTitleLine": "Alegeți varianta",
+      "whichTitleAccent": "potrivită.",
+      "compare": [
+        {
+          "label": "Ideal pentru",
+          "levc": "Curse prin oraș, transferuri la aeroport, persoane în scaun cu rotile",
+          "vito": "Grupuri de 5–6 persoane, familii, bagaje suplimentare"
+        },
+        {
+          "label": "Acces",
+          "levc": "Accesibil pentru scaun cu rotile, cu rampă fără trepte",
+          "vito": "Întrebați-ne la rezervare"
+        },
+        {
+          "label": "Bagaje",
+          "levc": "Spațiu generos pentru bagaje",
+          "vito": "Spațiu suplimentar – menționați bagajele în plus la rezervare"
+        },
+        {
+          "label": "Plată",
+          "levc": "Plata cu cardul este acceptată în mașină",
+          "vito": "Plata cu cardul este acceptată în mașină"
+        }
+      ],
+      "whichNote": "Nu sunteți sigur? Spuneți-ne câte persoane sunteți și câte bagaje aveți, iar noi vă recomandăm vehiculul potrivit.",
+      "everyEyebrow": "La fiecare cursă",
+      "every": [
+        {
+          "title": "Monitorizarea zborului",
+          "text": "Urmărim zborul dumneavoastră și ajustăm ora preluării dacă aterizează mai devreme sau mai târziu."
+        },
+        {
+          "title": "Întâmpinare personală",
+          "text": "Șoferul vă așteaptă la sosire – fără să căutați o stație de taxi."
+        },
+        {
+          "title": "Plata în mașină",
+          "text": "Nu este nevoie de plată online. Plătiți șoferului, chiar și cu cardul."
+        },
+        {
+          "title": "O persoană reală la telefon",
+          "text": "Sunați, scrieți pe WhatsApp sau trimiteți un e-mail, iar noi vă confirmăm prețul și rezervarea."
+        }
+      ]
+    },
+    "blog": {
+      "metaTitle": "Blog",
+      "metaDescription": "Noutăți, sfaturi de călătorie și ghiduri locale de la Luton Connect Taxis – în curând.",
+      "eyebrow": "Luton Connect Taxis · Blog",
+      "title": "Blog – în curând.",
+      "lead": "Sfaturi de călătorie, ghiduri despre aeroporturi și noutăți de la Luton Connect Taxis sunt pe drum."
+    },
+    "contact": {
+      "metaTitle": "Contactați-ne",
+      "metaDescription": "Sunați, scrieți pe WhatsApp sau trimiteți un e-mail la Luton Connect Taxis pentru a confirma o ofertă sau a rezerva o cursă. {phone} · {email}.",
+      "eyebrow": "Luton Connect Taxis · Contact",
+      "title": "Vorbiți cu o persoană reală.",
+      "lead": "Sunați, scrieți pe WhatsApp, trimiteți un e-mail sau un mesaj pentru a primi o ofertă, a confirma o rezervare sau a ne întreba orice.",
+      "getInTouch": "Luați legătura cu noi",
+      "callUs": "Sunați-ne",
+      "emailLabel": "E-mail",
+      "note": "Estimările online nu sunt prețuri fixe. Contactați-ne pe WhatsApp, prin e-mail sau telefonic pentru a vă confirma oferta și rezervarea.",
+      "visit": "Vizitați",
+      "openMaps": "Deschide în Google Maps",
+      "follow": "Urmăriți",
+      "messageEyebrow": "Trimiteți un mesaj",
+      "messageTitle": "Preferați să scrieți? <mark>Vă răspundem.</mark>",
+      "messageLead": "Cereți o ofertă, povestiți-ne despre o cursă sau întrebați despre un cont corporate. Mesajul dumneavoastră ajunge direct la echipa noastră, la {email}, iar noi vă răspundem prin e-mail sau telefon."
+    }
+  },
+  "quote": {
+    "ariaLabel": "Obțineți o estimare pentru taxi",
+    "pickup": "Preluare",
+    "pickupPlaceholder": "Adresă, hotel, gară…",
+    "dropoff": "Destinație",
+    "dropoffPlaceholder": "Aeroport, adresă…",
+    "date": "Data",
+    "time": "Ora",
+    "people": "Persoane",
+    "getEstimate": "Obține estimarea",
+    "wantReturn": "Am nevoie și de cursa de întoarcere",
+    "returnDate": "Data întoarcerii",
+    "returnTime": "Ora întoarcerii",
+    "cta": {
+      "title": "Vă convine estimarea?",
+      "text": "Trimiteți-ne o solicitare de rezervare. Vă confirmăm pe WhatsApp, telefonic sau prin e-mail, iar dumneavoastră plătiți șoferului, în mașină.",
+      "request": "Solicită acest taxi",
+      "whatsapp": "Întrebați pe WhatsApp",
+      "call": "Sunați la {phone}"
+    },
+    "details": {
+      "title": "Datele dumneavoastră",
+      "signedIn": "Rezervați ca <strong>{email}</strong> – rezervarea va fi salvată în {link}.",
+      "signedInLink": "contul dumneavoastră",
+      "guest": "Aveți cont? {link}, ca să vă păstrați rezervările și să scrieți mai puțin. Puteți rezerva și ca invitat.",
+      "guestLink": "Autentificare",
+      "name": "Nume complet",
+      "email": "E-mail",
+      "phone": "Telefon / WhatsApp",
+      "honeypot": "Lăsați acest câmp gol"
+    },
+    "more": {
+      "summary": "Mai multe detalii (opțional) – vehicul, bagaje, scaune pentru copii, zbor, observații",
+      "vehicle": "Vehicul",
+      "luggage": "Bagaje",
+      "childSeats": "Scaune pentru copii",
+      "flightNumber": "Numărul zborului",
+      "flightPlaceholder": "ex. BA123",
+      "notes": "Observații",
+      "notesPlaceholder": "Acces pentru scaun cu rotile, o a doua preluare, un punct de întâlnire…"
+    },
+    "vehicles": {
+      "noPreference": "Fără preferință"
+    },
+    "luggageOptions": {
+      "none": "Fără bagaje",
+      "bags12": "1–2 bagaje",
+      "bags34": "3–4 bagaje",
+      "bags5": "5 sau mai multe (spuneți-ne la observații)"
+    },
+    "terms": "Accept {terms} și {privacy}.",
+    "termsLink": "Termeni și condiții",
+    "privacyLink": "Politica de confidențialitate",
+    "sending": "Se trimite…",
+    "send": "Trimite solicitarea",
+    "back": "Înapoi",
+    "fine": "Aceasta este o <strong>solicitare</strong> de rezervare. Vă confirmăm pe WhatsApp, telefonic sau prin e-mail, iar dumneavoastră plătiți șoferului, în mașină. Estimările nu sunt prețuri fixe.",
+    "noscript": "Estimarea necesită JavaScript. Vă rugăm să sunați la {phone} sau să ne scrieți pe WhatsApp pentru o ofertă.",
+    "whatsapp": {
+      "default": "Bună ziua, aș dori să rezerv un taxi.",
+      "journeyOne": "Bună ziua, aș dori un taxi de la {pickup} la {dropoff}, pe {date}, la ora {time}, pentru {count} persoană.",
+      "journeyOther": "Bună ziua, aș dori un taxi de la {pickup} la {dropoff}, pe {date}, la ora {time}, pentru {count} persoane.",
+      "estimate": "Estimarea de pe site a fost £{total}."
+    },
+    "place": {
+      "noKey": "Sugestiile de adrese sunt dezactivate. Vă rugăm să ne sunați sau să ne scrieți pe WhatsApp pentru a rezerva.",
+      "failed": "Nu am putut încărca sugestiile acum. Vă rugăm să încercați din nou sau să ne sunați pentru a rezerva.",
+      "noMatches": "Niciun rezultat. Încercați un cod poștal, un hotel, o gară sau numele unui aeroport.",
+      "poweredBy": "Powered by Google",
+      "suggestionsAvailable": "{count} sugestii disponibile"
+    }
+  },
+  "services": {
+    "items": {
+      "airport-transfers": {
+        "name": "Transferuri la aeroport",
+        "meta": "Luton, Heathrow, Gatwick, Stansted, London City și toate aeroporturile din Marea Britanie",
+        "title": "Transferuri la aeroport.",
+        "lead": "Taxi spre și dinspre Luton, Heathrow, Gatwick, Stansted și London City Airport – precum și toate celelalte aeroporturi din Marea Britanie.",
+        "statement": "Indiferent de unde zburați sau unde aterizați, vă urmărim zborul, vă așteptăm acolo unde aterizați și vă ducem din ușă în ușă.",
+        "includes": [
+          "Preluări și transferuri la toate aeroporturile din Marea Britanie",
+          "Monitorizarea zborului, pentru a ne ajusta dacă aterizați mai devreme sau mai târziu",
+          "Întâmpinare la sosire",
+          "Spațiu pentru bagaje și taxiuri accesibile pentru scaun cu rotile, cu acces pe rampă fără trepte",
+          "Grupuri de cinci sau șase persoane în Mercedes Vito 114"
+        ],
+        "faqs": [
+          {
+            "q": "Urmăriți zborul meu?",
+            "a": "Da. Dați-ne numărul zborului la rezervare și îl vom urmări, astfel încât șoferul să fie acolo când aterizați."
+          },
+          {
+            "q": "Cât va costa?",
+            "a": "Estimarea noastră online se bazează pe distanță, ora din zi și eventualele taxe de aeroport. Este o estimare, nu un preț fix – contactați-ne telefonic, pe WhatsApp sau prin e-mail pentru a vă confirma oferta."
+          },
+          {
+            "q": "Pot plăti în mașină?",
+            "a": "Da. Plătiți șoferului, în mașină, iar plățile cu cardul sunt acceptate."
+          }
+        ]
+      },
+      "wedding-transfers": {
+        "name": "Transferuri pentru nunți",
+        "meta": "Pentru miri, familie și invitați",
+        "title": "Transferuri pentru nunți.",
+        "lead": "Ajungeți la timp și confortabil în ziua cea mare. Ne ocupăm de călătoria dumneavoastră, a familiei și a invitaților.",
+        "statement": "Ziua nunții se desfășoară după un program. Ne asigurăm că și transportul respectă acest program.",
+        "includes": [
+          "Transport pentru miri, familie și invitații la nuntă",
+          "Preluări de acasă, de la hotel sau de la locație până la ceremonie și petrecere",
+          "Taxiuri accesibile pentru scaun cu rotile, pentru invitații care au nevoie de acces fără trepte",
+          "Grupuri de cinci sau șase persoane în Mercedes Vito 114",
+          "Orele sunt planificate împreună cu dumneavoastră, din timp"
+        ],
+        "faqs": [
+          {
+            "q": "Cu cât timp înainte ar trebui să rezerv?",
+            "a": "Cât mai devreme posibil. Sunați, scrieți pe WhatsApp sau trimiteți un e-mail cu data, locația și orele, iar noi vă vom confirma ce vă putem oferi."
+          },
+          {
+            "q": "Puteți transporta un grup mai mare de nuntași?",
+            "a": "Mercedes Vito 114 transportă grupuri de cinci sau șase persoane. Pentru grupuri mai mari, contactați-ne și vom discuta opțiunile împreună cu dumneavoastră."
+          },
+          {
+            "q": "Cum aflu prețul?",
+            "a": "Estimarea noastră online se bazează pe distanță, ora din zi și eventualele taxe de aeroport. Este o estimare, nu un preț fix – contactați-ne telefonic, pe WhatsApp sau prin e-mail pentru a vă confirma oferta."
+          }
+        ]
+      },
+      "courier-services": {
+        "name": "Servicii de curierat",
+        "meta": "Documente și colete, din ușă în ușă",
+        "title": "Servicii de curierat.",
+        "lead": "Documente, colete și obiecte urgente ridicate și livrate cu taxiul, din ușă în ușă.",
+        "statement": "Când ceva trebuie să ajungă personal, trimiteți-l prin noi.",
+        "includes": [
+          "Documente și colete ridicate și livrate din ușă în ușă",
+          "Curse directe de la ridicare până la livrare",
+          "Solicitări urgente și în aceeași zi, în funcție de disponibilitate",
+          "Curse locale și livrări pe distanțe lungi",
+          "Spațiu în vehiculele noastre pentru obiecte mai mari"
+        ],
+        "faqs": [
+          {
+            "q": "Ce pot trimite?",
+            "a": "Documente, colete și alte obiecte care încap comod în vehicul. Spuneți-ne despre ce este vorba, aproximativ cât de mare este și încotro merge, iar noi vă vom confirma dacă îl putem prelua."
+          },
+          {
+            "q": "Poate pleca în aceeași zi?",
+            "a": "Deseori, în funcție de disponibilitate. Sunați-ne sau scrieți-ne pe WhatsApp pentru a verifica."
+          },
+          {
+            "q": "Cum aflu prețul?",
+            "a": "Estimarea noastră online se bazează pe distanță, ora din zi și eventualele taxe de aeroport. Este o estimare, nu un preț fix – contactați-ne telefonic, pe WhatsApp sau prin e-mail pentru a vă confirma oferta."
+          }
+        ]
+      },
+      "local-trips": {
+        "name": "Curse locale",
+        "meta": "Luton și orașele din apropiere, drumuri la școală",
+        "title": "Curse locale.",
+        "lead": "Călătorii de zi cu zi în Luton și în zona înconjurătoare, de la drumul la școală până la supermarket.",
+        "statement": "Un taxi care cunoaște orașul, gata când sunteți și dumneavoastră.",
+        "includes": [
+          "Cumpărături, programări, ieșiri seara și excursii de o zi",
+          "Drumuri la școală",
+          "Preluări de acasă, de la serviciu, de la hotel sau de la gară",
+          "Legături cu Luton Airport Parkway, Luton station și Luton DART",
+          "Taxiuri accesibile pentru scaun cu rotile, cu acces pe rampă fără trepte"
+        ],
+        "faqs": [
+          {
+            "q": "Pot rezerva curse regulate?",
+            "a": "Da. Contactați-ne cu zilele, orele și adresele, iar noi ne ocupăm de organizare."
+          },
+          {
+            "q": "Există tarif de noapte?",
+            "a": "Da. Între orele 23:00 și 06:00 se aplică un tarif de noapte mai mare, iar estimarea noastră îl include."
+          },
+          {
+            "q": "Cum aflu prețul?",
+            "a": "Estimarea noastră online se bazează pe distanță, ora din zi și eventualele taxe de aeroport. Este o estimare, nu un preț fix – contactați-ne telefonic, pe WhatsApp sau prin e-mail pentru a vă confirma oferta."
+          }
+        ]
+      },
+      "long-distance-national-journeys": {
+        "name": "Călătorii pe distanțe lungi",
+        "meta": "În toată țara, din ușă în ușă",
+        "title": "Călătorii naționale pe distanțe lungi.",
+        "lead": "Călătorii confortabile, din ușă în ușă, oriunde în Marea Britanie.",
+        "statement": "Dintr-un comitat în altul sau de la un capăt la altul al țării, drumul ar trebui să fie partea ușoară.",
+        "includes": [
+          "Oriunde în Marea Britanie, din ușă în ușă",
+          "Scaune confortabile și spațiu pentru bagaje",
+          "Preluări de acasă, de la hotel sau de la locul de muncă",
+          "Curse dus și dus-întors",
+          "O estimare clară de la început, confirmată de o persoană reală"
+        ],
+        "faqs": [
+          {
+            "q": "Puteți face și curse dus-întors?",
+            "a": "Da. Spuneți-ne la rezervare și o vom include în ofertă."
+          },
+          {
+            "q": "Câte persoane pot călători?",
+            "a": "Până la șase. Mercedes Vito 114 este cea mai potrivită variantă pentru grupuri de cinci sau șase persoane cu bagaje."
+          },
+          {
+            "q": "Cum aflu prețul?",
+            "a": "Estimarea noastră online se bazează pe distanță, ora din zi și eventualele taxe de aeroport. Este o estimare, nu un preț fix – contactați-ne telefonic, pe WhatsApp sau prin e-mail pentru a vă confirma oferta."
+          }
+        ]
+      },
+      "corporate-accounts": {
+        "name": "Conturi corporate",
+        "meta": "Angajați, clienți și vizitatori",
+        "title": "Conturi corporate.",
+        "lead": "Un partener de taxi de încredere pentru firma dumneavoastră: deplasările angajaților, transferurile clienților și cursele la aeroport, organizate printr-un singur punct de contact.",
+        "statement": "Călătoriile de afaceri funcționează cel mai bine atunci când sunt simple. Noi le păstrăm așa.",
+        "includes": [
+          "Curse regulate pentru angajați și clienți",
+          "Transferuri la aeroport pentru vizitatori și delegați",
+          "Călătorii executive și business class",
+          "Rezervări în avans și curse recurente",
+          "Un singur punct de contact – telefon, WhatsApp sau e-mail"
+        ],
+        "faqs": [
+          {
+            "q": "Cum deschid un cont?",
+            "a": "Sunați, scrieți pe WhatsApp sau trimiteți-ne un e-mail cu numele firmei și tipul de curse de care aveți nevoie, iar noi ne ocupăm de restul."
+          },
+          {
+            "q": "Puteți acoperi transferurile la aeroport pentru vizitatori?",
+            "a": "Da. Acoperim Luton, Heathrow, Gatwick, Stansted, London City și toate celelalte aeroporturi din Marea Britanie."
+          },
+          {
+            "q": "Cum se stabilește plata?",
+            "a": "Spuneți-ne cum ar dori firma dumneavoastră să plătească și vom stabili împreună detaliile."
+          }
+        ]
+      },
+      "other-journeys": {
+        "name": "Alte curse",
+        "meta": "Spuneți-ne încotro mergeți",
+        "title": "Alte curse.",
+        "lead": "Excursii, evenimente, ieșiri seara, programări și tot ce se află între ele.",
+        "statement": "Dacă cursa dumneavoastră nu se află pe listă, probabil că își are totuși locul la noi.",
+        "includes": [
+          "Evenimente, ieșiri seara și excursii de o zi",
+          "Programări și curse la gară",
+          "Călătorii de grup de până la șase persoane",
+          "Taxiuri accesibile pentru scaun cu rotile, cu acces pe rampă fără trepte",
+          "Orice nu este menționat aici – întrebați-ne"
+        ],
+        "faqs": [
+          {
+            "q": "Cursa mea nu este pe listă. Mă puteți ajuta?",
+            "a": "Foarte probabil. Sunați, scrieți pe WhatsApp sau trimiteți-ne un e-mail cu detaliile și vă vom spune."
+          },
+          {
+            "q": "Cum aflu prețul?",
+            "a": "Estimarea noastră online se bazează pe distanță, ora din zi și eventualele taxe de aeroport. Este o estimare, nu un preț fix – contactați-ne telefonic, pe WhatsApp sau prin e-mail pentru a vă confirma oferta."
+          }
+        ]
+      }
+    },
+    "page": {
+      "eyebrow": "Luton Connect Taxis · Servicii",
+      "nutshell": "Pe scurt",
+      "getEstimate": "Obțineți o estimare",
+      "included": "Ce este inclus",
+      "faqEyebrow": "Bine de știut",
+      "faqTitle": "Întrebări, cu răspunsuri.",
+      "howEyebrow": "Cum funcționează rezervarea",
+      "steps": [
+        {
+          "title": "Spuneți-ne cursa dorită",
+          "text": "Introduceți locul de preluare, destinația, data și ora pentru o estimare instantanee."
+        },
+        {
+          "title": "Confirmați oferta",
+          "text": "Sunați, scrieți pe WhatsApp sau trimiteți un e-mail, iar noi vă confirmăm prețul și rezervarea."
+        },
+        {
+          "title": "Călătoriți și plătiți",
+          "text": "Șoferul ajunge la timp. Plătiți șoferului, în mașină."
+        }
+      ],
+      "metaDescription": "{lead} Luton Connect Taxis – sunați la {phone}."
+    }
+  },
+  "validation": {
+    "contact": {
+      "name": "Vă rugăm să ne spuneți numele dumneavoastră.",
+      "nameTooLong": "Acest nume este prea lung.",
+      "email": "Vă rugăm să introduceți adresa de e-mail.",
+      "emailInvalid": "Această adresă de e-mail nu pare corectă.",
+      "phone": "Acest număr de telefon nu pare corect.",
+      "topic": "Vă rugăm să alegeți subiectul mesajului.",
+      "message": "Vă rugăm să scrieți mesajul.",
+      "messageShort": "Vă rugăm să adăugați câteva detalii în plus.",
+      "messageLong": "Vă rugăm să păstrați mesajul sub {max} de caractere."
+    },
+    "booking": {
+      "nameMissing": "Vă rugăm să ne spuneți numele dumneavoastră.",
+      "nameTooLong": "Acest nume este prea lung.",
+      "emailMissing": "Vă rugăm să introduceți adresa de e-mail.",
+      "emailInvalid": "Această adresă de e-mail nu pare corectă.",
+      "phoneMissing": "Vă rugăm să introduceți un număr de telefon la care vă putem contacta.",
+      "childSeats": "Alegeți între 0 și {max} scaune pentru copii.",
+      "flightNumber": "Numerele de zbor arată astfel: BA123 sau U2 4567.",
+      "notesTooLong": "Vă rugăm să păstrați observațiile sub {max} de caractere.",
+      "termsNotAccepted": "Vă rugăm să bifați căsuța pentru a accepta Termenii și Politica de confidențialitate."
+    },
+    "journey": {
+      "pickupMissing": "Alegeți locul de preluare din sugestii.",
+      "dropoffMissing": "Alegeți destinația din sugestii.",
+      "samePlace": "Locul de preluare și destinația nu pot fi același loc.",
+      "dateMissing": "Alegeți data preluării.",
+      "timeMissing": "Alegeți ora preluării.",
+      "timePassed": "Această oră a trecut deja.",
+      "timeTooSoon": "Pentru preluări în mai puțin de o oră, vă rugăm să ne sunați.",
+      "dateTooFar": "Această dată este prea îndepărtată – vă rugăm să ne sunați.",
+      "passengersMissing": "Alegeți câte persoane călătoresc.",
+      "passengersTooMany": "Pentru mai mult de {max} persoane, vă rugăm să ne sunați pentru o ofertă.",
+      "returnDateMissing": "Alegeți data întoarcerii.",
+      "returnTimeMissing": "Alegeți ora întoarcerii.",
+      "returnBeforeOutbound": "Întoarcerea trebuie să fie după preluarea de la dus."
+    },
+    "fields": {
+      "phoneInvalid": "Acest număr de telefon nu pare corect."
+    },
+    "quote": {
+      "tooFar": "Este o cursă lungă – vă rugăm să ne sunați sau să ne scrieți pe WhatsApp pentru o ofertă.",
+      "tooManyPassengers": "Pentru mai mult de {max} pasageri, vă rugăm să ne sunați pentru o ofertă.",
+      "invalidInput": "Unele detalii ale cursei lipsesc sau sunt invalide."
+    },
+    "api": {
+      "noRoute": "Nu am găsit un traseu rutier între cele două locuri. Vă rugăm să le verificați sau să ne sunați.",
+      "mapsUnavailable": "Nu putem calcula o estimare acum. Vă rugăm să sunați la {phone} sau să ne scrieți pe WhatsApp pentru o ofertă.",
+      "quoteRateLimited": "Ați cerut multe oferte într-un interval scurt. Vă rugăm să așteptați câteva minute sau să ne sunați.",
+      "callForQuote": "Vă rugăm să ne sunați pentru o ofertă.",
+      "quoteFailed": "Nu am putut calcula o estimare. Vă rugăm să încercați din nou sau să ne sunați pentru o ofertă.",
+      "bookingRateLimited": "Ați trimis mai multe solicitări într-un interval scurt. Vă rugăm să așteptați câteva minute sau să ne sunați ori să ne scrieți pe WhatsApp.",
+      "tooFast": "A fost foarte rapid – vă rugăm să verificați datele și să apăsați din nou pe trimitere.",
+      "captchaFailed": "Nu am putut verifica faptul că sunteți o persoană reală. Vă rugăm să încercați din nou sau să sunați la {phone}.",
+      "storageUnavailable": "Nu am putut salva solicitarea acum. Vă rugăm să sunați la {phone} sau să ne scrieți pe WhatsApp pentru a rezerva.",
+      "bookingFailed": "Nu am putut trimite solicitarea acum. Vă rugăm să încercați din nou sau să sunați la {phone}.",
+      "network": "Nu am putut contacta serverul. Vă rugăm să verificați conexiunea sau să sunați la {phone}.",
+      "estimateUnavailable": "Calcularea distanței nu a fost disponibilă la momentul rezervării"
+    },
+    "account": {
+      "emailRequired": "Vă rugăm să introduceți adresa de e-mail.",
+      "emailInvalid": "Această adresă de e-mail nu pare corectă.",
+      "nameRequired": "Vă rugăm să ne spuneți numele dumneavoastră.",
+      "nameTooLong": "Acest nume este prea lung.",
+      "passwordRequired": "Vă rugăm să alegeți o parolă.",
+      "passwordTooShort": "Folosiți cel puțin {min} caractere.",
+      "passwordTooLong": "Această parolă este prea lungă.",
+      "termsRequired": "Vă rugăm să bifați căsuța pentru a accepta Termenii și Politica de confidențialitate.",
+      "passwordEnter": "Vă rugăm să introduceți parola.",
+      "passwordConfirm": "Vă rugăm să introduceți parola pentru confirmare."
+    },
+    "auth": {
+      "weakPassword": "Alegeți o parolă mai puternică – cel puțin 8 caractere."
+    }
+  }
+}

@@ -1,0 +1,1302 @@
+{
+  "common": {
+    "callPhone": "Call {phone}",
+    "whatsappUs": "WhatsApp us",
+    "skipToContent": "Skip to content",
+    "dateAt": "{date} at {time}"
+  },
+  "header": {
+    "homeAria": "{name} – home",
+    "navMain": "Main",
+    "navMobile": "Mobile",
+    "nav": {
+      "services": "Services",
+      "fleet": "Fleet",
+      "hotels": "Hotels",
+      "connections": "Connections",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "signIn": "Sign in",
+    "myAccount": "My account",
+    "signInOrCreate": "Sign in / create account",
+    "bookNow": "Book now",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "chooseLanguage": "Choose language"
+  },
+  "footer": {
+    "visit": "Visit",
+    "follow": "Follow",
+    "legal": "Legal",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies & Data Use",
+    "copyright": "© {year} {name}. Prices shown are estimates, not fixed prices.",
+    "backToTop": "Back to top ↑"
+  },
+  "cookie": {
+    "title": "Your cookie choices",
+    "text": "We use essential cookies to make this site work. With your permission we would also use analytics cookies to see how the site is used and improve it.",
+    "policy": "Cookie policy",
+    "acceptAll": "Accept all",
+    "rejectAll": "Reject all",
+    "manage": "Manage choices",
+    "manageTitle": "Manage cookie choices",
+    "essential": "Essential",
+    "essentialText": "Needed for the site to work and to remember this choice. Always on.",
+    "essentialAria": "Essential cookies (always on)",
+    "analytics": "Analytics",
+    "analyticsText": "Helps us see how the site is used so we can improve it. Off unless you switch it on.",
+    "analyticsAria": "Analytics cookies",
+    "save": "Save choices",
+    "back": "Back",
+    "settings": "Cookie settings"
+  },
+  "contactFab": {
+    "email": "Email",
+    "call": "Call",
+    "contactUs": "Contact us",
+    "close": "Close",
+    "closeOptions": "Close contact options"
+  },
+  "mobileBar": {
+    "label": "Contact us",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Hackney Carriage taxis · Luton",
+      "line1": "Luton Taxi services.",
+      "line2": "On time,",
+      "line3": "every time.",
+      "lead": "Taxis to & from Luton, Heathrow, Gatwick, Stansted and London City Airport and all other UK airports. We cover all local trips, long-distance national journeys, corporate accounts.",
+      "note": "Estimate only – not a fixed price. Pay your driver in the car. Confirm your quote by WhatsApp, email or phone."
+    },
+    "marquee": {
+      "label": "Why choose us",
+      "items": [
+        "Flight monitoring",
+        "Airport meet & greet",
+        "Wheelchair-accessible",
+        "Card payments",
+        "LEVC TX e",
+        "Mercedes Vito 114",
+        "Luton · Heathrow · Gatwick · Stansted · London City"
+      ]
+    },
+    "intro": {
+      "eyebrow": "Who we are",
+      "statement": "Luton Connect Taxis is a local taxi operator covering everything from everyday local trips and school runs to corporate accounts, national travel and airport transfers. Whether you’re heading across the country or flying abroad, we <mark>watch your flight</mark>, wait where you land and take you <mark>door to door</mark> – with a clear estimate up front and a real person on the end of the phone.",
+      "stepsTitle": "How booking works",
+      "getEstimate": "Get an estimate"
+    },
+    "steps": {
+      "journey": {
+        "title": "Tell us your journey",
+        "text": "Enter pickup, drop-off, date and time for an instant estimate."
+      },
+      "confirm": {
+        "title": "Confirm your quote",
+        "text": "Call, WhatsApp or email and we confirm the price and your booking."
+      },
+      "ride": {
+        "title": "Ride and pay",
+        "text": "Your driver arrives on time. Pay your driver in the car."
+      }
+    },
+    "services": {
+      "eyebrow": "Journeys we cover",
+      "eyebrowMore": "More services",
+      "title": "Where to?",
+      "titleMore": "Also from us.",
+      "sub": "Airport runs, weddings, parcels, local trips, national journeys and business accounts – quoted by WhatsApp, phone or email."
+    },
+    "fleet": {
+      "eyebrow": "Our fleet",
+      "titleLine1": "Our iconic purpose-built London taxis.",
+      "titleLine2": "One standard of excellence.",
+      "bookThis": "Book this vehicle",
+      "seeFull": "See the full fleet",
+      "items": {
+        "levc": {
+          "kicker": "The London taxi",
+          "text": "The purpose-built electric London taxi. Step-free ramp access, generous luggage space and a quiet, comfortable ride.",
+          "specs": [
+            {
+              "term": "Best for",
+              "desc": "City trips, airport runs, wheelchair users"
+            },
+            {
+              "term": "Access",
+              "desc": "Wheelchair accessible"
+            },
+            {
+              "term": "Payment",
+              "desc": "Card accepted in the car"
+            }
+          ]
+        },
+        "vito": {
+          "kicker": "The group carrier",
+          "text": "Extra room for larger groups and bigger luggage, with the comfort and refinement of a Mercedes.",
+          "specs": [
+            {
+              "term": "Best for",
+              "desc": "Groups of 5–6, families, extra luggage"
+            },
+            {
+              "term": "Luggage",
+              "desc": "Declare extra bags when you book"
+            },
+            {
+              "term": "Payment",
+              "desc": "Card accepted in the car"
+            }
+          ]
+        }
+      }
+    },
+    "experience": {
+      "eyebrow": "The Luton Connect difference",
+      "titleLine1": "Small details.",
+      "titleLine2": "Big difference."
+    },
+    "features": {
+      "tracking": {
+        "title": "Flight tracking",
+        "text": "We monitor your flight and adjust your pickup if it lands early or late."
+      },
+      "greet": {
+        "title": "Meet & greet",
+        "text": "Your driver is waiting when you arrive. No hunting for a taxi rank."
+      },
+      "access": {
+        "title": "Wheelchair accessible",
+        "text": "Accessible taxis with step-free ramp access."
+      },
+      "card": {
+        "title": "Card payments",
+        "text": "Pay your driver by card in the car. Simple, no surprises."
+      },
+      "corporate": {
+        "title": "Corporate accounts",
+        "text": "Talk to us about an account for your business: regular trips for staff and visitors, arranged through one point of contact."
+      },
+      "executive": {
+        "title": "Executive",
+        "text": "Polished, punctual travel for directors, clients and important meetings."
+      },
+      "business": {
+        "title": "Business class",
+        "text": "Dependable, comfortable travel for business trips and airport connections, with space for your luggage."
+      }
+    },
+    "hotels": {
+      "eyebrow": "Hotels & stays",
+      "titleLine1": "Hotel pickups,",
+      "titleLine2": "sorted.",
+      "previous": "Previous hotels",
+      "next": "Next hotels",
+      "scrollerLabel": "Hotel pickup areas",
+      "items": {
+        "holidayInn": {
+          "desc": "Door-to-door pickups and drop-offs, day or night."
+        },
+        "travelodge": {
+          "desc": "A quick, comfortable ride between the hotel door and your destination."
+        },
+        "chiltern": {
+          "desc": "A popular choice for visitors and business trips – we get you there on time."
+        },
+        "stockwood": {
+          "desc": "Door-to-door service, with room for all your luggage."
+        },
+        "linton": {
+          "desc": "Easy pickups and drop-offs for short stays and early starts."
+        },
+        "lutonHoo": {
+          "desc": "A grand country-house estate – a relaxed, comfortable ride from Luton."
+        },
+        "cityHotel": {
+          "desc": "Reliable pickups for short stays, meetings and late arrivals."
+        },
+        "thistleExpress": {
+          "desc": "Meet your driver at the hotel door – day or night."
+        }
+      },
+      "fareRoute": "Luton to {hotel}",
+      "fareFrom": "From {price}",
+      "faresNote": "Guide prices only – not fixed prices. Confirm your quote by phone, WhatsApp or email.",
+      "flipHint": "See price & details"
+    },
+    "connections": {
+      "eyebrow": "Connect your journey",
+      "title": "Every ride, joined up.",
+      "taxi": "Taxi",
+      "items": {
+        "train": {
+          "title": "Train",
+          "text": "Luton Airport Parkway · Luton station · Luton DART"
+        },
+        "plane": {
+          "title": "Plane",
+          "text": "Luton, Heathrow, Gatwick, Stansted and London City, with flight tracking"
+        },
+        "bus": {
+          "title": "Bus",
+          "text": "Luton bus station and coach connections, one way or return"
+        },
+        "shopping": {
+          "title": "Shopping",
+          "text": "Town centre, The Mall and retail parks, with luggage space for the haul"
+        }
+      }
+    },
+    "reviews": {
+      "quote": "Your passengers’ real reviews will appear here.",
+      "tag": "Placeholder",
+      "note": "Add genuine reviews from your Google Business Profile or send them to us – we never invent testimonials."
+    },
+    "ctaBand": {
+      "watermark": "Connect",
+      "titleLine1": "Need a taxi?",
+      "titleLine2": "Call or message us now."
+    }
+  },
+  "images": {
+    "hero": "An aeroplane on the airport apron at sunset",
+    "taxi": "A black Hackney Carriage taxi on a London street",
+    "vito": "A white Mercedes parked outside",
+    "nightCab": "A taxi cab in London at night",
+    "heathrow": "A plane at the airport",
+    "gatwick": "An aeroplane docked at a jet bridge",
+    "stansted": "A traveller with luggage at the airport",
+    "londonCity": "Tower Bridge in London at night",
+    "london": "Long exposure of cars on Tower Bridge, London",
+    "luton": "A man walking through a modern airport terminal",
+    "wedding": "A bride and groom standing beside a car",
+    "courier": "A man in a van delivering a parcel",
+    "motorway": "A vehicle driving on a highway through the countryside at sundown",
+    "business": "A businessman looking at documents inside a car",
+    "luggage": "A man in a suit putting a suitcase in a car boot",
+    "hotelAirport": "A hotel exterior at night",
+    "hotelTown": "A grand hotel building exterior",
+    "hotelBusiness": "A hotel lobby",
+    "hotelBoutique": "A spacious luxury hotel lobby",
+    "hotelLate": "A modern hotel complex at night"
+  },
+  "contactForm": {
+    "name": "Your name",
+    "email": "Email",
+    "phone": "Phone",
+    "optional": "(optional)",
+    "topic": "What’s it about?",
+    "topicPlaceholder": "Choose one",
+    "topics": {
+      "quote": "Get a quote",
+      "booking": "Make a booking",
+      "corporate": "Corporate account",
+      "lost": "Lost property",
+      "other": "Something else"
+    },
+    "message": "Your message",
+    "messagePlaceholder": "Where from, where to, date and time, number of passengers – whatever helps us help you.",
+    "trap": "Leave this field empty",
+    "sending": "Sending…",
+    "send": "Send message",
+    "fine": "We use your details only to reply to you. See our {privacy}. This form doesn’t confirm a booking.",
+    "privacyLink": "Privacy Policy",
+    "doneTitle": "Thank you – message received.",
+    "doneBody": "We’ll reply by email or phone as soon as we can. Your message doesn’t confirm a booking – we’ll confirm any quote and booking with you directly. In a hurry? Call {phone} or {whatsapp}.",
+    "whatsappLink": "WhatsApp us",
+    "devNote": "Test mode: no email key is set yet, so the message was printed in your terminal instead of being emailed.",
+    "again": "Send another message",
+    "errorRateLimited": "You’ve sent a few messages in a short time. Please wait a few minutes, or call or WhatsApp us.",
+    "errorTooFast": "That was very quick – please check your details and press send again.",
+    "errorSendFailed": "We couldn’t send your message just now. Please try again, or call {phone} or email {email}.",
+    "errorNetwork": "We couldn’t reach the server. Please check your connection and try again, or call {phone}."
+  },
+  "validation": {
+    "contact": {
+      "name": "Please tell us your name.",
+      "nameTooLong": "That name is too long.",
+      "email": "Please enter your email address.",
+      "emailInvalid": "That email address doesn’t look right.",
+      "phone": "That phone number doesn’t look right.",
+      "topic": "Please choose what your message is about.",
+      "message": "Please write your message.",
+      "messageShort": "Please add a little more detail.",
+      "messageLong": "Please keep your message under {max} characters."
+    },
+    "booking": {
+      "nameMissing": "Please tell us your name.",
+      "nameTooLong": "That name is too long.",
+      "emailMissing": "Please enter your email address.",
+      "emailInvalid": "That email address doesn’t look right.",
+      "phoneMissing": "Please enter a phone number we can reach you on.",
+      "childSeats": "Choose between 0 and {max} child seats.",
+      "flightNumber": "Flight numbers look like BA123 or U2 4567.",
+      "notesTooLong": "Please keep notes under {max} characters.",
+      "termsNotAccepted": "Please tick the box to agree to the Terms and Privacy Policy."
+    },
+    "journey": {
+      "pickupMissing": "Choose a pickup from the suggestions.",
+      "dropoffMissing": "Choose a drop-off from the suggestions.",
+      "samePlace": "Pickup and drop-off can’t be the same place.",
+      "dateMissing": "Choose a pickup date.",
+      "timeMissing": "Choose a pickup time.",
+      "timePassed": "That time has already passed.",
+      "timeTooSoon": "For pickups within the hour, please call us.",
+      "dateTooFar": "That date is too far ahead – please call us.",
+      "passengersMissing": "Choose how many people are travelling.",
+      "passengersTooMany": "For more than {max} people, please call us for a quote.",
+      "returnDateMissing": "Choose a return date.",
+      "returnTimeMissing": "Choose a return time.",
+      "returnBeforeOutbound": "The return must be after your outbound pickup."
+    },
+    "fields": {
+      "phoneInvalid": "That phone number doesn’t look right."
+    },
+    "quote": {
+      "tooFar": "That’s a long journey – please call or WhatsApp us for a quote.",
+      "tooManyPassengers": "For more than {max} passengers, please call us for a quote.",
+      "invalidInput": "Some journey details are missing or invalid."
+    },
+    "api": {
+      "noRoute": "We couldn’t find a driving route between those two places. Please check them, or call us.",
+      "mapsUnavailable": "We can’t work out an estimate right now. Please call {phone} or WhatsApp us for a quote.",
+      "quoteRateLimited": "That’s a lot of quotes in a short time. Please wait a few minutes, or call us.",
+      "callForQuote": "Please call us for a quote.",
+      "quoteFailed": "We couldn’t work out an estimate. Please try again, or call us for a quote.",
+      "bookingRateLimited": "You’ve sent a few requests in a short time. Please wait a few minutes, or call or WhatsApp us.",
+      "tooFast": "That was very quick – please check your details and press send again.",
+      "captchaFailed": "We couldn’t verify that you’re a person. Please try again, or call {phone}.",
+      "storageUnavailable": "We couldn’t save your request just now. Please call {phone} or WhatsApp us to book.",
+      "bookingFailed": "We couldn’t send your request just now. Please try again, or call {phone}.",
+      "network": "We couldn’t reach the server. Please check your connection, or call {phone}.",
+      "estimateUnavailable": "The distance lookup was unavailable when this was booked"
+    },
+    "account": {
+      "emailRequired": "Please enter your email address.",
+      "emailInvalid": "That email address doesn’t look right.",
+      "nameRequired": "Please tell us your name.",
+      "nameTooLong": "That name is too long.",
+      "passwordRequired": "Please choose a password.",
+      "passwordTooShort": "Use at least {min} characters.",
+      "passwordTooLong": "That password is too long.",
+      "termsRequired": "Please tick the box to agree to the Terms and Privacy Policy.",
+      "passwordEnter": "Please enter your password.",
+      "passwordConfirm": "Please enter your password to confirm."
+    },
+    "auth": {
+      "weakPassword": "Choose a stronger password – at least 8 characters."
+    }
+  },
+  "legal": {
+    "eyebrow": "Legal",
+    "translationNotice": "This translation is provided for convenience only. If there is any difference, the English version is the legally binding text.",
+    "labels": {
+      "telephone": "Telephone:",
+      "email": "Email:"
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "lead": "Welcome to Luton Connect Taxis. By using our website or booking our services, you agree to the following Terms & Conditions.",
+      "notice": "Draft wording. Waiting-time and cancellation figures are still to be confirmed by Luton Connect Taxis.",
+      "blocks": [
+        {
+          "h": "Bookings",
+          "p": [
+            "All bookings are subject to availability.",
+            "Customers are responsible for providing accurate booking information, including:"
+          ],
+          "ul": [
+            "Pickup address",
+            "Destination",
+            "Date and time",
+            "Contact details",
+            "Flight information where applicable"
+          ],
+          "after": [
+            "Incorrect information may result in delays or additional charges."
+          ]
+        },
+        {
+          "h": "Prices",
+          "p": [
+            "All prices quoted are subject to confirmation.",
+            "Additional charges may apply for:"
+          ],
+          "ul": [
+            "Waiting time",
+            "Additional pick-up points",
+            "Changes to the booking",
+            "Vehicle damage caused by passengers"
+          ]
+        },
+        {
+          "h": "Airport Transfers",
+          "p": [
+            "For airport collections:"
+          ],
+          "ul": [
+            "We monitor incoming flights where flight details have been provided.",
+            "Drivers will make reasonable efforts to adjust collection times for delayed flights."
+          ]
+        },
+        {
+          "h": "Waiting Time",
+          "p": [
+            "Airport pickups may include a complimentary waiting period.",
+            "Additional waiting time may be charged after the complimentary period has expired."
+          ]
+        },
+        {
+          "h": "Cancellations",
+          "p": [
+            "Bookings cancelled before the agreed pickup time may be eligible for a refund depending on the circumstances.",
+            "Late cancellations or failure to attend the pickup location may result in cancellation charges."
+          ]
+        },
+        {
+          "h": "Passenger Responsibilities",
+          "p": [
+            "Passengers must:"
+          ],
+          "ul": [
+            "Wear seat belts where legally required.",
+            "Treat vehicles respectfully.",
+            "Avoid behaviour that may endanger the driver or other passengers.",
+            "Be responsible for any damage caused during the journey."
+          ]
+        },
+        {
+          "h": "Luggage",
+          "p": [
+            "Passengers are responsible for ensuring that the selected vehicle is suitable for their luggage requirements.",
+            "Extra luggage should be declared when making a booking."
+          ]
+        },
+        {
+          "h": "Lost Property",
+          "p": [
+            "Items left in our vehicles will be kept where possible.",
+            "Collection or return arrangements may incur a charge."
+          ]
+        },
+        {
+          "h": "Website Use",
+          "p": [
+            "While we make every effort to ensure our website remains accurate and available, we do not guarantee that it will always be free from interruptions or errors."
+          ]
+        },
+        {
+          "h": "Limitation of Liability",
+          "p": [
+            "Luton Connect Taxis shall not be liable for delays or failures caused by circumstances beyond our reasonable control, including but not limited to:"
+          ],
+          "ul": [
+            "Severe traffic",
+            "Road closures",
+            "Weather conditions",
+            "Accidents",
+            "Public events"
+          ],
+          "after": [
+            "Our liability shall be limited to the amount paid for the booking where permitted by law."
+          ]
+        },
+        {
+          "h": "Privacy",
+          "p": [
+            "Your use of this website is also governed by our Privacy Policy."
+          ]
+        },
+        {
+          "h": "Changes",
+          "p": [
+            "We reserve the right to update these Terms & Conditions at any time."
+          ]
+        },
+        {
+          "h": "Governing Law",
+          "p": [
+            "These Terms & Conditions are governed by the laws of England and Wales."
+          ]
+        },
+        {
+          "h": "Contact"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lead": "At Luton Connect Taxis, we are committed to protecting your privacy and ensuring that your personal information is handled securely and responsibly. This Privacy Policy explains how we collect, use, store and protect your personal information when you use our website or book our services.",
+      "notice": "Draft wording. A revised Privacy Policy covering our website tools and payment-in-car arrangements is being prepared and will replace this text.",
+      "blocks": [
+        {
+          "h": "Who We Are"
+        },
+        {
+          "h": "Information We Collect",
+          "p": [
+            "When you contact us or make a booking, we may collect:"
+          ],
+          "ul": [
+            "Full name",
+            "Email address",
+            "Telephone number",
+            "Pickup and destination addresses",
+            "Flight information (where applicable)",
+            "Booking details",
+            "Payment information (processed securely through our payment provider where applicable)",
+            "IP address",
+            "Browser information"
+          ]
+        },
+        {
+          "h": "How We Use Your Information",
+          "p": [
+            "We use your information to:"
+          ],
+          "ul": [
+            "Process and manage bookings",
+            "Contact you regarding your booking",
+            "Respond to enquiries",
+            "Improve our services",
+            "Prevent fraud",
+            "Meet legal obligations"
+          ],
+          "after": [
+            "We will never sell your personal information to third parties."
+          ]
+        },
+        {
+          "h": "Cookies",
+          "p": [
+            "Our website uses cookies to improve your browsing experience. Cookies help us:"
+          ],
+          "ul": [
+            "Analyse website traffic",
+            "Improve website performance",
+            "Remember your preferences"
+          ],
+          "after": [
+            "You can manage or disable cookies through your browser settings or our Cookie Consent banner. See our Cookies & Data Use page for details."
+          ]
+        },
+        {
+          "h": "Data Security",
+          "p": [
+            "We take appropriate technical and organisational measures to protect your personal information against unauthorised access, loss or misuse. Our website is protected using SSL encryption (HTTPS)."
+          ]
+        },
+        {
+          "h": "How Long We Keep Your Information",
+          "p": [
+            "We retain personal information only for as long as necessary to:"
+          ],
+          "ul": [
+            "Complete your booking",
+            "Meet legal obligations",
+            "Resolve disputes",
+            "Improve our services"
+          ]
+        },
+        {
+          "h": "Sharing Your Information",
+          "p": [
+            "We may share your information only where necessary with:"
+          ],
+          "ul": [
+            "Payment providers",
+            "IT service providers",
+            "Legal authorities where required by law"
+          ],
+          "after": [
+            "We never sell your personal information."
+          ]
+        },
+        {
+          "h": "Your Rights",
+          "p": [
+            "Under the UK GDPR you have the right to:"
+          ],
+          "ul": [
+            "Access your personal information",
+            "Correct inaccurate information",
+            "Request deletion of your information",
+            "Restrict processing",
+            "Object to processing",
+            "Request data portability"
+          ],
+          "after": [
+            "To exercise any of these rights, please contact us."
+          ]
+        },
+        {
+          "h": "Contact Us"
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookies & Data Use",
+      "lead": "This page explains the cookies and similar technologies used on lutonconnecttaxis.com, and how you can control them.",
+      "notice": "Draft wording. This will be finalised when booking, accounts and analytics are switched on.",
+      "blocks": [
+        {
+          "h": "What are cookies?",
+          "p": [
+            "Cookies are small text files stored on your device when you visit a website. Similar technologies, such as local storage, work in the same way. We use the word “cookies” for all of them."
+          ]
+        },
+        {
+          "h": "How we use them",
+          "p": [
+            "We keep cookies to a minimum. They fall into two groups:"
+          ],
+          "ul": [
+            "Essential – needed for the site to work and to remember your cookie choice. These are always on. They also cover security, such as spam protection, and – only if you sign in to your account – keeping you signed in (three small cookies named lct_id, lct_rt and lct_in, removed when you sign out or after 30 days). A small preference cookie named lct_lang remembers the language you choose (kept for 12 months, and only set when you pick a language from the language menu).",
+            "Analytics – help us understand how the site is used so we can improve it. These stay off unless you accept them."
+          ]
+        },
+        {
+          "h": "Your choices",
+          "p": [
+            "When you first visit, you can accept all cookies, reject all non-essential cookies, or choose which to allow. You can change your mind at any time using “Cookie settings” at the bottom of every page.",
+            "You can also block or delete cookies in your browser settings. Some parts of the site may stop working if you do."
+          ]
+        },
+        {
+          "h": "Services that may set cookies",
+          "p": [
+            "When these features are switched on, the companies behind them may set their own cookies. Their own policies apply to that data:"
+          ],
+          "ul": [
+            "Google Maps – address suggestions and distance calculation in the booking form",
+            "Google reCAPTCHA – protects our forms from spam",
+            "Google Analytics – only if you accept analytics cookies",
+            "Firebase – customer sign-in and booking history"
+          ]
+        },
+        {
+          "h": "How long your choice is kept",
+          "p": [
+            "We remember your cookie choice for 12 months, then ask you again."
+          ]
+        },
+        {
+          "h": "Contact",
+          "p": [
+            "Questions about cookies or your data? Get in touch:"
+          ]
+        }
+      ]
+    }
+  },
+  "pages": {
+    "fleet": {
+      "metaTitle": "Our fleet",
+      "metaDescription": "Our iconic purpose-built London taxis: the electric LEVC TX e and the roomy Mercedes Vito 114. One standard of excellence.",
+      "eyebrow": "Luton Connect Taxis · Fleet",
+      "title": "Our fleet.",
+      "lead": "Our iconic purpose-built London taxis, in two sizes. One standard of excellence.",
+      "whichEyebrow": "Which one?",
+      "whichTitleLine": "Pick the right",
+      "whichTitleAccent": "fit.",
+      "compare": [
+        {
+          "label": "Best for",
+          "levc": "City trips, airport runs, wheelchair users",
+          "vito": "Groups of 5–6, families, extra luggage"
+        },
+        {
+          "label": "Access",
+          "levc": "Wheelchair accessible with step-free ramp",
+          "vito": "Ask us when you book"
+        },
+        {
+          "label": "Luggage",
+          "levc": "Generous luggage space",
+          "vito": "Extra room – declare extra bags when you book"
+        },
+        {
+          "label": "Payment",
+          "levc": "Card accepted in the car",
+          "vito": "Card accepted in the car"
+        }
+      ],
+      "whichNote": "Not sure? Tell us how many people and how much luggage and we will recommend the right vehicle.",
+      "everyEyebrow": "With every journey",
+      "every": [
+        {
+          "title": "Flight monitoring",
+          "text": "We keep an eye on your flight and adjust your pickup if it lands early or late."
+        },
+        {
+          "title": "Meet & greet",
+          "text": "Your driver is waiting when you arrive – no hunting for a taxi rank."
+        },
+        {
+          "title": "Pay in the car",
+          "text": "No online payment needed. Pay your driver, by card if you like."
+        },
+        {
+          "title": "A real person on the phone",
+          "text": "Call, WhatsApp or email and we confirm your price and booking."
+        }
+      ]
+    },
+    "blog": {
+      "metaTitle": "Blog",
+      "metaDescription": "News, travel tips and local guides from Luton Connect Taxis – coming soon.",
+      "eyebrow": "Luton Connect Taxis · Blog",
+      "title": "Blog – coming soon.",
+      "lead": "Travel tips, airport guides and news from Luton Connect Taxis are on their way."
+    },
+    "contact": {
+      "metaTitle": "Contact us",
+      "metaDescription": "Call, WhatsApp or email Luton Connect Taxis to confirm a quote or book a journey. {phone} · {email}.",
+      "eyebrow": "Luton Connect Taxis · Contact",
+      "title": "Talk to a real person.",
+      "lead": "Call, WhatsApp, email or send us a message to get a quote, confirm a booking or ask anything at all.",
+      "getInTouch": "Get in touch",
+      "callUs": "Call us",
+      "emailLabel": "Email",
+      "note": "Online estimates are not fixed prices. Contact us on WhatsApp, email or phone to confirm your quote and your booking.",
+      "visit": "Visit",
+      "openMaps": "Open in Google Maps",
+      "follow": "Follow",
+      "messageEyebrow": "Send a message",
+      "messageTitle": "Prefer to write? <mark>We’ll reply.</mark>",
+      "messageLead": "Ask for a quote, tell us about a journey or ask about a corporate account. Your message goes straight to our team at {email}, and we reply by email or phone."
+    }
+  },
+  "services": {
+    "page": {
+      "eyebrow": "Luton Connect Taxis · Services",
+      "nutshell": "In a nutshell",
+      "getEstimate": "Get an estimate",
+      "included": "What’s included",
+      "faqEyebrow": "Good to know",
+      "faqTitle": "Questions, answered.",
+      "howEyebrow": "How booking works",
+      "steps": [
+        {
+          "title": "Tell us your journey",
+          "text": "Enter pickup, drop-off, date and time for an instant estimate."
+        },
+        {
+          "title": "Confirm your quote",
+          "text": "Call, WhatsApp or email and we confirm the price and your booking."
+        },
+        {
+          "title": "Ride and pay",
+          "text": "Your driver arrives on time. Pay your driver in the car."
+        }
+      ],
+      "metaDescription": "{lead} Luton Connect Taxis – call {phone}."
+    },
+    "items": {
+      "airport-transfers": {
+        "name": "Airport transfers",
+        "meta": "Luton, Heathrow, Gatwick, Stansted, London City & all UK airports",
+        "title": "Airport transfers.",
+        "lead": "Taxis to and from Luton, Heathrow, Gatwick, Stansted and London City Airport – and all other UK airports.",
+        "statement": "Wherever you are flying from or into, we watch your flight, wait where you land and take you door to door.",
+        "includes": [
+          "Pickups and drop-offs at every UK airport",
+          "Flight monitoring, so we adjust if you land early or late",
+          "Meet and greet when you arrive",
+          "Space for luggage, and wheelchair-accessible taxis with step-free ramp access",
+          "Groups of five or six in our Mercedes Vito 114"
+        ],
+        "faqs": [
+          {
+            "q": "Do you track my flight?",
+            "a": "Yes. Give us your flight number when you book and we will keep an eye on it, so your driver is there when you land."
+          },
+          {
+            "q": "How much will it cost?",
+            "a": "Our online estimate is based on the distance, the time of day and any airport fees. It is an estimate, not a fixed price – contact us by phone, WhatsApp or email to confirm your quote."
+          },
+          {
+            "q": "Can I pay in the car?",
+            "a": "Yes. You pay your driver in the car, and card payments are accepted."
+          }
+        ]
+      },
+      "wedding-transfers": {
+        "name": "Wedding transfers",
+        "meta": "For the couple, family & guests",
+        "title": "Wedding transfers.",
+        "lead": "Arrive on your big day on time and in comfort. We look after the journey for you, your family and your guests.",
+        "statement": "Your wedding day runs to a timetable. We make sure the travel does too.",
+        "includes": [
+          "Transport for the couple, family and wedding guests",
+          "Pickups from home, hotel or venue to the ceremony and reception",
+          "Wheelchair-accessible taxis for guests who need step-free access",
+          "Groups of five or six in our Mercedes Vito 114",
+          "Timings planned with you in advance"
+        ],
+        "faqs": [
+          {
+            "q": "How far ahead should I book?",
+            "a": "As early as you can. Call, WhatsApp or email with your date, venue and timings and we will confirm what we can offer."
+          },
+          {
+            "q": "Can you carry a larger wedding party?",
+            "a": "Our Mercedes Vito 114 takes groups of five or six. For bigger parties, get in touch and we will talk through the options with you."
+          },
+          {
+            "q": "How do I get a price?",
+            "a": "Our online estimate is based on the distance, the time of day and any airport fees. It is an estimate, not a fixed price – contact us by phone, WhatsApp or email to confirm your quote."
+          }
+        ]
+      },
+      "courier-services": {
+        "name": "Courier services",
+        "meta": "Documents & parcels, door to door",
+        "title": "Courier services.",
+        "lead": "Documents, parcels and urgent items collected and delivered by taxi, door to door.",
+        "statement": "When something has to get there in person, send it with us.",
+        "includes": [
+          "Documents and parcels collected and delivered door to door",
+          "Direct journeys from collection to delivery",
+          "Urgent and same-day requests, subject to availability",
+          "Local runs and long-distance deliveries",
+          "Room in our vehicles for larger items"
+        ],
+        "faqs": [
+          {
+            "q": "What can I send?",
+            "a": "Documents, parcels and other items that fit comfortably in the vehicle. Tell us what it is, roughly how big it is and where it is going, and we will confirm whether we can take it."
+          },
+          {
+            "q": "Can it go the same day?",
+            "a": "Often, depending on availability. Call or message us on WhatsApp to check."
+          },
+          {
+            "q": "How do I get a price?",
+            "a": "Our online estimate is based on the distance, the time of day and any airport fees. It is an estimate, not a fixed price – contact us by phone, WhatsApp or email to confirm your quote."
+          }
+        ]
+      },
+      "local-trips": {
+        "name": "Local trips",
+        "meta": "Luton & nearby towns, school runs",
+        "title": "Local trips.",
+        "lead": "Everyday journeys around Luton and the surrounding area, from the school run to the supermarket.",
+        "statement": "A taxi that knows the town, ready when you are.",
+        "includes": [
+          "Shopping, appointments, nights out and days out",
+          "School runs",
+          "Pickups from home, work, hotel or station",
+          "Connections with Luton Airport Parkway, Luton station and Luton DART",
+          "Wheelchair-accessible taxis with step-free ramp access"
+        ],
+        "faqs": [
+          {
+            "q": "Can I book regular trips?",
+            "a": "Yes. Get in touch with the days, times and addresses and we will arrange it."
+          },
+          {
+            "q": "Is there a night rate?",
+            "a": "Yes. A higher night rate applies between 11pm and 6am, and our estimate takes it into account."
+          },
+          {
+            "q": "How do I get a price?",
+            "a": "Our online estimate is based on the distance, the time of day and any airport fees. It is an estimate, not a fixed price – contact us by phone, WhatsApp or email to confirm your quote."
+          }
+        ]
+      },
+      "long-distance-national-journeys": {
+        "name": "Long-distance journeys",
+        "meta": "Nationwide, door to door",
+        "title": "Long-distance national journeys.",
+        "lead": "Comfortable, door-to-door travel to anywhere in the UK.",
+        "statement": "Across the county or across the country, the journey should be the easy part.",
+        "includes": [
+          "Anywhere in the UK, door to door",
+          "Comfortable seats and space for luggage",
+          "Pickups from home, hotel or workplace",
+          "One-way and return journeys",
+          "A clear estimate up front, confirmed by a real person"
+        ],
+        "faqs": [
+          {
+            "q": "Can you do return journeys?",
+            "a": "Yes. Tell us when you book and we will include it in your quote."
+          },
+          {
+            "q": "How many people can travel?",
+            "a": "Up to six. Our Mercedes Vito 114 is the best fit for groups of five or six with luggage."
+          },
+          {
+            "q": "How do I get a price?",
+            "a": "Our online estimate is based on the distance, the time of day and any airport fees. It is an estimate, not a fixed price – contact us by phone, WhatsApp or email to confirm your quote."
+          }
+        ]
+      },
+      "corporate-accounts": {
+        "name": "Corporate accounts",
+        "meta": "Staff, clients & visitors",
+        "title": "Corporate accounts.",
+        "lead": "A dependable taxi partner for your business: staff travel, client transfers and airport runs, arranged through one point of contact.",
+        "statement": "Business travel works best when it is simple. We keep it that way.",
+        "includes": [
+          "Regular staff and client journeys",
+          "Airport transfers for visitors and delegates",
+          "Executive and business-class travel",
+          "Advance bookings and recurring trips",
+          "One point of contact – call, WhatsApp or email"
+        ],
+        "faqs": [
+          {
+            "q": "How do I open an account?",
+            "a": "Call, WhatsApp or email us with your company name and the kind of journeys you need, and we will take it from there."
+          },
+          {
+            "q": "Can you cover airport runs for visitors?",
+            "a": "Yes. We cover Luton, Heathrow, Gatwick, Stansted, London City and all other UK airports."
+          },
+          {
+            "q": "How is payment arranged?",
+            "a": "Tell us how your business would like to pay and we will work out the details with you."
+          }
+        ]
+      },
+      "other-journeys": {
+        "name": "Other journeys",
+        "meta": "Tell us where you are going",
+        "title": "Other journeys.",
+        "lead": "Days out, events, nights out, appointments and everything in between.",
+        "statement": "If your journey is not on the list, it probably still belongs on ours.",
+        "includes": [
+          "Events, nights out and days out",
+          "Appointments and station runs",
+          "Group travel for up to six",
+          "Wheelchair-accessible taxis with step-free ramp access",
+          "Anything not listed here – just ask"
+        ],
+        "faqs": [
+          {
+            "q": "My journey is not listed. Can you help?",
+            "a": "Very likely. Call, WhatsApp or email us with the details and we will let you know."
+          },
+          {
+            "q": "How do I get a price?",
+            "a": "Our online estimate is based on the distance, the time of day and any airport fees. It is an estimate, not a fixed price – contact us by phone, WhatsApp or email to confirm your quote."
+          }
+        ]
+      }
+    }
+  },
+  "booking": {
+    "kicker": "Booking request received",
+    "thanks": "Thank you, {name}. <strong>This is a request, not a confirmed booking yet.</strong> We’ll confirm by WhatsApp, phone or email. Keep your reference handy – you can message it to us now to speed things up.",
+    "whatsappMessage": "Hello, my booking reference is {reference}",
+    "whatsappCta": "WhatsApp us your reference",
+    "call": "Call {phone}",
+    "summary": {
+      "from": "From",
+      "to": "To",
+      "when": "When",
+      "return": "Return",
+      "people": "People",
+      "contact": "We’ll contact you on"
+    },
+    "noEstimate": "We’ll work out your price and send it to you when we confirm. This is never a fixed price until we confirm it with you.",
+    "noEstimateWithNote": "{note}. We’ll work out your price and send it to you when we confirm. This is never a fixed price until we confirm it with you.",
+    "pay": "You pay your driver in the car.",
+    "savedToAccount": "Saved to your account – {link}.",
+    "savedToAccountLink": "see all your bookings",
+    "another": "Make another booking"
+  },
+  "estimate": {
+    "label": "Your estimate",
+    "hint": "Choose your pickup, drop-off, date and time to see an estimate.",
+    "loading": "Working out your estimate…",
+    "pendingFee": "+ airport fee to confirm",
+    "meta": "About {miles} miles · {minutes} min",
+    "metaReturn": "About {miles} miles · {minutes} min each way",
+    "outbound": "Outbound",
+    "return": "Return",
+    "both": "Both journeys <strong>{total}</strong>",
+    "confirmedOnQuote": "Confirmed on quote",
+    "disclaimer": "<strong>Not a fixed price.</strong> Contact us on WhatsApp, email or phone to confirm your quote.",
+    "bands": {
+      "passengers": "{passengers} passengers – night rate applies at any time",
+      "day": "Day rate ({start}–{end})",
+      "night": "Night rate ({start}–{end})"
+    },
+    "lines": {
+      "base": "Base fare",
+      "mileage": "Mileage",
+      "airport-dropoff": "Airport drop-off fee – {airport}",
+      "airport-pickup": "Airport pickup fee – {airport}",
+      "congestion": "London Congestion Charge"
+    },
+    "details": {
+      "mileage": "{miles} miles × {rate}",
+      "congestion": "Charged once per journey"
+    },
+    "congestion": {
+      "outside-zone": "Journey is outside the Congestion Charge zone.",
+      "in-charging-hours": "Journey is in the zone during charging hours.",
+      "outside-hours": "Journey is in the zone but outside charging hours on {day}."
+    },
+    "dayKinds": {
+      "weekdays": "weekdays",
+      "weekends": "weekends",
+      "bankHolidays": "bank holidays"
+    },
+    "charges": {
+      "short": "Excluding Dart charges",
+      "long": [
+        "Dartford Crossing: The applicable Dart Charge will be added.",
+        "Tolls & Bridges: Any other route toll charges will be added to the final fare."
+      ],
+      "known": "Known charges (check current rates before travel):",
+      "crossingFormat": "<strong>{name}</strong> – {charge}. {when}.",
+      "crossings": [
+        {
+          "name": "Dartford Crossing (M25, River Thames)",
+          "charge": "£3.50 per crossing (standard car, pay-as-you-go)",
+          "when": "Every day 06:00–22:00 (free 22:00–06:00), charged per crossing in each direction"
+        },
+        {
+          "name": "Blackwall & Silvertown Tunnels (East London)",
+          "charge": "Up to £4.20 (peak / standard)",
+          "when": "06:00–22:00, 7 days a week (free overnight)"
+        }
+      ]
+    }
+  },
+  "quote": {
+    "ariaLabel": "Get a taxi estimate",
+    "pickup": "Pickup",
+    "pickupPlaceholder": "Address, hotel, station…",
+    "dropoff": "Drop-off",
+    "dropoffPlaceholder": "Airport, address…",
+    "date": "Date",
+    "time": "Time",
+    "people": "People",
+    "getEstimate": "Get estimate",
+    "wantReturn": "I need a return journey too",
+    "returnDate": "Return date",
+    "returnTime": "Return time",
+    "cta": {
+      "title": "Happy with the estimate?",
+      "text": "Send us a booking request. We confirm by WhatsApp, phone or email, and you pay your driver in the car.",
+      "request": "Request this taxi",
+      "whatsapp": "Ask on WhatsApp",
+      "call": "Call {phone}"
+    },
+    "details": {
+      "title": "Your details",
+      "signedIn": "Booking as <strong>{email}</strong> – it will be saved to {link}.",
+      "signedInLink": "your account",
+      "guest": "Have an account? {link} to keep your bookings and save typing. Guests are welcome too.",
+      "guestLink": "Sign in",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "honeypot": "Leave this field empty"
+    },
+    "more": {
+      "summary": "More details (optional) – vehicle, luggage, child seats, flight, notes",
+      "vehicle": "Vehicle",
+      "luggage": "Luggage",
+      "childSeats": "Child seats",
+      "flightNumber": "Flight number",
+      "flightPlaceholder": "e.g. BA123",
+      "notes": "Notes",
+      "notesPlaceholder": "Wheelchair access, a second pickup, a meeting point…"
+    },
+    "vehicles": {
+      "noPreference": "No preference"
+    },
+    "luggageOptions": {
+      "none": "No luggage",
+      "bags12": "1–2 bags",
+      "bags34": "3–4 bags",
+      "bags5": "5 or more (tell us in the notes)"
+    },
+    "terms": "I agree to the {terms} and {privacy}.",
+    "termsLink": "Terms & Conditions",
+    "privacyLink": "Privacy Policy",
+    "sending": "Sending…",
+    "send": "Send booking request",
+    "back": "Back",
+    "fine": "This is a booking <strong>request</strong>. We’ll confirm by WhatsApp, phone or email, and you pay your driver in the car. Estimates are not fixed prices.",
+    "noscript": "The estimate needs JavaScript. Please call {phone} or WhatsApp us for a quote.",
+    "whatsapp": {
+      "default": "Hello, I'd like to book a taxi.",
+      "journeyOne": "Hello, I'd like a taxi from {pickup} to {dropoff} on {date} at {time} for {count} person.",
+      "journeyOther": "Hello, I'd like a taxi from {pickup} to {dropoff} on {date} at {time} for {count} people.",
+      "estimate": "The website estimate was £{total}."
+    },
+    "place": {
+      "noKey": "Address suggestions are switched off. Please call or WhatsApp us to book.",
+      "failed": "We couldn’t load suggestions just now. Please try again, or call us to book.",
+      "noMatches": "No matches. Try a postcode, hotel, station or airport name.",
+      "poweredBy": "Powered by Google",
+      "suggestionsAvailable": "{count} suggestions available"
+    }
+  },
+  "account": {
+    "page": {
+      "metaTitle": "My account",
+      "metaDescription": "Sign in to see your Luton Connect Taxis bookings and keep your details for next time.",
+      "eyebrow": "Luton Connect Taxis · Account",
+      "title": "Your bookings, in one place.",
+      "lead": "Sign in to see your bookings and have your details filled in next time. Guests can still book without an account.",
+      "sectionLabel": "Account"
+    },
+    "loading": {
+      "checking": "Checking your account…"
+    },
+    "tabs": {
+      "label": "Account options",
+      "signin": "Sign in",
+      "register": "Create account"
+    },
+    "guestNote": "You don’t need an account to book – {link}. An account just keeps your bookings in one place and fills in your details next time.",
+    "guestNoteLink": "book as a guest on the homepage",
+    "optional": "optional",
+    "trap": "Leave this empty",
+    "links": {
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "name": "Your name",
+      "phone": "Phone / WhatsApp"
+    },
+    "signin": {
+      "title": "Welcome back",
+      "submit": "Sign in",
+      "busy": "Signing in…",
+      "forgot": "Forgot your password?"
+    },
+    "register": {
+      "title": "Create your account",
+      "passwordHint": "At least 8 characters.",
+      "agree": "I agree to the {terms} and {privacy}.",
+      "submit": "Create account",
+      "busy": "Creating…",
+      "fine": "We use your details only to run your bookings and account. We never sell them."
+    },
+    "reset": {
+      "title": "Reset your password",
+      "intro": "Enter your email and we’ll send you a link to choose a new password.",
+      "submit": "Send reset link",
+      "busy": "Sending…",
+      "back": "Back to sign in",
+      "sentTitle": "Check your email",
+      "sentBody": "If there is an account for {email}, we’ve sent a link to choose a new password. It can take a few minutes – check your spam folder too."
+    },
+    "dashboard": {
+      "eyebrow": "Your account",
+      "hello": "Hello, {name}.",
+      "helloFallback": "there",
+      "signOut": "Sign out",
+      "signingOut": "Signing out…",
+      "bookings": "Your bookings",
+      "book": "Book a taxi",
+      "loading": "Loading your bookings…",
+      "retry": "Try again",
+      "fine": "Bookings are requests until we confirm them by WhatsApp, phone or email. Estimates are not fixed prices – you pay your driver in the car."
+    },
+    "empty": {
+      "title": "No bookings in your account yet.",
+      "body": "Bookings you make while signed in will appear here. {link}.",
+      "link": "Get an estimate and book"
+    },
+    "list": {
+      "upcoming": "Coming up",
+      "earlier": "Earlier"
+    },
+    "status": {
+      "requested": "Requested – awaiting our confirmation",
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "item": {
+      "to": "to",
+      "personOne": "{count} person",
+      "personOther": "{count} people",
+      "childSeatOne": "{count} child seat",
+      "childSeatOther": "{count} child seats",
+      "flight": "Flight {number}",
+      "return": "return {when}",
+      "requested": "Requested {date}",
+      "notes": "Notes: {notes}",
+      "estimate": "Estimate {total}",
+      "airportFee": "+ airport fee to confirm",
+      "breakdown": "Breakdown",
+      "onQuote": "Confirmed on quote",
+      "notFixed": "Not a fixed price – we confirm your quote by WhatsApp, email or phone.",
+      "noEstimate": "No estimate was available – we’ll quote you when we confirm.",
+      "askChange": "Ask to change",
+      "askCancel": "Ask to cancel",
+      "leg": {
+        "journey": "Journey",
+        "outbound": "Outbound",
+        "return": "Return"
+      }
+    },
+    "whatsapp": {
+      "change": "Hello, I’d like to change booking {reference} ({pickup} to {dropoff}, {when}).",
+      "cancel": "Hello, I’d like to cancel booking {reference} ({pickup} to {dropoff}, {when})."
+    },
+    "profile": {
+      "title": "Your details",
+      "intro": "We fill these in on the booking card when you’re signed in. You can still change them for any booking.",
+      "name": "Name",
+      "email": "Email (used to sign in)",
+      "save": "Save details",
+      "saving": "Saving…",
+      "saved": "Saved."
+    },
+    "delete": {
+      "summary": "Delete my account",
+      "body": "This deletes your login and saved details and cannot be undone. Your past bookings are kept in our records (for example for accounting and disputes) but are no longer linked to a login. See our {privacy}, or call us on {phone} with any questions.",
+      "label": "Type your password to confirm",
+      "submit": "Delete my account",
+      "busy": "Deleting…",
+      "wrongPassword": "That password isn’t right."
+    },
+    "errors": {
+      "network": "We couldn’t reach the server. Please check your connection and try again.",
+      "emailExists": "There is already an account with that email. Try signing in, or reset your password.",
+      "invalidCredentials": "That email and password don’t match. Check them and try again, or reset your password.",
+      "rateLimited": "Too many attempts. Please wait a few minutes and try again.",
+      "tooFast": "That was very quick – please try again.",
+      "captchaFailed": "We couldn’t verify that you’re a person. Please try again, or call {phone}.",
+      "disabled": "This account has been switched off. Please call {phone}.",
+      "signedOut": "You’ve been signed out. Please sign in again.",
+      "storageUnavailable": "We couldn’t load that just now. Please try again in a moment.",
+      "accountsUnavailable": "Accounts aren’t available right now. You can still book as a guest on the homepage, or call {phone}.",
+      "generic": "Something went wrong. Please try again, or call {phone}."
+    }
+  },
+  "meta": {
+    "tagline": "Taxis for airports, local trips and long-distance journeys",
+    "description": "Luton Connect Taxis – taxis to and from Luton, Heathrow, Gatwick, Stansted, London City and all UK airports. Local trips, long-distance journeys and corporate accounts. Call 01582 353158."
+  },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "Wrong turn.",
+    "titleAccent": "Let’s get you back.",
+    "lead": "That page doesn’t exist, but we can still get you where you’re going.",
+    "home": "Back to the homepage",
+    "contact": "Contact us"
+  }
+}
