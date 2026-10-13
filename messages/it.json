@@ -290,7 +290,9 @@
     "privacy": "Informativa sulla Privacy",
     "cookies": "Cookie e uso dei dati",
     "copyright": "© {year} {name}. I prezzi indicati sono stime, non prezzi fissi.",
-    "backToTop": "Torna su ↑"
+    "backToTop": "Torna su ↑",
+    "paymentsTitle": "Accettiamo",
+    "paymentsAlt": "Metodi di pagamento accettati: American Express, Apple Pay, Google Pay, Mastercard, Shop Pay e Visa"
   },
   "header": {
     "homeAria": "{name} – home",
@@ -504,7 +506,13 @@
     "reviews": {
       "quote": "Qui compariranno le recensioni autentiche dei suoi passeggeri.",
       "tag": "Segnaposto",
-      "note": "Aggiunga recensioni autentiche dal suo Profilo dell’attività su Google oppure ce le invii – non inventiamo mai testimonianze."
+      "note": "Aggiunga recensioni autentiche dal suo Profilo dell’attività su Google oppure ce le invii. Non inventiamo mai testimonianze.",
+      "eyebrow": "Recensioni",
+      "title": "Cosa dicono i nostri passeggeri",
+      "source": "Recensione Google",
+      "footnote": "Recensioni dei nostri passeggeri su Google. Fai clic su un nome per vedere la recensione originale.",
+      "sourceSample": "Recensione di esempio",
+      "footnoteSample": "Solo anteprima: queste recensioni sono inventate e compaiono solo mentre il sito è in esecuzione in locale. Aggiungi recensioni reali prima del lancio."
     },
     "ctaBand": {
       "watermark": "Connect",
@@ -513,26 +521,25 @@
     }
   },
   "images": {
-    "hero": "Un aereo sul piazzale dell’aeroporto al tramonto",
-    "taxi": "Un taxi nero Hackney Carriage in una strada di Londra",
-    "vito": "Una Mercedes bianca parcheggiata all’aperto",
-    "nightCab": "Un taxi a Londra di notte",
-    "heathrow": "Un aereo in aeroporto",
-    "gatwick": "Un aereo attraccato a un finger d’imbarco",
-    "stansted": "Un viaggiatore con i bagagli in aeroporto",
-    "londonCity": "Il Tower Bridge di Londra di notte",
-    "london": "Lunga esposizione delle auto sul Tower Bridge, Londra",
-    "luton": "Un uomo che cammina in un moderno terminal aeroportuale",
-    "wedding": "Due sposi accanto a un’auto",
-    "courier": "Un uomo su un furgone che consegna un pacco",
-    "motorway": "Un veicolo che percorre un’autostrada nella campagna al tramonto",
-    "business": "Un uomo d’affari che guarda dei documenti all’interno di un’auto",
-    "luggage": "Un uomo in giacca e cravatta che carica una valigia nel bagagliaio di un’auto",
-    "hotelAirport": "L’esterno di un hotel di notte",
-    "hotelTown": "L’esterno di un imponente edificio alberghiero",
-    "hotelBusiness": "La hall di un hotel",
-    "hotelBoutique": "L’ampia hall di un hotel di lusso",
-    "hotelLate": "Un moderno complesso alberghiero di notte"
+    "hero": "Un aeroplano sul piazzale dell'aeroporto al tramonto",
+    "taxi": "Un taxi elettrico LEVC TX nero parcheggiato davanti a una dimora di campagna",
+    "vito": "Un taxi Mercedes Vito 114 nero parcheggiato davanti a una dimora di campagna",
+    "weddingCars": "Due taxi decorati con nastri nuziali davanti a una dimora di campagna",
+    "airportTransfers": "Un viaggiatore con una valigia che guarda un aereo dall'aeroporto",
+    "weddingTransfers": "Una rosa bianca e un nastro sulla portiera di un'auto nuziale nera",
+    "courierServices": "Mani che passano un pacco in una scatola di cartone",
+    "localTrips": "Il ponte di Westminster e il Big Ben a Londra",
+    "longDistance": "Una lunga strada aperta tra le colline",
+    "corporate": "Un moderno edificio per uffici illuminato al crepuscolo",
+    "otherJourneys": "Un taxi elettrico LEVC TX nero parcheggiato davanti a una dimora di campagna",
+    "hotelHolidayInn": "Holiday Inn Express – l'edificio dell'hotel al crepuscolo",
+    "hotelTravelodge": "Travelodge Luton – l'edificio dell'hotel",
+    "hotelChiltern": "Chiltern Hotel – l'ingresso e i giardini",
+    "hotelStockwood": "Stockwood Hotel – la facciata dell'hotel a graticcio",
+    "hotelLinton": "Linton Hotel – l'ingresso dell'hotel",
+    "hotelLutonHoo": "Luton Hoo – la residenza e i suoi giardini formali",
+    "hotelCity": "City Hotel – l'hotel all'angolo di una strada del centro",
+    "hotelThistle": "Thistle Express – l'ingresso dell'hotel"
   },
   "legal": {
     "cookies": {

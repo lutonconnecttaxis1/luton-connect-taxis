@@ -33,7 +33,9 @@
     "privacy": "Privacy Policy",
     "cookies": "Cookies & Data Use",
     "copyright": "© {year} {name}. Prices shown are estimates, not fixed prices.",
-    "backToTop": "Back to top ↑"
+    "backToTop": "Back to top ↑",
+    "paymentsTitle": "We accept",
+    "paymentsAlt": "Accepted payment methods: American Express, Apple Pay, Google Pay, Mastercard, Shop Pay and Visa"
   },
   "cookie": {
     "title": "Your cookie choices",
@@ -257,7 +259,13 @@
     "reviews": {
       "quote": "Your passengers’ real reviews will appear here.",
       "tag": "Placeholder",
-      "note": "Add genuine reviews from your Google Business Profile or send them to us – we never invent testimonials."
+      "note": "Add genuine reviews from your Google Business Profile or send them to us. We never invent testimonials.",
+      "eyebrow": "Reviews",
+      "title": "What our passengers say",
+      "source": "Google review",
+      "footnote": "Reviews from our passengers on Google. Click a name to see the original review.",
+      "sourceSample": "Sample review",
+      "footnoteSample": "Preview only: these are made-up sample reviews, shown only while the site runs locally. Add real reviews before launch."
     },
     "ctaBand": {
       "watermark": "Connect",
@@ -267,25 +275,24 @@
   },
   "images": {
     "hero": "An aeroplane on the airport apron at sunset",
-    "taxi": "A black Hackney Carriage taxi on a London street",
-    "vito": "A white Mercedes parked outside",
-    "nightCab": "A taxi cab in London at night",
-    "heathrow": "A plane at the airport",
-    "gatwick": "An aeroplane docked at a jet bridge",
-    "stansted": "A traveller with luggage at the airport",
-    "londonCity": "Tower Bridge in London at night",
-    "london": "Long exposure of cars on Tower Bridge, London",
-    "luton": "A man walking through a modern airport terminal",
-    "wedding": "A bride and groom standing beside a car",
-    "courier": "A man in a van delivering a parcel",
-    "motorway": "A vehicle driving on a highway through the countryside at sundown",
-    "business": "A businessman looking at documents inside a car",
-    "luggage": "A man in a suit putting a suitcase in a car boot",
-    "hotelAirport": "A hotel exterior at night",
-    "hotelTown": "A grand hotel building exterior",
-    "hotelBusiness": "A hotel lobby",
-    "hotelBoutique": "A spacious luxury hotel lobby",
-    "hotelLate": "A modern hotel complex at night"
+    "taxi": "A black LEVC TX electric taxi parked outside a country house",
+    "vito": "A black Mercedes Vito 114 taxi parked outside a country house",
+    "weddingCars": "Two taxis decorated with wedding ribbons outside a country house",
+    "airportTransfers": "A traveller with a suitcase watching a plane from the airport",
+    "weddingTransfers": "A white rose and ribbon on the door of a black wedding car",
+    "courierServices": "Hands passing over a parcel in a cardboard box",
+    "localTrips": "Westminster Bridge and Big Ben in London",
+    "longDistance": "A long open road running through hills",
+    "corporate": "A modern office building lit up at dusk",
+    "otherJourneys": "A black LEVC TX electric taxi parked outside a country house",
+    "hotelHolidayInn": "Holiday Inn Express – the hotel building at dusk",
+    "hotelTravelodge": "Travelodge Luton – the hotel building",
+    "hotelChiltern": "Chiltern Hotel – the entrance and gardens",
+    "hotelStockwood": "Stockwood Hotel – the timber-framed front of the hotel",
+    "hotelLinton": "Linton Hotel – the hotel entrance",
+    "hotelLutonHoo": "Luton Hoo – the mansion and its formal gardens",
+    "hotelCity": "City Hotel – the hotel on a town-centre corner",
+    "hotelThistle": "Thistle Express – the hotel entrance"
   },
   "contactForm": {
     "name": "Your name",

@@ -25,7 +25,7 @@ export default async function BlogPage({ params }: Props) {
         eyebrow={t("pages.blog.eyebrow")}
         title={t("pages.blog.title")}
         lead={t("pages.blog.lead")}
-        photo={images.nightCab}
+        photo={images.hero}
       />
     </SiteShell>
   );

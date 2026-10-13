@@ -8,7 +8,6 @@ import {
   LANG_COOKIE_MAX_AGE,
   localeHref,
   localeInfo,
-  locales,
   splitLocale,
   type Locale,
 } from "@/lib/i18n/config";
@@ -20,13 +19,11 @@ function rememberChoice(locale: Locale) {
   document.cookie = `${LANG_COOKIE}=${locale}; Max-Age=${LANG_COOKIE_MAX_AGE}; Path=/; SameSite=Lax${secure}`;
 }
 
-/** The menu lists languages A–Z by the name shown (Deutsch, English, Español …); Chinese, written in its own script, comes last. */
-const menuOrder = [...locales].sort((a, b) => {
-  const aLatin = /^[\p{Script=Latin}]/u.test(localeInfo[a].name);
-  const bLatin = /^[\p{Script=Latin}]/u.test(localeInfo[b].name);
-  if (aLatin !== bLatin) return aLatin ? -1 : 1;
-  return localeInfo[a].name.localeCompare(localeInfo[b].name, "en");
-});
+/**
+ * The menu lists languages A–Z by their ENGLISH name (Chinese, English, French, German, Italian,
+ * Romanian, Spanish), while each one is written in its own language (中文, English, Français …).
+ */
+const menuOrder: readonly Locale[] = ["zh", "en", "fr", "de", "it", "ro", "es"];
 
 /** The language menu in the header. Plain links, so it also works without JavaScript. */
 export function LanguageSwitcher() {

@@ -290,7 +290,9 @@
     "privacy": "Política de privacidad",
     "cookies": "Cookies y uso de datos",
     "copyright": "© {year} {name}. Los precios mostrados son estimaciones, no precios fijos.",
-    "backToTop": "Volver arriba ↑"
+    "backToTop": "Volver arriba ↑",
+    "paymentsTitle": "Aceptamos",
+    "paymentsAlt": "Métodos de pago aceptados: American Express, Apple Pay, Google Pay, Mastercard, Shop Pay y Visa"
   },
   "header": {
     "homeAria": "{name} – inicio",
@@ -504,7 +506,13 @@
     "reviews": {
       "quote": "Aquí aparecerán las opiniones reales de sus pasajeros.",
       "tag": "Marcador de posición",
-      "note": "Añada opiniones auténticas de su perfil de empresa de Google o envíenoslas: nunca inventamos testimonios."
+      "note": "Añada opiniones auténticas de su perfil de empresa de Google o envíenoslas: nunca inventamos testimonios.",
+      "eyebrow": "Reseñas",
+      "title": "Lo que dicen nuestros pasajeros",
+      "source": "Reseña de Google",
+      "footnote": "Reseñas de nuestros pasajeros en Google. Pulse un nombre para ver la reseña original.",
+      "sourceSample": "Reseña de ejemplo",
+      "footnoteSample": "Solo vista previa: estas reseñas son inventadas y solo se muestran mientras el sitio se ejecuta en local. Añada reseñas reales antes del lanzamiento."
     },
     "ctaBand": {
       "watermark": "Connect",
@@ -514,25 +522,24 @@
   },
   "images": {
     "hero": "Un avión en la plataforma del aeropuerto al atardecer",
-    "taxi": "Un taxi negro tipo Hackney Carriage en una calle de Londres",
-    "vito": "Un Mercedes blanco aparcado en el exterior",
-    "nightCab": "Un taxi en Londres por la noche",
-    "heathrow": "Un avión en el aeropuerto",
-    "gatwick": "Un avión acoplado a una pasarela de embarque",
-    "stansted": "Un viajero con equipaje en el aeropuerto",
-    "londonCity": "El Tower Bridge de Londres de noche",
-    "london": "Larga exposición de coches en el Tower Bridge, Londres",
-    "luton": "Un hombre caminando por una moderna terminal de aeropuerto",
-    "wedding": "Unos recién casados junto a un coche",
-    "courier": "Un hombre en una furgoneta entregando un paquete",
-    "motorway": "Un vehículo circulando por una autopista a través del campo al atardecer",
-    "business": "Un hombre de negocios revisando documentos dentro de un coche",
-    "luggage": "Un hombre de traje metiendo una maleta en el maletero de un coche",
-    "hotelAirport": "El exterior de un hotel de noche",
-    "hotelTown": "El exterior de un majestuoso edificio hotelero",
-    "hotelBusiness": "El vestíbulo de un hotel",
-    "hotelBoutique": "Un amplio y lujoso vestíbulo de hotel",
-    "hotelLate": "Un moderno complejo hotelero de noche"
+    "taxi": "Un taxi eléctrico LEVC TX negro aparcado frente a una casa señorial",
+    "vito": "Un taxi Mercedes Vito 114 negro aparcado frente a una casa señorial",
+    "weddingCars": "Dos taxis decorados con lazos de boda frente a una casa señorial",
+    "airportTransfers": "Un viajero con una maleta mirando un avión desde el aeropuerto",
+    "weddingTransfers": "Una rosa blanca y un lazo en la puerta de un coche de boda negro",
+    "courierServices": "Manos entregando un paquete en una caja de cartón",
+    "localTrips": "El puente de Westminster y el Big Ben en Londres",
+    "longDistance": "Una larga carretera abierta entre colinas",
+    "corporate": "Un moderno edificio de oficinas iluminado al anochecer",
+    "otherJourneys": "Un taxi eléctrico LEVC TX negro aparcado frente a una casa señorial",
+    "hotelHolidayInn": "Holiday Inn Express – el edificio del hotel al anochecer",
+    "hotelTravelodge": "Travelodge Luton – el edificio del hotel",
+    "hotelChiltern": "Chiltern Hotel – la entrada y los jardines",
+    "hotelStockwood": "Stockwood Hotel – la fachada del hotel con entramado de madera",
+    "hotelLinton": "Linton Hotel – la entrada del hotel",
+    "hotelLutonHoo": "Luton Hoo – la mansión y sus jardines formales",
+    "hotelCity": "City Hotel – el hotel en una esquina del centro",
+    "hotelThistle": "Thistle Express – la entrada del hotel"
   },
   "legal": {
     "cookies": {

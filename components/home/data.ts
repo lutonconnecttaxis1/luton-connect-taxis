@@ -46,17 +46,17 @@ export const features = [
  * description on the back). Prices are guides, not fixed prices.
  * `name` is a proper noun and stays as written; the description is `home.hotels.items.<id>.desc`.
  * `from: true` shows the price as `home.hotels.fareFrom` ("From {price}").
- * Photos are temporary stand-ins (`config/images.ts`) – replace with the hotels' own pictures.
+ * Photos are the hotels' own pictures (`config/images.ts`, files in `public/images/hotels`).
  */
 export const hotels = [
-  { id: "holidayInn", name: "Holiday Inn Express", price: "£20.00", photo: images.hotelAirport },
-  { id: "travelodge", name: "Travelodge Luton", price: "£27.00–£30.00", photo: images.hotelLate },
-  { id: "chiltern", name: "Chiltern Hotel", price: "£27.00–£30.00", photo: images.hotelBusiness },
-  { id: "stockwood", name: "Stockwood Hotel", price: "£22.00", from: true, photo: images.hotelBoutique },
-  { id: "linton", name: "Linton Hotel", price: "£22.00", from: true, photo: images.hotelTown },
-  { id: "lutonHoo", name: "Luton Hoo", price: "£25.00–£30.00", photo: images.hotelTown },
-  { id: "cityHotel", name: "City Hotel", price: "£25.00", from: true, photo: images.hotelBusiness },
-  { id: "thistleExpress", name: "Thistle Express", price: "£25.00", from: true, photo: images.hotelAirport },
+  { id: "holidayInn", name: "Holiday Inn Express", price: "£20.00", photo: images.hotelHolidayInn },
+  { id: "travelodge", name: "Travelodge Luton", price: "£27.00–£30.00", photo: images.hotelTravelodge },
+  { id: "chiltern", name: "Chiltern Hotel", price: "£27.00–£30.00", photo: images.hotelChiltern },
+  { id: "stockwood", name: "Stockwood Hotel", price: "£22.00", from: true, photo: images.hotelStockwood },
+  { id: "linton", name: "Linton Hotel", price: "£22.00", from: true, photo: images.hotelLinton },
+  { id: "lutonHoo", name: "Luton Hoo", price: "£25.00–£30.00", photo: images.hotelLutonHoo },
+  { id: "cityHotel", name: "City Hotel", price: "£25.00", from: true, photo: images.hotelCity },
+  { id: "thistleExpress", name: "Thistle Express", price: "£25.00", from: true, photo: images.hotelThistle },
 ] as const;
 
 /** Texts are `home.connections.items.<key>.title` / `.text`. */

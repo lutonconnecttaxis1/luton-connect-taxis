@@ -71,6 +71,18 @@ export function Footer({ locale }: { locale: Locale }) {
         </div>
       </div>
 
+      <div className="container footer__pay">
+        <p>{t("footer.paymentsTitle")}</p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/payments/payment-icons.webp"
+          alt={t("footer.paymentsAlt")}
+          width={1400}
+          height={130}
+          loading="lazy"
+        />
+      </div>
+
       <div className="container footer__base">
         <p>{t("footer.copyright", { year: new Date().getFullYear(), name: siteConfig.name })}</p>
         <a href="#top">{t("footer.backToTop")}</a>

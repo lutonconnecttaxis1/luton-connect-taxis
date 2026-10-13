@@ -25,3 +25,7 @@ npm-debug.log*
 PROJECT_CONTEXT.md
 
 SETUP_CHECKLIST.md
+# full-size originals of the website pictures (the optimised copies live in public/images)
+_original-pictures/
+_to_delete/
+Claude outputs/

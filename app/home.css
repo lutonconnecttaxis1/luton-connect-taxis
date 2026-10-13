@@ -3730,3 +3730,162 @@ h3,
 .card h3 {
   overflow-wrap: break-word;
 }
+
+/* payment icons in the footer */
+.footer__pay {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px 28px;
+  padding-top: clamp(22px, 3vw, 34px);
+}
+.footer__pay p {
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted-d);
+}
+.footer__pay img {
+  width: min(100%, 380px);
+  height: auto;
+}
+@media (max-width: 640px) {
+  .footer__pay {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer__pay img {
+    width: min(100%, 320px);
+  }
+}
+
+/* ---------- reviews carousel ---------- */
+.reviews--strip {
+  overflow: hidden;
+  padding-block: clamp(56px, 7vw, 96px);
+}
+.reviews__head {
+  margin-bottom: clamp(28px, 3.5vw, 48px);
+}
+.reviews--strip .display {
+  max-width: 18em;
+}
+.rev {
+  position: relative;
+  overflow: hidden;
+  padding-block: 10px 28px;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+}
+.rev__track {
+  display: flex;
+  gap: clamp(16px, 2vw, 28px);
+  width: max-content;
+  animation: rev-scroll 70s linear infinite;
+}
+/* moves right to left; the second copy of the cards makes the loop seamless */
+@keyframes rev-scroll {
+  to {
+    transform: translateX(calc(-50% - clamp(8px, 1vw, 14px)));
+  }
+}
+.rev:hover .rev__track,
+.rev:focus-within .rev__track {
+  animation-play-state: paused;
+}
+.rev__card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(280px, 30vw, 420px);
+  padding: clamp(22px, 2.4vw, 32px);
+  background: #fff;
+  border: 1px solid var(--line-l);
+  border-radius: 28px;
+  box-shadow: 0 14px 36px -20px rgba(11, 15, 20, 0.28);
+}
+.rev__quote {
+  display: block;
+  height: 0.5em;
+  font: 600 4.6rem / 0.8 var(--font-display);
+  background: var(--brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 14px;
+}
+.rev__text {
+  flex: 1;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--text-l);
+}
+.rev__who {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line-l);
+}
+.rev__avatar {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  font: 600 1.15rem / 1 var(--font-display);
+}
+.rev__id {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+.rev__name {
+  font-weight: 700;
+  color: var(--text-l);
+  overflow-wrap: anywhere;
+}
+.rev__name:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.rev__src {
+  font-size: 0.86rem;
+  color: var(--muted-l);
+}
+.rev__stars {
+  display: inline-flex;
+  flex: none;
+  gap: 2px;
+}
+.rev__stars svg {
+  fill: rgba(11, 15, 20, 0.14);
+}
+.rev__stars svg[data-on] {
+  fill: var(--teal);
+}
+.rev__note {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted-l);
+  padding-inline: var(--gutter);
+}
+@media (prefers-reduced-motion: reduce) {
+  .rev {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+  .rev__track {
+    animation: none;
+  }
+  .rev__card[aria-hidden="true"] {
+    display: none;
+  }
+}

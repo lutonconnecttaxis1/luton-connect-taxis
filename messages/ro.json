@@ -290,7 +290,9 @@
     "privacy": "Politica de confidențialitate",
     "cookies": "Cookie-uri și utilizarea datelor",
     "copyright": "© {year} {name}. Prețurile afișate sunt estimări, nu prețuri fixe.",
-    "backToTop": "Înapoi sus ↑"
+    "backToTop": "Înapoi sus ↑",
+    "paymentsTitle": "Acceptăm",
+    "paymentsAlt": "Metode de plată acceptate: American Express, Apple Pay, Google Pay, Mastercard, Shop Pay și Visa"
   },
   "header": {
     "homeAria": "{name} – pagina principală",
@@ -504,7 +506,13 @@
     "reviews": {
       "quote": "Aici vor apărea recenziile reale ale pasagerilor dumneavoastră.",
       "tag": "Substituent",
-      "note": "Adăugați recenzii autentice din Profilul dumneavoastră de Companie Google sau trimiteți-ni-le – nu inventăm niciodată mărturii."
+      "note": "Adăugați recenzii autentice din Profilul dumneavoastră de Companie Google sau trimiteți-ni-le. Nu inventăm niciodată mărturii.",
+      "eyebrow": "Recenzii",
+      "title": "Ce spun pasagerii noștri",
+      "source": "Recenzie Google",
+      "footnote": "Recenzii ale pasagerilor noștri pe Google. Apăsați pe un nume pentru a vedea recenzia originală.",
+      "sourceSample": "Recenzie exemplu",
+      "footnoteSample": "Doar previzualizare: aceste recenzii sunt inventate și apar doar cât timp site-ul rulează local. Adăugați recenzii reale înainte de lansare."
     },
     "ctaBand": {
       "watermark": "Connect",
@@ -513,26 +521,25 @@
     }
   },
   "images": {
-    "hero": "Un avion pe platforma aeroportului, la apus",
-    "taxi": "Un taxi Hackney Carriage negru pe o stradă din Londra",
-    "vito": "Un Mercedes alb parcat afară",
-    "nightCab": "Un taxi în Londra, noaptea",
-    "heathrow": "Un avion la aeroport",
-    "gatwick": "Un avion cuplat la pasarela de îmbarcare",
-    "stansted": "Un călător cu bagaje la aeroport",
-    "londonCity": "Tower Bridge din Londra, noaptea",
-    "london": "Expunere lungă cu mașini pe Tower Bridge, Londra",
-    "luton": "Un bărbat care traversează un terminal modern de aeroport",
-    "wedding": "Un mire și o mireasă lângă o mașină",
-    "courier": "Un bărbat într-o dubă care livrează un colet",
-    "motorway": "Un vehicul pe o autostradă prin zona rurală, la apus",
-    "business": "Un om de afaceri care se uită peste documente într-o mașină",
-    "luggage": "Un bărbat în costum care pune o valiză în portbagajul unei mașini",
-    "hotelAirport": "Exteriorul unui hotel, noaptea",
-    "hotelTown": "Exteriorul unei clădiri impunătoare de hotel",
-    "hotelBusiness": "Holul unui hotel",
-    "hotelBoutique": "Holul spațios al unui hotel de lux",
-    "hotelLate": "Un complex hotelier modern, noaptea"
+    "hero": "Un avion pe platforma aeroportului la apus",
+    "taxi": "Un taxi electric LEVC TX negru parcat în fața unei case de țară",
+    "vito": "Un taxi Mercedes Vito 114 negru parcat în fața unei case de țară",
+    "weddingCars": "Două taxiuri decorate cu panglici de nuntă în fața unei case de țară",
+    "airportTransfers": "Un călător cu o valiză privind un avion din aeroport",
+    "weddingTransfers": "Un trandafir alb și o fundă pe portiera unei mașini negre de nuntă",
+    "courierServices": "Mâini care predau un colet într-o cutie de carton",
+    "localTrips": "Podul Westminster și Big Ben din Londra",
+    "longDistance": "Un drum lung și deschis printre dealuri",
+    "corporate": "O clădire modernă de birouri iluminată la amurg",
+    "otherJourneys": "Un taxi electric LEVC TX negru parcat în fața unei case de țară",
+    "hotelHolidayInn": "Holiday Inn Express – clădirea hotelului la amurg",
+    "hotelTravelodge": "Travelodge Luton – clădirea hotelului",
+    "hotelChiltern": "Chiltern Hotel – intrarea și grădinile",
+    "hotelStockwood": "Stockwood Hotel – fațada hotelului cu structură din lemn aparent",
+    "hotelLinton": "Linton Hotel – intrarea hotelului",
+    "hotelLutonHoo": "Luton Hoo – conacul și grădinile sale formale",
+    "hotelCity": "City Hotel – hotelul de pe un colț din centrul orașului",
+    "hotelThistle": "Thistle Express – intrarea hotelului"
   },
   "legal": {
     "cookies": {

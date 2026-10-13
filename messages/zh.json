@@ -290,7 +290,9 @@
     "privacy": "隐私政策",
     "cookies": "Cookie 与数据使用",
     "copyright": "© {year} {name}。所示价格为预估价格，并非固定价格。",
-    "backToTop": "返回顶部 ↑"
+    "backToTop": "返回顶部 ↑",
+    "paymentsTitle": "支持的支付方式",
+    "paymentsAlt": "支持的支付方式：American Express、Apple Pay、Google Pay、Mastercard、Shop Pay 和 Visa"
   },
   "header": {
     "homeAria": "{name} – 首页",
@@ -504,7 +506,13 @@
     "reviews": {
       "quote": "乘客的真实评价将展示在这里。",
       "tag": "占位内容",
-      "note": "请添加来自您的 Google 商家资料的真实评价，或发送给我们——我们绝不会编造客户评价。"
+      "note": "请添加来自您的 Google 商家资料的真实评价，或发送给我们——我们绝不会编造客户评价。",
+      "eyebrow": "评价",
+      "title": "乘客怎么说",
+      "source": "Google 评价",
+      "footnote": "来自乘客的 Google 评价。点击姓名可查看原始评价。",
+      "sourceSample": "示例评价",
+      "footnoteSample": "仅供预览：这些评价为虚构示例，只在本地运行网站时显示。上线前请添加真实评价。"
     },
     "ctaBand": {
       "watermark": "Connect",
@@ -513,26 +521,25 @@
     }
   },
   "images": {
-    "hero": "日落时分停机坪上的一架飞机",
-    "taxi": "伦敦街头的一辆黑色哈克尼马车式出租车",
-    "vito": "停在室外的一辆白色梅赛德斯",
-    "nightCab": "夜晚伦敦的一辆出租车",
-    "heathrow": "机场里的一架飞机",
-    "gatwick": "停靠在登机桥旁的一架飞机",
-    "stansted": "机场里带着行李的旅客",
-    "londonCity": "夜晚的伦敦塔桥",
-    "london": "伦敦塔桥上车流的长曝光照片",
-    "luton": "一名男子走过现代化的机场航站楼",
-    "wedding": "一对新人站在汽车旁",
-    "courier": "一名男子在货车里递送包裹",
-    "motorway": "日落时分一辆汽车行驶在穿过乡村的公路上",
-    "business": "一位商务人士在车内查看文件",
-    "luggage": "一位身着西装的男士正把行李箱放进汽车后备箱",
-    "hotelAirport": "夜晚的酒店外观",
-    "hotelTown": "一座气派的酒店建筑外观",
-    "hotelBusiness": "酒店大堂",
-    "hotelBoutique": "宽敞豪华的酒店大堂",
-    "hotelLate": "夜晚的现代化酒店综合楼"
+    "hero": "日落时分停在机场停机坪上的一架飞机",
+    "taxi": "停在乡间庄园前的黑色 LEVC TX 电动出租车",
+    "vito": "停在乡间庄园前的黑色梅赛德斯 Vito 114 出租车",
+    "weddingCars": "停在乡间庄园前、系着婚礼彩带的两辆出租车",
+    "airportTransfers": "拖着行李箱的旅客在机场望着一架飞机",
+    "weddingTransfers": "黑色婚车车门上的白玫瑰和丝带",
+    "courierServices": "双手递交一个纸箱包裹",
+    "localTrips": "伦敦的威斯敏斯特桥和大本钟",
+    "longDistance": "穿过山丘的一条笔直公路",
+    "corporate": "黄昏时灯火通明的现代办公大楼",
+    "otherJourneys": "停在乡间庄园前的黑色 LEVC TX 电动出租车",
+    "hotelHolidayInn": "Holiday Inn Express – 黄昏时的酒店大楼",
+    "hotelTravelodge": "Travelodge Luton – 酒店大楼",
+    "hotelChiltern": "Chiltern Hotel – 入口和花园",
+    "hotelStockwood": "Stockwood Hotel – 酒店的木框架外观",
+    "hotelLinton": "Linton Hotel – 酒店入口",
+    "hotelLutonHoo": "Luton Hoo – 庄园大宅和规整的花园",
+    "hotelCity": "City Hotel – 市中心街角的酒店",
+    "hotelThistle": "Thistle Express – 酒店入口"
   },
   "legal": {
     "cookies": {

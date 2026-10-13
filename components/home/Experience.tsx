@@ -9,7 +9,7 @@ export function Experience({ locale }: { locale: Locale }) {
   const t = getT(locale);
   return (
     <section className="sec sec--dark exp" id="service">
-      <Bg photo={images.nightCab} className="exp__bg" decorative />
+      <Bg photo={images.weddingCars} className="exp__bg" decorative />
       <div className="exp__shade" aria-hidden="true" />
       <div className="container exp__in">
         <p className="eyebrow" data-reveal>

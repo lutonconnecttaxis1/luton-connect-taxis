@@ -16,13 +16,13 @@ export type Service = {
 };
 
 export const services: readonly Service[] = [
-  { slug: "airport-transfers", n: "01", photo: images.heathrow },
-  { slug: "wedding-transfers", n: "02", photo: images.wedding },
-  { slug: "courier-services", n: "03", photo: images.courier },
-  { slug: "local-trips", n: "04", photo: images.taxi },
-  { slug: "long-distance-national-journeys", n: "05", photo: images.motorway },
-  { slug: "corporate-accounts", n: "06", photo: images.business },
-  { slug: "other-journeys", n: "07", photo: images.luggage },
+  { slug: "airport-transfers", n: "01", photo: images.airportTransfers },
+  { slug: "wedding-transfers", n: "02", photo: images.weddingTransfers },
+  { slug: "courier-services", n: "03", photo: images.courierServices },
+  { slug: "local-trips", n: "04", photo: images.localTrips },
+  { slug: "long-distance-national-journeys", n: "05", photo: images.longDistance },
+  { slug: "corporate-accounts", n: "06", photo: images.corporate },
+  { slug: "other-journeys", n: "07", photo: images.otherJourneys },
 ] as const;
 
 export const getService = (slug: string) => services.find((s) => s.slug === slug);
