@@ -3797,52 +3797,60 @@ h3,
 .rev__card {
   display: flex;
   flex-direction: column;
-  width: clamp(280px, 30vw, 420px);
-  padding: clamp(22px, 2.4vw, 32px);
+  flex: none;
+  width: clamp(270px, 22vw, 320px);
+  padding: clamp(18px, 1.8vw, 24px);
   background: #fff;
   border: 1px solid var(--line-l);
-  border-radius: 28px;
-  box-shadow: 0 14px 36px -20px rgba(11, 15, 20, 0.28);
+  border-radius: 22px;
+  box-shadow: 0 12px 30px -20px rgba(11, 15, 20, 0.28);
 }
 .rev__quote {
   display: block;
   height: 0.5em;
-  font: 600 4.6rem / 0.8 var(--font-display);
+  font: 600 3.4rem / 0.8 var(--font-display);
   background: var(--brand);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 .rev__text {
   flex: 1;
-  font-size: 1.02rem;
-  line-height: 1.6;
+  font-size: 0.95rem;
+  line-height: 1.5;
   color: var(--text-l);
+  /* long reviews are cut off at the bottom after 5 lines */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  overflow: hidden;
 }
 .rev__who {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-top: 22px;
-  padding-top: 18px;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: 16px;
+  padding-top: 14px;
   border-top: 1px solid var(--line-l);
 }
 .rev__avatar {
   display: grid;
   place-items: center;
   flex: none;
-  width: 46px;
-  height: 46px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: var(--brand);
   color: #fff;
-  font: 600 1.15rem / 1 var(--font-display);
+  font: 600 1.05rem / 1 var(--font-display);
 }
 .rev__id {
   display: flex;
   flex-direction: column;
-  min-width: 0;
+  min-width: 7.5em;
   flex: 1;
 }
 .rev__name {
@@ -3861,9 +3869,12 @@ h3,
 .rev__stars {
   display: inline-flex;
   flex: none;
+  margin-left: auto;
   gap: 2px;
 }
 .rev__stars svg {
+  width: 14px;
+  height: 14px;
   fill: rgba(11, 15, 20, 0.14);
 }
 .rev__stars svg[data-on] {
