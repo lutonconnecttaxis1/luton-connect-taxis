@@ -21,12 +21,66 @@ export type Review = {
 };
 
 export const reviews: readonly Review[] = [
-  // {
-  //   name: "Sam Taylor",
-  //   url: "https://www.google.com/maps/contrib/…/reviews",
-  //   rating: 5,
-  //   text: "The customer's own words.",
-  // },
+  {
+    name: "Bernard Coward",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "I needed a corrected receipt for a journey from Luton Airport to Stevenage 27 August 26 . When I phoned up the person I spoke to was so helpful and advised me what to do . I did as requested and received my corrected receipt within 10 minutes . Absolutely brilliant service Thank you",
+  },
+  {
+    name: "Charlie Adams",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "VERY GOOD SERVICE",
+  },
+  {
+    name: "Benas Bizas",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "Impressive driving skills by our driver. Recommend 10/10",
+  },
+  {
+    name: "Claire Mc Gowan",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "Fantastic service, really friendly driver. Highly recommended",
+  },
+  {
+    name: "Trade Finance",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "Good driver, he checked our flight time and traffic conditions and proposed to start our trip earlier. Thanks and thanks!",
+  },
+  {
+    name: "Sam Mccaffrey",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "Brilliant cab drivers at Luton airport, cant do enough for you. Travelling with a disabled passenger with lots of bags and a huge hoist, they helped us so much, thank you so much!",
+  },
+  {
+    name: "Silvia Andrew",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "I regularly book Luton Connect Taxis found through work reception at Leonardo Capability Green for trips to Luton Station, and they are always completely reliable and on time. Today, I used them for a personal early morning trip (3:00 AM) to Luton Airport with my elderly mum who uses a wheelchair. Traveling with a wheelchair, luggage, and an elderly passenger is challenging, but the driver went completely out of their way to help us. Exceptional wheelchair accessible taxi service and airport tranfers in Luton - highly recommend!",
+  },
+  {
+    name: "Caroline Hooper",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "After a long day due to cancellations at Luton airport we was delighted to get cab 016 Aqib to look after us! Great customer service, plenty of smiles and a comfortable ride. Thank you for making a stressful 24 hours easier",
+  },
+  {
+    name: "Ayaz Hussain",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "After uber cancelled on me 6 times at luton airport at 3am luton connect come to the rescue.",
+  },
+  {
+    name: "Jit Samji",
+    url: "https://www.google.com/maps/search/?api=1&query=Luton+Connect+Taxis+Luton",
+    rating: 5,
+    text: "We booked 5 person cab. Great service, very flexible. Will use again",
+  },
 ];
 
 /**
