@@ -545,7 +545,6 @@
     "cookies": {
       "title": "Cookie-uri și utilizarea datelor",
       "lead": "Această pagină explică cookie-urile și tehnologiile similare folosite pe lutonconnecttaxis.com, precum și modul în care le puteți controla.",
-      "notice": "Formulare provizorie. Va fi finalizată în momentul activării rezervărilor, a conturilor și a analizei.",
       "blocks": [
         {
           "h": "Ce sunt cookie-urile?",
@@ -604,7 +603,6 @@
     "privacy": {
       "title": "Politica de confidențialitate",
       "lead": "La Luton Connect Taxis ne angajăm să vă protejăm confidențialitatea și să ne asigurăm că datele dumneavoastră cu caracter personal sunt tratate în siguranță și cu responsabilitate. Această Politică de confidențialitate explică modul în care colectăm, folosim, stocăm și protejăm datele dumneavoastră cu caracter personal atunci când utilizați site-ul nostru sau rezervați serviciile noastre.",
-      "notice": "Formulare provizorie. O Politică de confidențialitate revizuită, care va acoperi instrumentele site-ului nostru și modalitatea de plată în mașină, este în curs de elaborare și va înlocui acest text.",
       "blocks": [
         {
           "h": "Cine suntem"
@@ -714,7 +712,6 @@
     "terms": {
       "title": "Termeni și condiții",
       "lead": "Bun venit la Luton Connect Taxis. Prin utilizarea site-ului nostru sau prin rezervarea serviciilor noastre, sunteți de acord cu următorii Termeni și condiții.",
-      "notice": "Formulare provizorie. Valorile privind timpul de așteptare și anularea urmează să fie confirmate de Luton Connect Taxis.",
       "blocks": [
         {
           "h": "Rezervări",
@@ -1040,18 +1037,45 @@
           }
         ]
       },
-      "wedding-transfers": {
-        "name": "Transferuri pentru nunți",
-        "meta": "Pentru miri, familie și invitați",
-        "title": "Transferuri pentru nunți.",
-        "lead": "Ajungeți la timp și confortabil în ziua cea mare. Ne ocupăm de călătoria dumneavoastră, a familiei și a invitaților.",
-        "statement": "Ziua nunții se desfășoară după un program. Ne asigurăm că și transportul respectă acest program.",
+      "wedding-taxi-hire": {
+        "name": "Închiriere taxi pentru nunți",
+        "meta": "Taxiuri electrice LEVC, negre sau alb perlat",
+        "title": "Închiriere taxi pentru nunți.",
+        "lead": "Sosiți cu stil și cu luxul britanic emblematic: taxiuri electrice LEVC în negrul clasic londonez sau în alb perlat.",
+        "statement": "Sosiți cu stil, cu luxul britanic emblematic.",
         "includes": [
-          "Transport pentru miri, familie și invitații la nuntă",
-          "Preluări de acasă, de la hotel sau de la locație până la ceremonie și petrecere",
-          "Taxiuri accesibile pentru scaun cu rotile, pentru invitații care au nevoie de acces fără trepte",
-          "Grupuri de cinci sau șase persoane în Mercedes Vito 114",
-          "Orele sunt planificate împreună cu dumneavoastră, din timp"
+          "Taxiuri electrice LEVC emblematice, în negru clasic sau alb perlat",
+          "Locuri spațioase și confortabile pentru până la 6 pasageri",
+          "Acces complet pentru scaun cu rotile și intrare fără trepte",
+          "Pitoresc și gata de fotografii",
+          "Ore la alegere și șofer dedicat",
+          "Panglici și decor personalizat"
+        ],
+        "features": [
+          {
+            "title": "Taxiuri electrice LEVC emblematice, în negru clasic sau alb perlat",
+            "text": "Alegeți între negrul londonez atemporal și albul elegant de nuntă, potrivit temei nunții dumneavoastră."
+          },
+          {
+            "title": "Locuri spațioase și confortabile pentru până la 6 pasageri",
+            "text": "Spațiu din belșug pentru rochii de mireasă mari, domnișoare de onoare, cavaleri de onoare sau membri ai familiei."
+          },
+          {
+            "title": "Acces complet pentru scaun cu rotile și intrare fără trepte",
+            "text": "Rampa integrată și scaunele rotative asigură accesul comod al invitaților în vârstă sau al persoanelor în scaun cu rotile."
+          },
+          {
+            "title": "Pitoresc și gata de fotografii",
+            "text": "Designul emblematic arată superb în pozele de nuntă, iar plafonul panoramic aduce multă lumină naturală."
+          },
+          {
+            "title": "Ore la alegere și șofer dedicat",
+            "text": "Opțiuni flexibile de închiriere (pe oră sau pe toată ziua), cu trasee personalizate și program planificat."
+          },
+          {
+            "title": "Panglici și decor personalizat",
+            "text": "La cerere, adăugăm panglici tradiționale de nuntă pe grila din față."
+          }
         ],
         "faqs": [
           {
@@ -1059,8 +1083,8 @@
             "a": "Cât mai devreme posibil. Sunați, scrieți pe WhatsApp sau trimiteți un e-mail cu data, locația și orele, iar noi vă vom confirma ce vă putem oferi."
           },
           {
-            "q": "Puteți transporta un grup mai mare de nuntași?",
-            "a": "Mercedes Vito 114 transportă grupuri de cinci sau șase persoane. Pentru grupuri mai mari, contactați-ne și vom discuta opțiunile împreună cu dumneavoastră."
+            "q": "Puteți transporta un grup de nuntă mai mare?",
+            "a": "Fiecare taxi LEVC transportă până la șase pasageri. Pentru un grup mai mare, contactați-ne și vom discuta împreună opțiunile."
           },
           {
             "q": "Cum aflu prețul?",

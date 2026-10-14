@@ -545,7 +545,6 @@
     "cookies": {
       "title": "Cookies & Datennutzung",
       "lead": "Diese Seite erläutert, welche Cookies und ähnlichen Technologien auf lutonconnecttaxis.com verwendet werden und wie Sie diese steuern können.",
-      "notice": "Entwurfsfassung. Der Text wird abschließend festgelegt, sobald Buchung, Kundenkonten und Analyse aktiviert werden.",
       "blocks": [
         {
           "h": "Was sind Cookies?",
@@ -604,7 +603,6 @@
     "privacy": {
       "title": "Datenschutzerklärung",
       "lead": "Bei Luton Connect Taxis setzen wir uns dafür ein, Ihre Privatsphäre zu schützen und sicherzustellen, dass Ihre personenbezogenen Daten sicher und verantwortungsvoll behandelt werden. Diese Datenschutzerklärung erläutert, wie wir Ihre personenbezogenen Daten erheben, verwenden, speichern und schützen, wenn Sie unsere Website nutzen oder unsere Dienstleistungen buchen.",
-      "notice": "Entwurfsfassung. Eine überarbeitete Datenschutzerklärung, die die Werkzeuge unserer Website und die Zahlung im Fahrzeug abdeckt, ist in Vorbereitung und wird diesen Text ersetzen.",
       "blocks": [
         {
           "h": "Wer wir sind"
@@ -714,7 +712,6 @@
     "terms": {
       "title": "AGB",
       "lead": "Willkommen bei Luton Connect Taxis. Mit der Nutzung unserer Website oder der Buchung unserer Dienstleistungen erklären Sie sich mit den folgenden Allgemeinen Geschäftsbedingungen einverstanden.",
-      "notice": "Entwurfsfassung. Die Angaben zu Wartezeiten und Stornierungen sind von Luton Connect Taxis noch zu bestätigen.",
       "blocks": [
         {
           "h": "Buchungen",
@@ -1040,18 +1037,45 @@
           }
         ]
       },
-      "wedding-transfers": {
-        "name": "Hochzeitsfahrten",
-        "meta": "Für das Brautpaar, die Familie & die Gäste",
-        "title": "Hochzeitsfahrten.",
-        "lead": "Kommen Sie an Ihrem großen Tag pünktlich und komfortabel an. Wir kümmern uns um die Fahrt für Sie, Ihre Familie und Ihre Gäste.",
-        "statement": "Ihr Hochzeitstag folgt einem Zeitplan. Wir sorgen dafür, dass die Anreise ihn einhält.",
+      "wedding-taxi-hire": {
+        "name": "Hochzeitstaxi mieten",
+        "meta": "LEVC-Elektrotaxis in Schwarz oder Perlweiß",
+        "title": "Hochzeitstaxi mieten.",
+        "lead": "Stilvoll ankommen mit britischem Luxus – LEVC-Elektrotaxis im klassischen London-Schwarz oder in Perlweiß.",
+        "statement": "Stilvoll ankommen mit ikonischem britischem Luxus.",
         "includes": [
-          "Transport für das Brautpaar, die Familie und die Hochzeitsgäste",
-          "Abholung von zu Hause, vom Hotel oder von der Location zur Trauung und zum Empfang",
-          "Rollstuhlgerechte Taxis für Gäste, die einen stufenlosen Einstieg benötigen",
-          "Gruppen von fünf oder sechs Personen in unserem Mercedes Vito 114",
-          "Zeitplanung im Voraus mit Ihnen abgestimmt"
+          "Ikonische LEVC-Elektrotaxis in klassischem Schwarz oder Perlweiß",
+          "Geräumige, bequeme Sitze für bis zu 6 Fahrgäste",
+          "Rollstuhlgerecht mit stufenlosem Einstieg",
+          "Malerisch und fotoreif",
+          "Individuelle Zeiten und eigener Chauffeur",
+          "Schleifen und individuelle Dekoration"
+        ],
+        "features": [
+          {
+            "title": "Ikonische LEVC-Elektrotaxis in klassischem Schwarz oder Perlweiß",
+            "text": "Wählen Sie zwischen zeitlosem London-Schwarz und elegantem Hochzeitsweiß – passend zum Thema Ihrer Hochzeit."
+          },
+          {
+            "title": "Geräumige, bequeme Sitze für bis zu 6 Fahrgäste",
+            "text": "Viel Platz für große Brautkleider, Brautjungfern, Trauzeugen oder Familienmitglieder."
+          },
+          {
+            "title": "Rollstuhlgerecht mit stufenlosem Einstieg",
+            "text": "Integrierte Rampe und Drehsitze sorgen für einen bequemen Zugang für ältere Gäste oder Rollstuhlnutzer."
+          },
+          {
+            "title": "Malerisch und fotoreif",
+            "text": "Das ikonische Design macht sich wunderbar auf Hochzeitsfotos; das Panoramadach sorgt für helles, natürliches Licht."
+          },
+          {
+            "title": "Individuelle Zeiten und eigener Chauffeur",
+            "text": "Flexible Buchung (stundenweise oder ganztägig) mit individuellen Routen und fest geplanten Zeiten."
+          },
+          {
+            "title": "Schleifen und individuelle Dekoration",
+            "text": "Auf Wunsch bringen wir traditionelle Hochzeitsschleifen am vorderen Kühlergrill an."
+          }
         ],
         "faqs": [
           {
@@ -1059,8 +1083,8 @@
             "a": "So früh wie möglich. Rufen Sie uns an oder schreiben Sie per WhatsApp oder E-Mail mit Datum, Location und Zeitplan, und wir bestätigen Ihnen, was wir anbieten können."
           },
           {
-            "q": "Können Sie auch eine größere Hochzeitsgesellschaft befördern?",
-            "a": "Unser Mercedes Vito 114 fasst Gruppen von fünf oder sechs Personen. Für größere Gesellschaften nehmen Sie bitte Kontakt auf, dann besprechen wir die Möglichkeiten mit Ihnen."
+            "q": "Können Sie eine größere Hochzeitsgesellschaft befördern?",
+            "a": "Jedes LEVC-Taxi befördert bis zu sechs Fahrgäste. Für eine größere Gesellschaft nehmen Sie bitte Kontakt auf, dann besprechen wir die Möglichkeiten mit Ihnen."
           },
           {
             "q": "Wie erhalte ich einen Preis?",

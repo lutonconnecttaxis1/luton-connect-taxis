@@ -10,8 +10,10 @@ export function Hero({ locale }: { locale: Locale }) {
   const t = getT(locale);
   return (
     <section className="hero" id="top" data-hero>
-      <Bg photo={images.hero} className="hero__bg" decorative />
-      <div className="hero__shade" aria-hidden="true" />
+      <div className="hero__media" aria-hidden="true">
+        <Bg photo={images.hero} className="hero__bg" decorative />
+        <div className="hero__shade" />
+      </div>
 
       <div className="container hero__content">
         <p className="eyebrow" data-reveal>

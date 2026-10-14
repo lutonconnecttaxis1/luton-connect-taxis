@@ -411,7 +411,6 @@
     "terms": {
       "title": "Terms & Conditions",
       "lead": "Welcome to Luton Connect Taxis. By using our website or booking our services, you agree to the following Terms & Conditions.",
-      "notice": "Draft wording. Waiting-time and cancellation figures are still to be confirmed by Luton Connect Taxis.",
       "blocks": [
         {
           "h": "Bookings",
@@ -541,7 +540,6 @@
     "privacy": {
       "title": "Privacy Policy",
       "lead": "At Luton Connect Taxis, we are committed to protecting your privacy and ensuring that your personal information is handled securely and responsibly. This Privacy Policy explains how we collect, use, store and protect your personal information when you use our website or book our services.",
-      "notice": "Draft wording. A revised Privacy Policy covering our website tools and payment-in-car arrangements is being prepared and will replace this text.",
       "blocks": [
         {
           "h": "Who We Are"
@@ -651,7 +649,6 @@
     "cookies": {
       "title": "Cookies & Data Use",
       "lead": "This page explains the cookies and similar technologies used on lutonconnecttaxis.com, and how you can control them.",
-      "notice": "Draft wording. This will be finalised when booking, accounts and analytics are switched on.",
       "blocks": [
         {
           "h": "What are cookies?",
@@ -835,18 +832,45 @@
           }
         ]
       },
-      "wedding-transfers": {
-        "name": "Wedding transfers",
-        "meta": "For the couple, family & guests",
-        "title": "Wedding transfers.",
-        "lead": "Arrive on your big day on time and in comfort. We look after the journey for you, your family and your guests.",
-        "statement": "Your wedding day runs to a timetable. We make sure the travel does too.",
+      "wedding-taxi-hire": {
+        "name": "Wedding Taxi Hire",
+        "meta": "LEVC electric taxis, black or pearl white",
+        "title": "Wedding Taxi Hire.",
+        "lead": "Arrive in style with iconic British luxury – LEVC electric taxis in classic London Black or Pearl White.",
+        "statement": "Arrive in Style with Iconic British Luxury.",
         "includes": [
-          "Transport for the couple, family and wedding guests",
-          "Pickups from home, hotel or venue to the ceremony and reception",
-          "Wheelchair-accessible taxis for guests who need step-free access",
-          "Groups of five or six in our Mercedes Vito 114",
-          "Timings planned with you in advance"
+          "Iconic LEVC Electric Taxis in Classic Black or Pearl White",
+          "Spacious & Comfortable Seating for up to 6 Passengers",
+          "Full Wheelchair Access & Step-Free Entry",
+          "Picturesque & Photo-Ready",
+          "Tailored Timings & Dedicated Chauffeur Service",
+          "Ribbons & Custom Decor Options"
+        ],
+        "features": [
+          {
+            "title": "Iconic LEVC Electric Taxis in Classic Black or Pearl White",
+            "text": "Choose between timeless London Black or elegant Wedding White to match your wedding theme."
+          },
+          {
+            "title": "Spacious & Comfortable Seating for up to 6 Passengers",
+            "text": "Ample room for large wedding gowns, bridesmaids, groomsmen, or family members."
+          },
+          {
+            "title": "Full Wheelchair Access & Step-Free Entry",
+            "text": "Integrated ramp and swivel seats ensure comfortable access for elderly guests or wheelchair users."
+          },
+          {
+            "title": "Picturesque & Photo-Ready",
+            "text": "Iconic design that looks stunning in wedding photos, featuring panoramic roofs for bright natural lighting."
+          },
+          {
+            "title": "Tailored Timings & Dedicated Chauffeur Service",
+            "text": "Flexible hiring options (hourly or full-day) with customized routes and planned timing."
+          },
+          {
+            "title": "Ribbons & Custom Decor Options",
+            "text": "Optional traditional wedding ribbons added to the front grille upon request."
+          }
         ],
         "faqs": [
           {
@@ -855,7 +879,7 @@
           },
           {
             "q": "Can you carry a larger wedding party?",
-            "a": "Our Mercedes Vito 114 takes groups of five or six. For bigger parties, get in touch and we will talk through the options with you."
+            "a": "Each LEVC taxi carries up to six passengers. For a larger wedding party, get in touch and we will talk through the options with you."
           },
           {
             "q": "How do I get a price?",

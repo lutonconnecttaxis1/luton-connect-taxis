@@ -27,11 +27,6 @@ export function LegalPage({ slug, locale }: { slug: LegalSlug; locale: Locale })
               {t("legal.translationNotice")}
             </p>
           )}
-          {doc.notice && (
-            <p className="legal__notice" role="note">
-              {doc.notice}
-            </p>
-          )}
           <p className="legal__lead">{doc.lead}</p>
           {doc.blocks.map((block) => (
             <section key={block.h} className="legal__block">

@@ -17,7 +17,7 @@ export type Service = {
 
 export const services: readonly Service[] = [
   { slug: "airport-transfers", n: "01", photo: images.airportTransfers },
-  { slug: "wedding-transfers", n: "02", photo: images.weddingTransfers },
+  { slug: "wedding-taxi-hire", n: "02", photo: images.weddingTransfers },
   { slug: "courier-services", n: "03", photo: images.courierServices },
   { slug: "local-trips", n: "04", photo: images.localTrips },
   { slug: "long-distance-national-journeys", n: "05", photo: images.longDistance },
@@ -36,4 +36,6 @@ export type ServiceText = {
   statement: string;
   includes: string[];
   faqs: { q: string; a: string }[];
+  /** Optional: titled points shown instead of `includes` on the service page. */
+  features?: { title: string; text: string }[];
 };

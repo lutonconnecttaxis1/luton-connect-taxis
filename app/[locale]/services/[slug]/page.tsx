@@ -41,6 +41,8 @@ export default async function ServicePage({ params }: Props) {
   const t = getT(loc);
   const key = `services.items.${service.slug}`;
   const includes = t.list(`${key}.includes`);
+  // Some services (e.g. wedding taxi hire) show titled points instead of a plain list.
+  const features = t.has(`${key}.features`) ? t.raw<Array<{ title: string; text: string }>>(`${key}.features`) : null;
   const faqs = t.raw<Array<{ q: string; a: string }>>(`${key}.faqs`);
   const steps = t.raw<Array<{ title: string; text: string }>>("services.page.steps");
 
@@ -73,12 +75,19 @@ export default async function ServicePage({ params }: Props) {
             <p className="eyebrow" data-reveal>
               {t("services.page.included")}
             </p>
-            <ul className="incl">
-              {includes.map((item, i) => (
-                <li key={item} data-reveal style={{ ["--d" as string]: `${i * 70}ms` }}>
-                  {item}
-                </li>
-              ))}
+            <ul className={`incl${features ? " incl--rich" : ""}`}>
+              {features
+                ? features.map(({ title, text }, i) => (
+                    <li key={title} data-reveal style={{ ["--d" as string]: `${i * 70}ms` }}>
+                      <strong>{title}</strong>
+                      <span>{text}</span>
+                    </li>
+                  ))
+                : includes.map((item, i) => (
+                    <li key={item} data-reveal style={{ ["--d" as string]: `${i * 70}ms` }}>
+                      {item}
+                    </li>
+                  ))}
             </ul>
           </div>
         </div>

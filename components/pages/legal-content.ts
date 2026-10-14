@@ -6,7 +6,7 @@ import type { TFunction } from "@/lib/i18n/translate";
  * The Cookies page is a first draft written to match what the site actually does.
  * None of this is legal advice – the client / a solicitor must approve it before launch.
  *
- * The wording lives in the messages under `legal.terms|privacy|cookies.*` (title, lead, notice,
+ * The wording lives in the messages under `legal.terms|privacy|cookies.*` (title, lead,
  * blocks: [{ h, p?, ul?, after? }]). Only the contact lines (built from siteConfig) are made here.
  */
 export type Block = {
@@ -20,8 +20,6 @@ export type LegalDoc = {
   slug: "terms" | "privacy" | "cookies";
   title: string;
   lead: string;
-  /** Shown at the top of the page while the wording is unfinished. */
-  notice?: string;
   blocks: Block[];
 };
 
@@ -63,7 +61,6 @@ export function getLegalDoc(slug: LegalSlug, t: TFunction): LegalDoc {
     slug,
     title: t(`legal.${slug}.title`),
     lead: t(`legal.${slug}.lead`),
-    notice: t(`legal.${slug}.notice`),
     blocks: blocks.map((block, i) => {
       const kinds = lineBlocks[slug][i];
       return kinds ? { ...block, lines: contactLines(kinds, t) } : block;

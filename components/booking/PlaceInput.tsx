@@ -57,6 +57,7 @@ export function PlaceInput({
   const session = useRef("");
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const abort = useRef<AbortController | null>(null);
+  const listRef = useRef<HTMLUListElement | null>(null);
 
   const newSession = () => {
     session.current = typeof crypto !== "undefined" && "randomUUID" in crypto ? crypto.randomUUID() : String(Date.now());
@@ -146,6 +147,15 @@ export function PlaceInput({
 
   const showList = open && (items.length > 0 || problem !== null || (!loading && text.trim().length >= MIN_CHARS));
 
+  // A list that opens downwards can end below the screen: scroll just enough to show it.
+  useEffect(() => {
+    if (!showList || dropUp) return;
+    const list = listRef.current;
+    if (!list) return;
+    const overflow = list.getBoundingClientRect().bottom - window.innerHeight + 16;
+    if (overflow > 0) window.scrollBy({ top: overflow, behavior: "smooth" });
+  }, [showList, items.length, dropUp]);
+
   return (
     <div className={`pi${dropUp ? " pi--up" : ""}`}>
       <input
@@ -181,7 +191,7 @@ export function PlaceInput({
         </span>
       )}
       {showList && (
-        <ul id={listId} role="listbox" className="pi__list">
+        <ul id={listId} ref={listRef} role="listbox" className="pi__list">
           {items.map((item, i) => (
             <li
               key={item.placeId}

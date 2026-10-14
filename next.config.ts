@@ -25,6 +25,13 @@ const nextConfig: NextConfig = {
     return [
       { source: "/book", destination: "/#quote", permanent: false },
       { source: "/:locale(ro|es|it|fr|zh|de)/book", destination: "/:locale#quote", permanent: false },
+      // "Wedding transfers" became "Wedding Taxi Hire" – keep the old page address working.
+      { source: "/services/wedding-transfers", destination: "/services/wedding-taxi-hire", permanent: true },
+      {
+        source: "/:locale(ro|es|it|fr|zh|de)/services/wedding-transfers",
+        destination: "/:locale/services/wedding-taxi-hire",
+        permanent: true,
+      },
     ];
   },
   async headers() {

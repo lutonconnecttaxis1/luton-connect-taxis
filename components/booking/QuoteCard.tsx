@@ -459,7 +459,6 @@ export function QuoteCard() {
             onChange={(place) => set("pickup", place)}
             invalid={!!errors.pickup}
             describedBy="qc-bar-errors"
-            dropUp
           />
         </div>
         <div className={`book__field${errors.dropoff ? " has-error" : ""}`}>
@@ -471,7 +470,6 @@ export function QuoteCard() {
             onChange={(place) => set("dropoff", place)}
             invalid={!!errors.dropoff}
             describedBy="qc-bar-errors"
-            dropUp
           />
         </div>
         <div className={`book__field book__field--sm${errors.date ? " has-error" : ""}`}>

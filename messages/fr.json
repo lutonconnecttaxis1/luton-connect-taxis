@@ -545,7 +545,6 @@
     "cookies": {
       "title": "Cookies et utilisation des données",
       "lead": "Cette page explique les cookies et technologies similaires utilisés sur lutonconnecttaxis.com, ainsi que la manière dont vous pouvez les contrôler.",
-      "notice": "Version provisoire. Ce texte sera finalisé lors de l’activation de la réservation, des comptes et des outils d’analyse.",
       "blocks": [
         {
           "h": "Que sont les cookies ?",
@@ -604,7 +603,6 @@
     "privacy": {
       "title": "Politique de confidentialité",
       "lead": "Chez Luton Connect Taxis, nous nous engageons à protéger votre vie privée et à garantir que vos informations personnelles sont traitées de manière sécurisée et responsable. La présente Politique de confidentialité explique comment nous collectons, utilisons, conservons et protégeons vos informations personnelles lorsque vous utilisez notre site web ou réservez nos services.",
-      "notice": "Version provisoire. Une Politique de confidentialité révisée, couvrant les outils de notre site web et les modalités de paiement dans le véhicule, est en cours de préparation et remplacera ce texte.",
       "blocks": [
         {
           "h": "Qui sommes-nous"
@@ -714,7 +712,6 @@
     "terms": {
       "title": "Conditions générales",
       "lead": "Bienvenue chez Luton Connect Taxis. En utilisant notre site web ou en réservant nos services, vous acceptez les Conditions générales suivantes.",
-      "notice": "Version provisoire. Les durées d’attente et les montants d’annulation restent à confirmer par Luton Connect Taxis.",
       "blocks": [
         {
           "h": "Réservations",
@@ -1040,18 +1037,45 @@
           }
         ]
       },
-      "wedding-transfers": {
-        "name": "Transports de mariage",
-        "meta": "Pour les mariés, la famille et les invités",
-        "title": "Transports de mariage.",
-        "lead": "Arrivez à l’heure et dans le confort le jour de votre mariage. Nous nous occupons du trajet pour vous, votre famille et vos invités.",
-        "statement": "Le jour de votre mariage suit un programme précis. Nous veillons à ce que les trajets le respectent aussi.",
+      "wedding-taxi-hire": {
+        "name": "Location de taxi pour mariage",
+        "meta": "Taxis électriques LEVC, noirs ou blanc perle",
+        "title": "Location de taxi pour mariage.",
+        "lead": "Arrivez avec style et le luxe britannique emblématique : taxis électriques LEVC en noir londonien classique ou en blanc nacré.",
+        "statement": "Arrivez avec style, avec le luxe britannique emblématique.",
         "includes": [
-          "Transport des mariés, de la famille et des invités",
-          "Prises en charge à domicile, à l’hôtel ou sur le lieu de réception, vers la cérémonie et la réception",
-          "Taxis accessibles en fauteuil roulant pour les invités ayant besoin d’un accès sans marche",
-          "Groupes de cinq ou six personnes dans notre Mercedes Vito 114",
-          "Horaires planifiés avec vous à l’avance"
+          "Taxis électriques LEVC emblématiques, en noir classique ou blanc nacré",
+          "Sièges spacieux et confortables jusqu’à 6 passagers",
+          "Accès complet pour fauteuil roulant, entrée de plain-pied",
+          "Pittoresque et idéal pour les photos",
+          "Horaires sur mesure et chauffeur dédié",
+          "Rubans et décorations personnalisées"
+        ],
+        "features": [
+          {
+            "title": "Taxis électriques LEVC emblématiques, en noir classique ou blanc nacré",
+            "text": "Choisissez entre le noir londonien intemporel et l’élégant blanc mariage, pour l’assortir au thème de votre mariage."
+          },
+          {
+            "title": "Sièges spacieux et confortables jusqu’à 6 passagers",
+            "text": "Beaucoup de place pour de grandes robes de mariée, des demoiselles d’honneur, des garçons d’honneur ou des membres de la famille."
+          },
+          {
+            "title": "Accès complet pour fauteuil roulant, entrée de plain-pied",
+            "text": "La rampe intégrée et les sièges pivotants permettent un accès confortable aux invités âgés ou aux utilisateurs de fauteuil roulant."
+          },
+          {
+            "title": "Pittoresque et idéal pour les photos",
+            "text": "Un design emblématique qui sublime les photos de mariage, avec un toit panoramique pour une lumière naturelle éclatante."
+          },
+          {
+            "title": "Horaires sur mesure et chauffeur dédié",
+            "text": "Formules de location flexibles (à l’heure ou à la journée), avec des itinéraires personnalisés et des horaires planifiés."
+          },
+          {
+            "title": "Rubans et décorations personnalisées",
+            "text": "Sur demande, nous fixons des rubans de mariage traditionnels sur la calandre avant."
+          }
         ],
         "faqs": [
           {
@@ -1060,7 +1084,7 @@
           },
           {
             "q": "Pouvez-vous transporter un cortège de mariage plus important ?",
-            "a": "Notre Mercedes Vito 114 transporte des groupes de cinq ou six personnes. Pour les groupes plus nombreux, contactez-nous et nous étudierons les options avec vous."
+            "a": "Chaque taxi LEVC transporte jusqu’à six passagers. Pour un cortège plus nombreux, contactez-nous et nous étudierons les options avec vous."
           },
           {
             "q": "Comment obtenir un prix ?",

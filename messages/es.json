@@ -545,7 +545,6 @@
     "cookies": {
       "title": "Cookies y uso de datos",
       "lead": "Esta página explica las cookies y tecnologías similares que se utilizan en lutonconnecttaxis.com y cómo puede controlarlas.",
-      "notice": "Texto provisional. Se finalizará cuando se activen las reservas, las cuentas y la analítica.",
       "blocks": [
         {
           "h": "¿Qué son las cookies?",
@@ -604,7 +603,6 @@
     "privacy": {
       "title": "Política de privacidad",
       "lead": "En Luton Connect Taxis nos comprometemos a proteger su privacidad y a garantizar que su información personal se trate de forma segura y responsable. Esta Política de privacidad explica cómo recopilamos, utilizamos, almacenamos y protegemos su información personal cuando utiliza nuestro sitio web o reserva nuestros servicios.",
-      "notice": "Texto provisional. Se está preparando una Política de privacidad revisada que abarcará las herramientas de nuestro sitio web y las condiciones de pago en el coche, y sustituirá a este texto.",
       "blocks": [
         {
           "h": "Quiénes somos"
@@ -714,7 +712,6 @@
     "terms": {
       "title": "Términos y condiciones",
       "lead": "Bienvenido a Luton Connect Taxis. Al utilizar nuestro sitio web o reservar nuestros servicios, usted acepta los siguientes Términos y condiciones.",
-      "notice": "Texto provisional. Luton Connect Taxis todavía debe confirmar las cifras de tiempo de espera y de cancelación.",
       "blocks": [
         {
           "h": "Reservas",
@@ -1040,18 +1037,45 @@
           }
         ]
       },
-      "wedding-transfers": {
-        "name": "Traslados para bodas",
-        "meta": "Para los novios, la familia y los invitados",
-        "title": "Traslados para bodas.",
-        "lead": "Llegue puntual y cómodo el día de su boda. Nos ocupamos del trayecto de los novios, su familia y sus invitados.",
-        "statement": "El día de su boda sigue un horario. Nosotros nos aseguramos de que el transporte también lo siga.",
+      "wedding-taxi-hire": {
+        "name": "Alquiler de taxi para bodas",
+        "meta": "Taxis eléctricos LEVC, negros o blanco perla",
+        "title": "Alquiler de taxi para bodas.",
+        "lead": "Llegue con estilo y con el lujo británico de siempre: taxis eléctricos LEVC en el clásico negro de Londres o en blanco perla.",
+        "statement": "Llegue con estilo, con el icónico lujo británico.",
         "includes": [
-          "Transporte para los novios, la familia y los invitados",
-          "Recogidas desde casa, el hotel o el lugar del evento hasta la ceremonia y el banquete",
-          "Taxis accesibles para sillas de ruedas para los invitados que necesiten acceso sin escalones",
-          "Grupos de cinco o seis personas en nuestro Mercedes Vito 114",
-          "Horarios planificados con usted de antemano"
+          "Icónicos taxis eléctricos LEVC en negro clásico o blanco perla",
+          "Asientos amplios y cómodos para hasta 6 pasajeros",
+          "Acceso completo para sillas de ruedas y entrada sin escalones",
+          "Pintoresco y listo para las fotos",
+          "Horarios a medida y chófer dedicado",
+          "Lazos y opciones de decoración personalizada"
+        ],
+        "features": [
+          {
+            "title": "Icónicos taxis eléctricos LEVC en negro clásico o blanco perla",
+            "text": "Elija entre el atemporal negro de Londres o el elegante blanco de boda, para combinar con el tema de su boda."
+          },
+          {
+            "title": "Asientos amplios y cómodos para hasta 6 pasajeros",
+            "text": "Mucho espacio para vestidos de novia voluminosos, damas de honor, padrinos o familiares."
+          },
+          {
+            "title": "Acceso completo para sillas de ruedas y entrada sin escalones",
+            "text": "La rampa integrada y los asientos giratorios garantizan un acceso cómodo a invitados mayores o usuarios de silla de ruedas."
+          },
+          {
+            "title": "Pintoresco y listo para las fotos",
+            "text": "Su diseño icónico luce espectacular en las fotos de boda, y el techo panorámico aporta una luz natural muy luminosa."
+          },
+          {
+            "title": "Horarios a medida y chófer dedicado",
+            "text": "Opciones de alquiler flexibles (por horas o por día completo), con rutas personalizadas y horarios planificados."
+          },
+          {
+            "title": "Lazos y opciones de decoración personalizada",
+            "text": "Si lo desea, añadimos los tradicionales lazos de boda en la parrilla delantera."
+          }
         ],
         "faqs": [
           {
@@ -1059,8 +1083,8 @@
             "a": "Cuanto antes mejor. Llame, escriba por WhatsApp o envíe un correo con su fecha, lugar y horarios, y le confirmaremos lo que podemos ofrecerle."
           },
           {
-            "q": "¿Pueden transportar a un grupo de boda más numeroso?",
-            "a": "Nuestro Mercedes Vito 114 admite grupos de cinco o seis personas. Para grupos mayores, póngase en contacto con nosotros y estudiaremos las opciones con usted."
+            "q": "¿Pueden llevar a un grupo de boda más grande?",
+            "a": "Cada taxi LEVC lleva hasta seis pasajeros. Para un grupo mayor, póngase en contacto con nosotros y estudiaremos las opciones con usted."
           },
           {
             "q": "¿Cómo obtengo un precio?",
