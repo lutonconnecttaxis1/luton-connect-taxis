@@ -78,4 +78,68 @@ describe("buildQuote", () => {
     assert.equal(many.ok, false);
     if (!many.ok) assert.equal(many.reason, "too-many-passengers");
   });
+
+  describe("airport fees only for the airport itself", () => {
+    const LUTON_AIRPORT = { lat: 51.8747, lng: -0.3683 };
+    const IBIS = { lat: 51.8766, lng: -0.3735 }; // hotel beside the terminal, inside the airport area
+    const hotelRoute = route({ miles: 1.2, durationMinutes: 5, start: LUTON_AIRPORT, end: IBIS, path: [LUTON_AIRPORT, IBIS] });
+    const luton = { placeId: "ChIJ_luton_airport1", text: "London Luton Airport (LTN), Luton, UK" };
+    const ibis = { placeId: "ChIJ_ibis_hotel_001", text: "ibis London Luton Airport, Spittlesea Road, Luton, UK" };
+
+    it("airport pickup to a hotel next to it: only the pickup fee → £19.88", () => {
+      const r = buildQuote(journey({ pickup: luton, dropoff: ibis }), hotelRoute, {
+        pickup: ["airport", "point_of_interest", "establishment"],
+        dropoff: ["lodging", "point_of_interest", "establishment"],
+      });
+      assert.ok(r.ok);
+      assert.equal(r.quote.total, 19.88);
+      assert.equal(r.quote.pickup.airport, "London Luton");
+      assert.equal(r.quote.dropoff.airport, null);
+      assert.equal(r.quote.outbound.lines.some((l) => l.key === "airport-dropoff"), false);
+    });
+
+    it("hotel to airport: only the drop-off fee", () => {
+      const r = buildQuote(journey({ pickup: ibis, dropoff: luton }), route({ miles: 1.2, start: IBIS, end: LUTON_AIRPORT, path: [IBIS, LUTON_AIRPORT] }), {
+        pickup: ["lodging"],
+        dropoff: ["airport"],
+      });
+      assert.ok(r.ok);
+      assert.equal(r.quote.total, 19.88);
+      assert.equal(r.quote.outbound.lines.some((l) => l.key === "airport-pickup"), false);
+    });
+
+    it("both ends are airports: both fees are added", () => {
+      const r = buildQuote(journey({ pickup: luton, dropoff: { placeId: "ChIJ_heathrow_air_1", text: "Heathrow Airport, UK" } }), route({ miles: 25, start: LUTON_AIRPORT }), {
+        pickup: ["airport"],
+        dropoff: ["airport"],
+      });
+      assert.ok(r.ok);
+      assert.equal(r.quote.total, 8 + 60 + 9 + 7);
+    });
+
+    it("no airport at either end: no airport fee, even if a hotel is inside an airport area", () => {
+      const r = buildQuote(journey({ pickup: ibis, dropoff: { placeId: "ChIJ_shop_000000001", text: "Shop, Luton" } }), route({ miles: 2, start: IBIS, end: { lat: 51.8787, lng: -0.42 } }), {
+        pickup: ["lodging"],
+        dropoff: ["store"],
+      });
+      assert.ok(r.ok);
+      assert.equal(r.quote.total, 12.8);
+      assert.equal(r.quote.pickup.airport, null);
+    });
+
+    it("a terminal typed as a transit station still counts as the airport", () => {
+      const r = buildQuote(journey({ pickup: { placeId: "ChIJ_t5_00000000001", text: "Heathrow Terminal 5, UK" } }), route({ start: HEATHROW_T5, end: LUTON_TOWN }), {
+        pickup: ["transit_station"],
+        dropoff: ["locality"],
+      });
+      assert.ok(r.ok);
+      assert.equal(r.quote.pickup.airport, "London Heathrow");
+    });
+
+    it("unknown place types fall back to the location-only check", () => {
+      const r = buildQuote(journey({ pickup: luton, dropoff: ibis }), hotelRoute);
+      assert.ok(r.ok);
+      assert.equal(r.quote.dropoff.airport, "London Luton");
+    });
+  });
 });

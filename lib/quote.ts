@@ -1,7 +1,8 @@
 import { airportFees } from "@/config/airport-fees";
 import { pricingConfig } from "@/config/pricing";
-import { findAirportId, pointInCongestionZone, routeEntersCongestionZone } from "@/lib/geo/places";
+import { airportIdForPlace, pointInCongestionZone, routeEntersCongestionZone } from "@/lib/geo/places";
 import type { JourneyInput } from "@/lib/journey";
+import { fetchPlaceTypes } from "@/lib/maps/placeTypes";
 import { computeRoute, type RouteInfo } from "@/lib/maps/routes";
 import { calculateEstimate } from "@/lib/pricing/calculateEstimate";
 import type { Estimate } from "@/lib/pricing/types";
@@ -32,7 +33,12 @@ const airportName = (id: string | null) => (id ? (airportFees.find((a) => a.id =
  * same road distance, its own date/time (so its own day/night band and
  * Congestion Charge check), and airport fees swapped (pickup ↔ drop-off).
  */
-export function buildQuote(journey: JourneyInput, route: RouteInfo): QuoteResult {
+export function buildQuote(
+  journey: JourneyInput,
+  route: RouteInfo,
+  /** Google's place types for each end; null/omitted = unknown (location-only check). */
+  placeTypes: { pickup: string[] | null; dropoff: string[] | null } = { pickup: null, dropoff: null },
+): QuoteResult {
   if (route.miles > pricingConfig.maxEstimateMiles) {
     return {
       ok: false,
@@ -41,8 +47,10 @@ export function buildQuote(journey: JourneyInput, route: RouteInfo): QuoteResult
     };
   }
 
-  const pickupAirportId = findAirportId(route.start);
-  const dropoffAirportId = findAirportId(route.end);
+  // A fee applies only to an end that IS the airport – not a hotel or shop beside it.
+  // Both ends at airports → both fees; neither → none.
+  const pickupAirportId = airportIdForPlace(route.start, placeTypes.pickup, journey.pickup.text);
+  const dropoffAirportId = airportIdForPlace(route.end, placeTypes.dropoff, journey.dropoff.text);
   const inCongestionZone =
     pointInCongestionZone(route.start) || pointInCongestionZone(route.end) || routeEntersCongestionZone(route.path);
 
@@ -93,6 +101,10 @@ export function buildQuote(journey: JourneyInput, route: RouteInfo): QuoteResult
 
 /** Looks the route up with Google, then prices it. */
 export async function quoteJourney(journey: JourneyInput): Promise<QuoteResult> {
-  const route = await computeRoute(journey.pickup.placeId, journey.dropoff.placeId);
-  return buildQuote(journey, route);
+  const [route, pickup, dropoff] = await Promise.all([
+    computeRoute(journey.pickup.placeId, journey.dropoff.placeId),
+    fetchPlaceTypes(journey.pickup.placeId),
+    fetchPlaceTypes(journey.dropoff.placeId),
+  ]);
+  return buildQuote(journey, route, { pickup, dropoff });
 }

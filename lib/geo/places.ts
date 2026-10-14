@@ -13,6 +13,32 @@ export function findAirportId(point: LatLng | null): string | null {
   return best?.id ?? null;
 }
 
+const AIRPORT_TYPES = new Set(["airport", "international_airport", "airstrip", "airport_terminal"]);
+const TRANSIT_TYPES = new Set(["transit_station", "train_station", "bus_station", "light_rail_station", "subway_station"]);
+
+/**
+ * Is this place the airport itself (terminal, drop-off area…) rather than a hotel,
+ * shop or car-hire office that just stands near it? `types` are Google's place
+ * types; `text` is the address the customer picked.
+ */
+export function isAirportPlace(types: readonly string[], text: string): boolean {
+  if (types.some((t) => AIRPORT_TYPES.has(t))) return true;
+  // Terminals are sometimes typed as transit stations ("Heathrow Terminal 5")
+  return types.some((t) => TRANSIT_TYPES.has(t)) && /\bterminal\b/i.test(text);
+}
+
+/**
+ * The airport id to charge a fee for, or null. A place only counts when it is
+ * inside an airport's area AND is the airport itself. When Google's place types
+ * are unknown (`types` is null) we fall back to the area check alone.
+ */
+export function airportIdForPlace(point: LatLng | null, types: readonly string[] | null, text: string): string | null {
+  const id = findAirportId(point);
+  if (!id) return null;
+  if (types === null) return id;
+  return isAirportPlace(types, text) ? id : null;
+}
+
 export function pointInCongestionZone(point: LatLng | null): boolean {
   return point ? pointInRing(point, congestionZone) : false;
 }
