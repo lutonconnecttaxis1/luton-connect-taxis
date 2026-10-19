@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Figtree, Outfit } from "next/font/google";
+import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import "../home.css";
@@ -8,6 +9,7 @@ import { siteConfig } from "@/config/site";
 import { isLocale, localeInfo, locales } from "@/lib/i18n/config";
 import { englishValidation, getT, loadMessages, pickClientMessages } from "@/lib/i18n/messages";
 import { baseAlternates } from "@/lib/i18n/seo";
+import { NONCE_HEADER } from "@/lib/security/csp";
 
 // Outfit: geometric display face that echoes the logo lettering. Figtree: friendly, legible body text.
 // latin-ext covers Romanian (ă â î ș ț), Polish-style accents and the rest of the European languages.
@@ -58,12 +60,15 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound();
 
   const messages = loadMessages(locale);
+  // Reading the request headers makes every page render per request, which is what lets each
+  // response carry its own CSP nonce (set in middleware.ts).
+  const nonce = (await headers()).get(NONCE_HEADER) ?? undefined;
 
   return (
     <html lang={localeInfo[locale].htmlLang} className={`${outfit.variable} ${figtree.variable}`} suppressHydrationWarning>
       <head>
         {/* Enables the scroll-reveal styles only when JavaScript is running, so content never stays hidden. */}
-        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+        <script nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
       </head>
       <body>
         <I18nProvider

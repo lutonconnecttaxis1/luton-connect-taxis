@@ -37,8 +37,8 @@ const nextConfig: NextConfig = {
   async headers() {
     return [{ source: "/(.*)", headers: securityHeaders }];
   },
-  // A full Content-Security-Policy is added in milestone 7 once every
-  // third-party script (Maps, reCAPTCHA, Analytics, Firebase) is final.
+  // The Content-Security-Policy is built per request in middleware.ts (rules: lib/security/csp.ts),
+  // because it carries a fresh nonce. Set CSP_MODE=enforce on Vercel to switch it on.
 };
 
 export default nextConfig;
