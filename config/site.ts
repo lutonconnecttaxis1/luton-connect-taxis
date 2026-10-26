@@ -5,7 +5,7 @@
 export const siteConfig = {
   name: "Luton Connect Taxis",
   domain: "lutonconnecttaxis.com",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://lutonconnecttaxis.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.lutonconnecttaxis.com", // the address the site is served from (apex redirects here)
   tagline: "Taxis for airports, local trips and long-distance journeys",
   phone: {
     display: "01582 353158",
