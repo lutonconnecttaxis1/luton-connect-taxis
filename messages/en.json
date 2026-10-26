@@ -754,11 +754,17 @@
       ]
     },
     "blog": {
-      "metaTitle": "Blog",
-      "metaDescription": "News, travel tips and local guides from Luton Connect Taxis – coming soon.",
+      "metaTitle": "Luton taxi guides and travel tips",
+      "metaDescription": "Practical advice on Luton Airport taxis, airport transfers, night-time travel and getting around from Luton Connect Taxis. Book on 01582 353158.",
       "eyebrow": "Luton Connect Taxis · Blog",
-      "title": "Blog – coming soon.",
-      "lead": "Travel tips, airport guides and news from Luton Connect Taxis are on their way."
+      "title": "Taxi guides and travel tips.",
+      "lead": "Practical advice on Luton Airport transfers, night-time travel and getting around, from the Luton Connect Taxis team.",
+      "readMore": "Read the article",
+      "minRead": "{minutes} min read",
+      "allArticles": "All articles",
+      "keepReading": "Keep reading",
+      "byline": "By {name}",
+      "translatedNotice": "This article has been translated from English. If anything is unclear, the English original is the reference version."
     },
     "contact": {
       "metaTitle": "Contact us",
