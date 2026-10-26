@@ -911,11 +911,17 @@
       ]
     },
     "blog": {
-      "metaTitle": "Blog",
-      "metaDescription": "Novità, consigli di viaggio e guide locali di Luton Connect Taxis – prossimamente.",
+      "metaTitle": "Guide taxi e consigli di viaggio a Luton",
+      "metaDescription": "Consigli pratici sui taxi dell'aeroporto di Luton, i transfer aeroportuali, i viaggi notturni e gli spostamenti a Luton, da Luton Connect Taxis.",
       "eyebrow": "Luton Connect Taxis · Blog",
-      "title": "Blog – prossimamente.",
-      "lead": "Consigli di viaggio, guide agli aeroporti e novità di Luton Connect Taxis stanno arrivando."
+      "title": "Guide taxi e consigli di viaggio.",
+      "lead": "Consigli pratici sui transfer dall'aeroporto di Luton, i viaggi notturni e gli spostamenti, dal team di Luton Connect Taxis.",
+      "readMore": "Leggi l'articolo",
+      "minRead": "{minutes} min di lettura",
+      "allArticles": "Tutti gli articoli",
+      "keepReading": "Continua a leggere",
+      "byline": "Di {name}",
+      "translatedNotice": "Questo articolo è stato tradotto dall’inglese. In caso di dubbi, fa fede la versione originale in inglese."
     },
     "contact": {
       "metaTitle": "Contatti",

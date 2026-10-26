@@ -911,11 +911,17 @@
       ]
     },
     "blog": {
-      "metaTitle": "Blog",
-      "metaDescription": "Noutăți, sfaturi de călătorie și ghiduri locale de la Luton Connect Taxis – în curând.",
+      "metaTitle": "Ghiduri și sfaturi de călătorie cu taxiul din Luton",
+      "metaDescription": "Sfaturi practice despre taxiurile de la Aeroportul Luton, transferurile aeroport, călătoriile pe timp de noapte și deplasarea prin Luton, de la Luton Connect Taxis.",
       "eyebrow": "Luton Connect Taxis · Blog",
-      "title": "Blog – în curând.",
-      "lead": "Sfaturi de călătorie, ghiduri despre aeroporturi și noutăți de la Luton Connect Taxis sunt pe drum."
+      "title": "Ghiduri și sfaturi de călătorie.",
+      "lead": "Sfaturi practice despre transferurile de la Aeroportul Luton, călătoriile pe timp de noapte și deplasarea prin oraș, de la echipa Luton Connect Taxis.",
+      "readMore": "Citește articolul",
+      "minRead": "{minutes} min de citit",
+      "allArticles": "Toate articolele",
+      "keepReading": "Continuă lectura",
+      "byline": "De {name}",
+      "translatedNotice": "Acest articol a fost tradus din engleză. Dacă ceva nu este clar, versiunea originală în engleză este cea de referință."
     },
     "contact": {
       "metaTitle": "Contactați-ne",

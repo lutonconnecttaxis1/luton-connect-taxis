@@ -7,8 +7,6 @@ out/
 next-env.d.ts
 
 # env files – NEVER commit real keys
-.env
-.env.local
 .env.*.local
 
 # firebase / vercel
@@ -29,3 +27,4 @@ SETUP_CHECKLIST.md
 _original-pictures/
 _to_delete/
 Claude outputs/
+config.bat

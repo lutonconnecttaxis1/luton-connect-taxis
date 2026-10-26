@@ -911,11 +911,17 @@
       ]
     },
     "blog": {
-      "metaTitle": "博客",
-      "metaDescription": "来自 Luton Connect Taxis 的资讯、出行贴士和本地指南——敬请期待。",
+      "metaTitle": "卢顿出租车指南与出行贴士",
+      "metaDescription": "Luton Connect Taxis 提供的实用建议：卢顿机场出租车、机场接送、夜间出行以及在卢顿出行。",
       "eyebrow": "Luton Connect Taxis · 博客",
-      "title": "博客——即将上线。",
-      "lead": "来自 Luton Connect Taxis 的出行贴士、机场指南和最新资讯即将与您见面。"
+      "title": "出租车指南与出行贴士。",
+      "lead": "Luton Connect Taxis 团队分享的卢顿机场接送、夜间出行和日常出行实用建议。",
+      "readMore": "阅读文章",
+      "minRead": "阅读约 {minutes} 分钟",
+      "allArticles": "全部文章",
+      "keepReading": "继续阅读",
+      "byline": "作者：{name}",
+      "translatedNotice": "本文译自英文。如有任何不明之处，请以英文原文为准。"
     },
     "contact": {
       "metaTitle": "联系我们",
