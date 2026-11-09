@@ -43,8 +43,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: { siteName: siteConfig.name, locale: localeInfo[locale].og, type: "website" },
     // Previews and the build-in-progress site must not be indexed.
     robots: siteConfig.indexable ? { index: true, follow: true } : { index: false, follow: false },
-    // Google Search Console ownership check (public token, not a secret).
-    verification: { google: "8s5OYJ4br2Nx4d4oByupu9KEN27wwVL2jcrP7weDNII" },
+    // Search Console (Google) and Webmaster Tools (Bing) ownership checks.
+    // These are public tokens, not secrets. Do not remove them or ownership lapses.
+    verification: {
+      google: "8s5OYJ4br2Nx4d4oByupu9KEN27wwVL2jcrP7weDNII",
+      other: { "msvalidate.01": "24D81186C88C2B098210ECA71CCEC074" },
+    },
   };
 }
 

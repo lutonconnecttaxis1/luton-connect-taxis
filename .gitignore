@@ -28,3 +28,7 @@ _original-pictures/
 _to_delete/
 Claude outputs/
 config.bat
+
+# local env file (secrets)
+.env
+.env.local
