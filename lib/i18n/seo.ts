@@ -10,12 +10,28 @@ export function baseAlternates(locale: Locale, path: string): NonNullable<Metada
   };
 }
 
+/**
+ * Search results show about 160 characters of a description. Longer text is cut at a sentence or
+ * word boundary so the visible part still reads well.
+ */
+export function fitDescription(text: string, max = 158): string {
+  const s = text.trim();
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max - 1);
+  const sentence = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf("。"));
+  if (sentence >= max * 0.6) return cut.slice(0, sentence + 1);
+  const space = cut.lastIndexOf(" ");
+  const base = (space >= max * 0.6 ? cut.slice(0, space) : cut).replace(/[\s,;:–—-]+$/, "");
+  return `${base}…`;
+}
+
 /** Title, description and language links for a page's generateMetadata. */
 export function pageMetadata(
   locale: Locale,
   path: string,
-  { title, description }: { title: string; description: string },
+  { title, description: rawDescription }: { title: string; description: string },
 ): Metadata {
+  const description = fitDescription(rawDescription);
   return {
     title,
     description,

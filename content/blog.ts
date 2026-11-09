@@ -31,6 +31,8 @@ export type BlogPost = {
   /** Web address: /blog/<slug>. Keep it short, lower case, words joined by hyphens. */
   slug: string;
   title: string;
+  /** Short title for search results, 43 characters at most (the site name is added after it). */
+  seoTitle?: string;
   /** Search-result description, 110–160 characters. */
   description: string;
   /** Short line shown on the blog index card. */
@@ -46,7 +48,7 @@ export type BlogPost = {
 };
 
 /** The words of an article that get translated (everything else, such as dates, photo and related links, is shared). */
-export type PostText = Pick<BlogPost, "title" | "description" | "excerpt" | "blocks">;
+export type PostText = Pick<BlogPost, "title" | "seoTitle" | "description" | "excerpt" | "blocks">;
 
 const CALL = "[01582 353158](tel:+441582353158)";
 const WHATSAPP = "[WhatsApp](https://wa.me/441582353158)";
@@ -55,6 +57,7 @@ const EMAIL = "[admin@lutonconnecttaxis.com](mailto:admin@lutonconnecttaxis.com)
 const nightTravel: BlogPost = {
   slug: "night-time-taxi-luton",
   title: "Why a Taxi Is the Smartest Way to Get Home at Night in Luton",
+  seoTitle: "Getting Home at Night in Luton by Taxi",
   description:
     "Late shifts, last trains and dark streets: here is why a pre-booked taxi beats the night bus, a long walk or a surge-priced app when you travel after dark in Luton.",
   excerpt: "Late shifts, early flights and last trains: why a pre-booked taxi takes the stress out of travelling after dark.",
@@ -147,6 +150,7 @@ const nightTravel: BlogPost = {
 const firstTimers: BlogPost = {
   slug: "luton-airport-taxi-guide-first-time-visitors",
   title: "Luton Airport Taxi Guide for First-Time Visitors to the UK",
+  seoTitle: "Luton Airport Taxi Guide for Visitors",
   description:
     "Black cabs, private hire, taxi ranks and airport fees explained. Everything a first-time visitor needs to know before taking a taxi from London Luton Airport.",
   excerpt: "Black cabs, private hire, taxi ranks and airport fees explained for anyone arriving at Luton for the first time.",
@@ -235,6 +239,7 @@ const firstTimers: BlogPost = {
 const delays: BlogPost = {
   slug: "flight-delayed-airport-taxi-rights",
   title: "Flight Delayed? How to Protect Your Airport Taxi and What You Are Owed",
+  seoTitle: "Flight Delayed? Your Taxi and Your Rights",
   description:
     "Why flights get delayed, what UK passenger rights say after 2, 3 or 4 hours, and how to make sure your airport taxi is still waiting when you finally land.",
   excerpt: "What counts as a delay, what your airline owes you, and how to keep your airport taxi on track when plans change.",
@@ -357,6 +362,7 @@ const delays: BlogPost = {
 const arriving: BlogPost = {
   slug: "arriving-at-luton-airport-taxi-rank",
   title: "Landing at Luton Airport: Where to Find Your Taxi, Step by Step",
+  seoTitle: "Arriving at Luton Airport: Find Your Taxi",
   description:
     "From the plane to your taxi at London Luton Airport: baggage reclaim, the taxi rank, pre-booked pickup, payment, journey times and tips to avoid delays.",
   excerpt: "A step-by-step walk from the aircraft door to your taxi, with what to expect on the way.",
@@ -445,6 +451,7 @@ const arriving: BlogPost = {
 const areas: BlogPost = {
   slug: "taxi-to-luton-airport-from-luton-areas",
   title: "Taxi to Luton Airport From Stopsley, Leagrave, Farley Hill, Wigmore and Challney",
+  seoTitle: "Taxi to Luton Airport from Local Areas",
   description:
     "Typical taxi journey times from Stopsley, Leagrave, Farley Hill, Wigmore and Challney to Luton Airport, plus tips for timing and booking an early or late transfer.",
   excerpt: "How long a taxi takes to Luton Airport from five popular Luton neighbourhoods, and when to book your pickup.",
@@ -556,6 +563,7 @@ const areas: BlogPost = {
 const guide: BlogPost = {
   slug: "airport-transfers-from-luton-guide",
   title: "Airport Transfers From Luton: How to Book, What to Expect and What You Will Pay",
+  seoTitle: "Airport Transfers from Luton: A Guide",
   description:
     "Your guide to airport transfers from Luton: how to book, our vehicles, how the price works, transfers to Heathrow, Gatwick and Stansted, and common questions.",
   excerpt: "How to book an airport transfer from Luton, how the estimate works and what to expect on the day.",

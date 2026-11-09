@@ -8,6 +8,7 @@ import type { PostText } from "../blog";
 export const posts: Record<string, PostText> = {
   "airport-transfers-from-luton-guide": {
     "title": "Transferts aéroport depuis Luton : comment réserver, à quoi s’attendre et combien cela coûte",
+    "seoTitle": "Transferts aéroport depuis Luton : guide",
     "description": "Tout savoir sur les transferts aéroport depuis Luton : réservation, véhicules, calcul du prix, trajets vers Heathrow, Gatwick et Stansted, et questions fréquentes.",
     "excerpt": "Comment réserver un transfert aéroport depuis Luton, comment fonctionne l’estimation et à quoi s’attendre le jour du départ.",
     "blocks": [
@@ -157,6 +158,7 @@ export const posts: Record<string, PostText> = {
   },
   "luton-airport-taxi-guide-first-time-visitors": {
     "title": "Guide du taxi à l’aéroport de Luton pour les visiteurs qui découvrent le Royaume-Uni",
+    "seoTitle": "Taxi aéroport de Luton : guide visiteurs",
     "description": "Black cabs, voitures avec chauffeur, stations de taxis et frais d’aéroport expliqués. Tout ce qu’un visiteur doit savoir avant de prendre un taxi à London Luton Airport.",
     "excerpt": "Black cabs, voitures avec chauffeur, stations de taxis et frais d’aéroport expliqués pour ceux qui arrivent à Luton pour la première fois.",
     "blocks": [
@@ -259,6 +261,7 @@ export const posts: Record<string, PostText> = {
   },
   "arriving-at-luton-airport-taxi-rank": {
     "title": "Arrivée à l’aéroport de Luton : où trouver votre taxi, étape par étape",
+    "seoTitle": "Arrivée à Luton : trouvez votre taxi",
     "description": "De l’avion à votre taxi à London Luton Airport : bagages, station de taxis, prise en charge sur réservation, paiement, durées de trajet et conseils contre les retards.",
     "excerpt": "Un parcours pas à pas, de la porte de l’avion à votre taxi, avec ce qui vous attend en chemin.",
     "blocks": [
@@ -370,6 +373,7 @@ export const posts: Record<string, PostText> = {
   },
   "flight-delayed-airport-taxi-rights": {
     "title": "Vol retardé ? Comment protéger votre taxi aéroport et connaître vos droits",
+    "seoTitle": "Vol retardé ? Votre taxi et vos droits",
     "description": "Pourquoi les vols sont retardés, ce que disent les droits des passagers au Royaume-Uni après 2, 3 ou 4 heures, et comment retrouver votre taxi aéroport à l’atterrissage.",
     "excerpt": "Ce qu’est un retard, ce que votre compagnie aérienne vous doit et comment garder votre taxi aéroport sur la bonne voie quand les plans changent.",
     "blocks": [
@@ -500,6 +504,7 @@ export const posts: Record<string, PostText> = {
   },
   "taxi-to-luton-airport-from-luton-areas": {
     "title": "Taxi pour l’aéroport de Luton depuis Stopsley, Leagrave, Farley Hill, Wigmore et Challney",
+    "seoTitle": "Taxi pour l’aéroport de Luton, par quartier",
     "description": "Durées de trajet en taxi depuis Stopsley, Leagrave, Farley Hill, Wigmore et Challney jusqu’à l’aéroport de Luton, avec conseils pour réserver un départ tôt ou tard.",
     "excerpt": "Combien de temps met un taxi pour rejoindre l’aéroport de Luton depuis cinq quartiers prisés de Luton, et quand réserver votre prise en charge.",
     "blocks": [
@@ -643,6 +648,7 @@ export const posts: Record<string, PostText> = {
   },
   "night-time-taxi-luton": {
     "title": "Pourquoi le taxi est la meilleure façon de rentrer la nuit à Luton",
+    "seoTitle": "Rentrer la nuit à Luton en taxi",
     "description": "Services tardifs, derniers trains, rues sombres : pourquoi un taxi réservé à l’avance vaut mieux que le bus de nuit, une longue marche ou une appli à tarifs dynamiques.",
     "excerpt": "Services tardifs, vols matinaux et derniers trains : pourquoi un taxi réservé à l’avance supprime le stress des déplacements après la tombée de la nuit.",
     "blocks": [

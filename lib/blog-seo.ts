@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { BlogPost } from "@/content/blog";
 import { siteConfig } from "@/config/site";
 import { absoluteUrl, alternateLanguages, localeInfo, type Locale } from "@/lib/i18n/config";
+import { fitDescription } from "@/lib/i18n/seo";
 
 /** Address of the blog index or of one article in a given language. */
 export const blogUrl = (locale: Locale, slug?: string) => absoluteUrl(siteConfig.url, locale, slug ? `/blog/${slug}` : "/blog");
@@ -11,7 +12,8 @@ const blogAlternates = (locale: Locale, slug?: string): NonNullable<Metadata["al
   languages: alternateLanguages(siteConfig.url, slug ? `/blog/${slug}` : "/blog"),
 });
 
-export function blogIndexMetadata(locale: Locale, title: string, description: string): Metadata {
+export function blogIndexMetadata(locale: Locale, title: string, rawDescription: string): Metadata {
+  const description = fitDescription(rawDescription);
   return {
     title,
     description,
@@ -22,13 +24,15 @@ export function blogIndexMetadata(locale: Locale, title: string, description: st
 
 export function postMetadata(post: BlogPost, locale: Locale): Metadata {
   const image = `${siteConfig.url.replace(/\/$/, "")}${post.photo.src}`;
+  const description = fitDescription(post.description);
   return {
-    title: post.title,
-    description: post.description,
+    // A short title for search results (the site name is added after it); the full title is the page heading.
+    title: post.seoTitle ?? post.title,
+    description,
     alternates: blogAlternates(locale, post.slug),
     openGraph: {
       title: post.title,
-      description: post.description,
+      description,
       url: blogUrl(locale, post.slug),
       siteName: siteConfig.name,
       locale: localeInfo[locale].og,
@@ -38,7 +42,7 @@ export function postMetadata(post: BlogPost, locale: Locale): Metadata {
       authors: [siteConfig.name],
       images: [{ url: image }],
     },
-    twitter: { card: "summary_large_image", title: post.title, description: post.description, images: [image] },
+    twitter: { card: "summary_large_image", title: post.title, description, images: [image] },
   };
 }
 

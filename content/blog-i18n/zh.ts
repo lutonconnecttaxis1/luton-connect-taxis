@@ -8,6 +8,7 @@ import type { PostText } from "../blog";
 export const posts: Record<string, PostText> = {
   "airport-transfers-from-luton-guide": {
     "title": "卢顿机场接送指南：如何预订、服务内容与费用说明",
+    "seoTitle": "卢顿机场接送指南",
     "description": "卢顿机场接送全攻略：如何预订、车型选择、价格如何计算，以及前往希思罗、盖特威克和斯坦斯特德机场的接送与常见问题解答。",
     "excerpt": "了解如何预订卢顿机场接送、预估价格如何计算，以及出行当天会有哪些安排。",
     "blocks": [
@@ -157,6 +158,7 @@ export const posts: Record<string, PostText> = {
   },
   "luton-airport-taxi-guide-first-time-visitors": {
     "title": "卢顿机场出租车指南：首次来英国的游客必读",
+    "seoTitle": "卢顿机场出租车指南",
     "description": "黑色出租车、预约出租车、候车点与机场费用一文讲清。首次到访英国的旅客乘坐伦敦卢顿机场出租车前需要了解的全部要点。",
     "excerpt": "为首次抵达卢顿的旅客讲解黑色出租车、预约出租车、候车点和机场费用。",
     "blocks": [
@@ -259,6 +261,7 @@ export const posts: Record<string, PostText> = {
   },
   "arriving-at-luton-airport-taxi-rank": {
     "title": "降落卢顿机场：一步步找到您的出租车",
+    "seoTitle": "降落卢顿机场：找到您的出租车",
     "description": "从下飞机到上出租车的完整流程：行李提取、出租车候车点、预订车辆接机、付款方式、行程时间，以及避免延误的实用贴士。",
     "excerpt": "从舱门到出租车的分步指引，告诉您沿途会遇到什么。",
     "blocks": [
@@ -370,6 +373,7 @@ export const posts: Record<string, PostText> = {
   },
   "flight-delayed-airport-taxi-rights": {
     "title": "航班延误怎么办？如何保住您的机场接送，以及您可享有的权益",
+    "seoTitle": "航班延误怎么办？出租车与您的权益",
     "description": "航班为何会延误、英国乘客权益规定在延误2、3、4小时后各提供什么保障，以及如何确保您最终降落时机场出租车仍在等候。",
     "excerpt": "什么算航班延误、航空公司应为您提供什么，以及计划有变时如何保证您的机场出租车不受影响。",
     "blocks": [
@@ -500,6 +504,7 @@ export const posts: Record<string, PostText> = {
   },
   "taxi-to-luton-airport-from-luton-areas": {
     "title": "从 Stopsley、Leagrave、Farley Hill、Wigmore 和 Challney 打车到卢顿机场",
+    "seoTitle": "从卢顿各区打车到卢顿机场",
     "description": "从 Stopsley、Leagrave、Farley Hill、Wigmore 和 Challney 乘出租车前往卢顿机场的大致行程时间，以及预订早班或晚班接送的时间安排建议。",
     "excerpt": "卢顿五个热门社区乘出租车到卢顿机场需要多久，以及何时预订接送。",
     "blocks": [
@@ -643,6 +648,7 @@ export const posts: Record<string, PostText> = {
   },
   "night-time-taxi-luton": {
     "title": "为什么出租车是卢顿夜间回家最明智的选择",
+    "seoTitle": "夜间回家，出租车最明智",
     "description": "晚班、末班火车和漆黑的街道：在卢顿夜间出行时，为什么提前预订的出租车胜过夜班巴士、长途步行或动态加价的打车软件。",
     "excerpt": "晚班、早班航班和末班火车：为什么提前预订的出租车能让夜间出行更轻松。",
     "blocks": [

@@ -8,6 +8,7 @@ import type { PostText } from "../blog";
 export const posts: Record<string, PostText> = {
   "airport-transfers-from-luton-guide": {
     "title": "Transferuri la aeroport din Luton: cum rezervați, la ce să vă așteptați și cât veți plăti",
+    "seoTitle": "Transferuri aeroport din Luton: ghid",
     "description": "Ghidul transferurilor la aeroport din Luton: cum rezervați, vehiculele noastre, cum se calculează prețul, curse spre Heathrow, Gatwick, Stansted și întrebări frecvente.",
     "excerpt": "Cum rezervați un transfer la aeroport din Luton, cum funcționează estimarea și la ce să vă așteptați în ziua călătoriei.",
     "blocks": [
@@ -157,6 +158,7 @@ export const posts: Record<string, PostText> = {
   },
   "luton-airport-taxi-guide-first-time-visitors": {
     "title": "Ghid de taxi la Aeroportul Luton pentru cei care vizitează Marea Britanie prima dată",
+    "seoTitle": "Taxi Aeroport Luton: ghid pentru vizitatori",
     "description": "Black cab, private hire, stații de taxi și taxe de aeroport explicate: tot ce trebuie să știe un vizitator înainte de a lua un taxi de la Aeroportul London Luton.",
     "excerpt": "Black cab, private hire, stații de taxi și taxe de aeroport explicate pentru cei care ajung la Luton prima dată.",
     "blocks": [
@@ -259,6 +261,7 @@ export const posts: Record<string, PostText> = {
   },
   "arriving-at-luton-airport-taxi-rank": {
     "title": "Aterizare pe Aeroportul Luton: unde găsiți taxiul, pas cu pas",
+    "seoTitle": "Sosire la Luton Airport: găsiți taxiul",
     "description": "De la avion la taxi pe Aeroportul London Luton: ridicarea bagajelor, stația de taxi, preluarea rezervată, plata, durata cursei și sfaturi pentru a evita întârzierile.",
     "excerpt": "Un parcurs pas cu pas de la ușa avionului până la taxi, cu tot ce vă așteaptă pe drum.",
     "blocks": [
@@ -370,6 +373,7 @@ export const posts: Record<string, PostText> = {
   },
   "flight-delayed-airport-taxi-rights": {
     "title": "Zbor întârziat? Cum vă protejați taxiul de la aeroport și ce vi se cuvine",
+    "seoTitle": "Zbor întârziat? Taxiul și drepturile dvs.",
     "description": "De ce se întârzie zborurile, ce spun drepturile pasagerilor din Marea Britanie după 2, 3 sau 4 ore și cum vă asigurați că taxiul vă așteaptă când aterizați în sfârșit.",
     "excerpt": "Ce înseamnă o întârziere, ce vă datorează compania aeriană și cum vă păstrați taxiul de aeroport când planurile se schimbă.",
     "blocks": [
@@ -500,6 +504,7 @@ export const posts: Record<string, PostText> = {
   },
   "taxi-to-luton-airport-from-luton-areas": {
     "title": "Taxi spre Aeroportul Luton din Stopsley, Leagrave, Farley Hill, Wigmore și Challney",
+    "seoTitle": "Taxi spre Aeroportul Luton din cartiere",
     "description": "Cât durează cu taxiul din Stopsley, Leagrave, Farley Hill, Wigmore și Challney până la Aeroportul Luton, plus sfaturi pentru rezervări matinale sau târzii.",
     "excerpt": "Cât durează un drum cu taxiul spre Aeroportul Luton din cinci cartiere populare din Luton și când să rezervați preluarea.",
     "blocks": [
@@ -643,6 +648,7 @@ export const posts: Record<string, PostText> = {
   },
   "night-time-taxi-luton": {
     "title": "De ce este taxiul cea mai bună variantă pentru a ajunge acasă noaptea în Luton",
+    "seoTitle": "Acasă noaptea în Luton, cu taxiul",
     "description": "Ture târzii, ultimele trenuri, străzi întunecate: de ce un taxi rezervat în avans este mai bun decât autobuzul de noapte sau o aplicație cu prețuri variabile în Luton.",
     "excerpt": "Ture târzii, zboruri matinale și ultimele trenuri: de ce un taxi rezervat în avans vă scutește de stres după lăsarea întunericului.",
     "blocks": [

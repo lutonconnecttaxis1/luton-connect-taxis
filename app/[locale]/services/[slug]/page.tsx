@@ -9,7 +9,7 @@ import { getService, services } from "@/components/home/service-data";
 import { siteConfig } from "@/config/site";
 import { locales, resolveLocale } from "@/lib/i18n/config";
 import { getT } from "@/lib/i18n/messages";
-import { pageMetadata } from "@/lib/i18n/seo";
+import { fitDescription, pageMetadata } from "@/lib/i18n/seo";
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
@@ -25,8 +25,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = getT(loc);
   return pageMetadata(loc, `/services/${service.slug}`, {
     title: t(`services.items.${service.slug}.name`),
+    // The lead is trimmed so the call-to-action after it always fits in the search-result description.
     description: t("services.page.metaDescription", {
-      lead: t(`services.items.${service.slug}.lead`),
+      lead: fitDescription(
+        t(`services.items.${service.slug}.lead`),
+        158 - t("services.page.metaDescription", { lead: "", phone: siteConfig.phone.display }).length,
+      ),
       phone: siteConfig.phone.display,
     }),
   });
