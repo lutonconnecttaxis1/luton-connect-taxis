@@ -6,7 +6,7 @@
  * nonce to its own scripts automatically; 'strict-dynamic' lets those trusted scripts load the
  * ones they need (for example reCAPTCHA).
  *
- * When a third-party tool is added later (Google Analytics, a map embed …) allow its address
+ * When a third-party tool is added later (a map embed, a chat widget …) allow its address
  * HERE – nothing else needs to change.
  */
 
@@ -55,6 +55,8 @@ export function buildCsp({ nonce, isDev = false, isPreview = false, reportUri, r
       // Fallback for very old browsers that ignore 'strict-dynamic' (newer browsers skip these).
       "https://www.google.com/recaptcha/",
       "https://www.gstatic.com/recaptcha/",
+      // Google Analytics (only loaded after cookie consent, see components/Analytics.tsx).
+      "https://*.googletagmanager.com",
       ...(isDev ? ["'unsafe-eval'"] : []),
       ...(isPreview ? ["https://vercel.live"] : []),
     ],
@@ -62,7 +64,7 @@ export function buildCsp({ nonce, isDev = false, isPreview = false, reportUri, r
     // (style-src-attr) cannot carry one, so they are allowed on their own.
     "style-src": ["'self'", ...(isDev ? ["'unsafe-inline'"] : [`'nonce-${nonce}'`]), ...(isPreview ? ["https://vercel.live"] : [])],
     "style-src-attr": ["'unsafe-inline'"],
-    "img-src": ["'self'", "data:", "blob:", ...(isPreview ? ["https://vercel.live", "https://vercel.com"] : [])],
+    "img-src": ["'self'", "data:", "blob:", "https://*.google-analytics.com", "https://*.googletagmanager.com", ...(isPreview ? ["https://vercel.live", "https://vercel.com"] : [])],
     // Fonts are self-hosted by next/font – nothing is fetched from Google Fonts.
     "font-src": ["'self'", ...(isPreview ? ["https://vercel.live", "https://assets.vercel.com"] : [])],
     "connect-src": [
@@ -70,6 +72,9 @@ export function buildCsp({ nonce, isDev = false, isPreview = false, reportUri, r
       // Address suggestions in the booking form are requested straight from the browser.
       "https://places.googleapis.com",
       "https://www.google.com/recaptcha/",
+      "https://*.google-analytics.com",
+      "https://*.analytics.google.com",
+      "https://*.googletagmanager.com",
       ...(isDev ? ["ws://localhost:*", "ws://127.0.0.1:*"] : []),
       ...vercelLive,
     ],

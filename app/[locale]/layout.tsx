@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import "../home.css";
+import { Analytics } from "@/components/Analytics";
 import { I18nProvider } from "@/components/i18n/I18nProvider";
 import { siteConfig } from "@/config/site";
 import { isLocale, localeInfo, locales } from "@/lib/i18n/config";
@@ -84,6 +85,8 @@ export default async function LocaleLayout({
         >
           {children}
         </I18nProvider>
+        {/* Live site only; the component itself waits for the visitor to accept analytics cookies. */}
+        {siteConfig.indexable && siteConfig.analyticsId ? <Analytics id={siteConfig.analyticsId} /> : null}
       </body>
     </html>
   );

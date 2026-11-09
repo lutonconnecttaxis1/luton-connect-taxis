@@ -26,6 +26,13 @@ describe("buildCsp", () => {
     assert.match(directive(csp, "frame-src"), /https:\/\/www\.google\.com\/recaptcha\//);
   });
 
+  it("allows Google Analytics to load and report", () => {
+    assert.match(directive(csp, "script-src"), /https:\/\/\*\.googletagmanager\.com/);
+    assert.match(directive(csp, "connect-src"), /https:\/\/\*\.google-analytics\.com/);
+    assert.match(directive(csp, "connect-src"), /https:\/\/\*\.analytics\.google\.com/);
+    assert.match(directive(csp, "img-src"), /https:\/\/\*\.google-analytics\.com/);
+  });
+
   it("blocks plugins, clickjacking and base-tag tricks", () => {
     assert.equal(directive(csp, "object-src"), "object-src 'none'");
     assert.equal(directive(csp, "frame-ancestors"), "frame-ancestors 'self'");

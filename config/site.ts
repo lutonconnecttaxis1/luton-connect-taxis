@@ -38,6 +38,9 @@ export const siteConfig = {
    * unfinished pages. Set NEXT_PUBLIC_SITE_INDEXABLE=true on production only.
    */
   indexable: process.env.NEXT_PUBLIC_SITE_INDEXABLE === "true",
+  // Google Analytics 4 Measurement ID (public, not a secret). Only loaded on the live site, and only
+  // after the visitor accepts analytics cookies.
+  analyticsId: process.env.NEXT_PUBLIC_GA_ID ?? "G-T90R55SE6V",
 } as const;
 
 export type SiteConfig = typeof siteConfig;
